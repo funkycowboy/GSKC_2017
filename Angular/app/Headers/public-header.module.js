@@ -8,19 +8,26 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+// Angular Imports
 var core_1 = require('@angular/core');
-var AppComponent = (function () {
-    function AppComponent() {
-        this.title = "GSKC Website";
+// This Module's Components
+var public_header_component_1 = require('./public-header.component');
+var PublicHeaderModule = (function () {
+    function PublicHeaderModule() {
     }
-    AppComponent = __decorate([
-        core_1.Component({
-            selector: 'my-app',
-            template: "                \n                <my-public-layout></my-public-layout>\n                "
+    PublicHeaderModule = __decorate([
+        core_1.NgModule({
+            imports: [],
+            declarations: [
+                public_header_component_1.PublicHeaderComponent,
+            ],
+            exports: [
+                public_header_component_1.PublicHeaderComponent,
+            ]
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], PublicHeaderModule);
+    return PublicHeaderModule;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.PublicHeaderModule = PublicHeaderModule;
+//# sourceMappingURL=public-header.module.js.map

@@ -3,8 +3,7 @@ import {PublicLayoutComponent} from './Layouts/public-layout.component';
 
 @Component({
     selector: 'my-app',
-    template:   `
-                <h1>{{title}}</h1>
+    template:   `                
                 <my-public-layout></my-public-layout>
                 `
 })

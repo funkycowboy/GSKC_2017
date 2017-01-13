@@ -12,6 +12,7 @@ var core_1 = require('@angular/core');
 var platform_browser_1 = require('@angular/platform-browser');
 var http_1 = require('@angular/http');
 var app_component_1 = require('./app.component');
+var public_header_component_1 = require('./Headers/public-header.component');
 var public_layout_component_1 = require('./Layouts/public-layout.component');
 var product_service_1 = require('./Services/product.service');
 var angular_in_memory_web_api_1 = require('angular-in-memory-web-api');
@@ -28,6 +29,7 @@ var AppModule = (function () {
             ],
             declarations: [
                 app_component_1.AppComponent,
+                public_header_component_1.PublicHeaderComponent,
                 public_layout_component_1.PublicLayoutComponent
             ],
             providers: [product_service_1.ProductService],
