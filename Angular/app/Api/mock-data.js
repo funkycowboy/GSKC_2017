@@ -15,7 +15,23 @@ var MockDataService = (function () {
             { id: 19, name: 'Alpen' },
             { id: 20, name: 'Alps Cedar Ridge' }
         ];
-        return { brands: brands };
+        var categories = [
+            { id: 11, name: 'Knives - Fixed Blades' },
+            { id: 12, name: 'Knives - Folders' },
+            { id: 13, name: 'Knives - Accessories' },
+            { id: 14, name: 'Knives - Fantasy' },
+            { id: 15, name: 'Knives - Throwing' },
+            { id: 16, name: 'Knives - Handmade' },
+        ];
+        var prices = [
+            { id: 1, name: '$1.00 - $9.99' },
+            { id: 2, name: '$10.00 - $24.99' },
+            { id: 3, name: '$25.00 - $49.99' },
+            { id: 4, name: '$50.00 - $74.99' },
+            { id: 5, name: '$75.00 - $99.99' },
+            { id: 6, name: '$100.00 and over' },
+        ];
+        return { brands: brands, categories: categories, prices: prices };
     };
     return MockDataService;
 }());

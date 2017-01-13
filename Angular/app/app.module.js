@@ -10,11 +10,12 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var platform_browser_1 = require('@angular/platform-browser');
+var http_1 = require('@angular/http');
 var app_component_1 = require('./app.component');
 var public_layout_component_1 = require('./Layouts/public-layout.component');
 var product_service_1 = require('./Services/product.service');
 var angular_in_memory_web_api_1 = require('angular-in-memory-web-api');
-var mock_data_1 = require('./Services/mock-data');
+var mock_data_1 = require('./Api/mock-data');
 var AppModule = (function () {
     function AppModule() {
     }
@@ -22,6 +23,7 @@ var AppModule = (function () {
         core_1.NgModule({
             imports: [
                 platform_browser_1.BrowserModule,
+                http_1.HttpModule,
                 angular_in_memory_web_api_1.InMemoryWebApiModule.forRoot(mock_data_1.MockDataService)
             ],
             declarations: [

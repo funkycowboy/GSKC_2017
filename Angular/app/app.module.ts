@@ -7,7 +7,7 @@ import {PublicLayoutComponent} from './Layouts/public-layout.component'
 import {ProductService} from './Services/product.service'
 
 import { InMemoryWebApiModule } from 'angular-in-memory-web-api'
-import {MockDataService} from './Services/mock-data'
+import {MockDataService} from './Api/mock-data'
 
 @NgModule({
     imports: [

@@ -14,10 +14,24 @@ require('rxjs/add/operator/toPromise');
 var ProductService = (function () {
     function ProductService(http) {
         this.http = http;
-        this.productUrl = 'api/brands';
+        this.productBrandUrl = 'api/brands';
+        this.productPriceUrl = 'api/prices';
+        this.productCategoryUrl = 'api/categories';
     }
     ProductService.prototype.getBrands = function () {
-        return this.http.get(this.productUrl)
+        return this.http.get(this.productBrandUrl)
+            .toPromise()
+            .then(function (response) { return response.json().data; })
+            .catch(this.handleError);
+    };
+    ProductService.prototype.getCategories = function () {
+        return this.http.get(this.productCategoryUrl)
+            .toPromise()
+            .then(function (response) { return response.json().data; })
+            .catch(this.handleError);
+    };
+    ProductService.prototype.getPrices = function () {
+        return this.http.get(this.productPriceUrl)
             .toPromise()
             .then(function (response) { return response.json().data; })
             .catch(this.handleError);

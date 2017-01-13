@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description":"package.json for GSKC Angular Website",
     "scripts": {
-        "start": "tsc && concurrently \"tsc -v\" \"lite-server\"",
+        "start": "tsc && concurrently \"tsc -w\" \"lite-server\"",
          "tsc": "tsc",
         "tsc:w": "tsc -w"       
     },

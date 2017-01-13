@@ -14,16 +14,22 @@ var PublicLayoutComponent = (function () {
     function PublicLayoutComponent(productService) {
         this.productService = productService;
         this.brands = [];
+        this.categories = [];
+        this.prices = [];
     }
     PublicLayoutComponent.prototype.ngOnInit = function () {
         var _this = this;
         this.productService.getBrands()
             .then(function (brands) { return _this.brands = brands; });
+        this.productService.getCategories()
+            .then(function (categories) { return _this.categories = categories; });
+        this.productService.getPrices()
+            .then(function (prices) { return _this.prices = prices; });
     };
     PublicLayoutComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
-            selector: 'public-layout',
+            selector: 'my-public-layout',
             templateUrl: 'public-layout.component.html',
             styleUrls: ['public-layout.component.css']
         }), 
