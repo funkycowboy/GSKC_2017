@@ -1,29 +1,28 @@
 <!--component html goes here -->
 <public-header></public-header>
-
-<h3>Brands</h3>
-<div class="grid grid-pad">
-  <a *ngFor="let brand of brands" class="col-1-4">
-    <div >
-      <h4>{{brand.name}}</h4>
+<div class="container-fluid">
+    <div class="col-sm-4 cpl-md-4 col-lg-4">
+      <h3>Brands</h3>
+      <div style="height: 100px; overflow-y: auto; border: 1px solid gray; padding:5px;">
+          <div *ngFor="let brand of brands" style="padding:0; margin: 0">
+            <input type="checkbox" style="display: inline-block"/> <label style="display: inline-block">{{brand.name}}</label>
+          </div>
+      </div>
     </div>
-  </a>
-</div>
-
-<h3>Categories</h3>
-<div class="grid grid-pad">
-  <a *ngFor="let category of categories" class="col-1-4">
-    <div >
-      <h4>{{category.name}}</h4>
+    <div class="col-sm-4 cpl-md-4 col-lg-4">
+      <h3>Categories</h3>
+      <div style="height: 100px; overflow-y: auto; border: 1px solid gray; padding:5px;">
+          <div *ngFor="let category of categories">
+            <input type="checkbox" style="display: inline-block"/> <label style="display: inline-block">{{category.name}}</label>
+          </div>
+      </div>
+  </div>
+  <div class="col-sm-4 cpl-md-4 col-lg-4">
+    <h3>Prices</h3>
+    <div style="height: 100px; overflow-y: auto; border: 1px solid gray; padding:5px;">
+        <div *ngFor="let price of prices">
+          <input type="checkbox" style="display: inline-block"/> <label style="display: inline-block">{{price.name}}</label>
+        </div>
     </div>
-  </a>
-</div>
-
-<h3>Prices</h3>
-<div class="grid grid-pad">
-  <a *ngFor="let price of prices" class="col-1-4">
-    <div >
-      <h4>{{price.name}}</h4>
-    </div>
-  </a>
+  </div>
 </div>
