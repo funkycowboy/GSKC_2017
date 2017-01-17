@@ -36,18 +36,7 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-            <!--
-            <div style="position: relative; overflow: hidden; margin-bottom:2px" class="hidden-xs">
-                <div style="width: 100%;  text-align:center" class="hidden-xs">
-                    <div class="category-image-1 thumb" style="margin-left: 0;" data-product="109-Knives - Fixed Blades"><div>Fixed Blades</div></div>
-                    <div class="category-image-2 thumb" data-product="28-Knives - Folders"><div>Folders</div></div>
-                    <div class="category-image-3 thumb" data-product="73-Knives - Multi-Blade"><div>Multi-blade</div></div>
-                    <div class="category-image-4 thumb" data-product="14-Knives - Throwing Knives"><div>Throwing</div></div>
-                    <div class="category-image-5 thumb" data-product="25-Knives - Axes & Hatchets"><div>Tomahaks</div></div>
-                    <div style="clear:both"></div>
-                </div>
-            </div>
-            -->
+            
         </div>
         <div class="hidden-xs hidden-sm hidden-md hidden-lg col-lg-3" style="background-color: #fff; position: relative; right:0; border: 0 solid red">
             <div id="DealOfDayProducts" style="width:100%;position: relative;">
@@ -209,37 +198,3 @@
 </div>
 
 <div style="clear:both"></div>
-
-<script>
-    var home = {
-        
-        slide: function (element) {
-            element.animate({ left: '0', opacity: 1 }, null,
-            function () {
-                element.prev("div.image").css({ left: '-250px', opacity: 0 });
-            });
-
-            var nextImage = element.next("div.image");
-
-            if (nextImage.length > 0) {
-                setTimeout(function () { home.slide(nextImage); }, 7000);
-            } else {
-                setTimeout(function () {
-
-                    home.slide($("div.image:first"));
-                    $("div.image:last").css({ left: '-250px', opacity: 0 });
-                },
-                7000);
-
-            }
-        }
-
-    }
-
-    $(function () {
-        home.slide($("div.image:first"));
-        require(['featuredProducts'], function (products) {
-            products.getFeaturedProducts();
-        });
-    });
-</script>

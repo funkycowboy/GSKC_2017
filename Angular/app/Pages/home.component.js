@@ -12,6 +12,11 @@ var core_1 = require('@angular/core');
 var HomeComponent = (function () {
     function HomeComponent() {
     }
+    HomeComponent.prototype.ngAfterViewChecked = function () {
+        $('.myCarousel').carousel({
+            interval: 2000
+        });
+    };
     HomeComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
