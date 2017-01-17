@@ -10,6 +10,7 @@ import {PublicHeaderComponent} from './Headers/public-header.component'
 import {PublicLayoutComponent} from './Layouts/public-layout.component'
 import {PublicFooterComponent} from './Footers/public-footer.component'
 import {ProductSearchComponent} from './ProductSearch/product-search-component'
+import {HomeComponent} from './Pages/home.component'
 
 import {ProductService} from './Services/product.service'
 
@@ -30,6 +31,7 @@ import {MockDataService} from './Api/mock-data'
         PublicLayoutComponent,
         PublicFooterComponent,
         ProductSearchComponent,
+        HomeComponent,
         TextFilterPipe
     ],
     providers: [ProductService],

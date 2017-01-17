@@ -19,6 +19,7 @@ var public_header_component_1 = require('./Headers/public-header.component');
 var public_layout_component_1 = require('./Layouts/public-layout.component');
 var public_footer_component_1 = require('./Footers/public-footer.component');
 var product_search_component_1 = require('./ProductSearch/product-search-component');
+var home_component_1 = require('./Pages/home.component');
 var product_service_1 = require('./Services/product.service');
 var angular_in_memory_web_api_1 = require('angular-in-memory-web-api');
 var mock_data_1 = require('./Api/mock-data');
@@ -39,6 +40,7 @@ var AppModule = (function () {
                 public_layout_component_1.PublicLayoutComponent,
                 public_footer_component_1.PublicFooterComponent,
                 product_search_component_1.ProductSearchComponent,
+                home_component_1.HomeComponent,
                 text_filter_pipe_1.TextFilterPipe
             ],
             providers: [product_service_1.ProductService],
