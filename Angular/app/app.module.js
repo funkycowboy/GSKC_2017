@@ -13,7 +13,7 @@ var platform_browser_1 = require('@angular/platform-browser');
 var http_1 = require('@angular/http');
 var text_filter_pipe_1 = require('./Pipes/text-filter.pipe');
 var forms_1 = require('@angular/forms');
-//import { Ng2BootstrapModule } from 'ng2-bootstrap';
+//import {CarouselModule} from 'ng2-bootstrap';
 var app_component_1 = require('./app.component');
 var public_header_component_1 = require('./Headers/public-header.component');
 var public_layout_component_1 = require('./Layouts/public-layout.component');
@@ -32,7 +32,7 @@ var AppModule = (function () {
                 platform_browser_1.BrowserModule,
                 http_1.HttpModule,
                 angular_in_memory_web_api_1.InMemoryWebApiModule.forRoot(mock_data_1.MockDataService),
-                forms_1.FormsModule,
+                forms_1.FormsModule //,
             ],
             declarations: [
                 app_component_1.AppComponent,

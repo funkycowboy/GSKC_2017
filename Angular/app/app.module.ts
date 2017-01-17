@@ -3,7 +3,7 @@ import {BrowserModule} from '@angular/platform-browser';
 import { HttpModule } from '@angular/http';
 import {TextFilterPipe} from './Pipes/text-filter.pipe';
 import {FormsModule} from '@angular/forms';
-//import { Ng2BootstrapModule } from 'ng2-bootstrap';
+//import {CarouselModule} from 'ng2-bootstrap';
 
 import {AppComponent} from './app.component';
 import {PublicHeaderComponent} from './Headers/public-header.component'
@@ -17,13 +17,16 @@ import {ProductService} from './Services/product.service'
 import { InMemoryWebApiModule } from 'angular-in-memory-web-api'
 import {MockDataService} from './Api/mock-data'
 
+
+
 @NgModule({
     imports: [
         BrowserModule,
         HttpModule,
         InMemoryWebApiModule.forRoot(MockDataService),
-        FormsModule,
-        //Ng2BootstrapModule.forRoot()
+        FormsModule//,
+        //CarouselModule.forRoot()
+        //Ng2BootstrapModule.forRoot(),
     ],
     declarations: [
         AppComponent,

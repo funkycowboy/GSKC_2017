@@ -13,9 +13,9 @@ var HomeComponent = (function () {
     function HomeComponent() {
     }
     HomeComponent.prototype.ngAfterViewChecked = function () {
-        $('.myCarousel').carousel({
-            interval: 2000
-        });
+        //     $('.myCarousel').carousel({
+        //     interval: 2000
+        //     }); 
     };
     HomeComponent = __decorate([
         core_1.Component({

@@ -11,9 +11,9 @@ declare var $:any;
 export class HomeComponent implements AfterViewChecked{
 
     ngAfterViewChecked(): void{      
-        $('.myCarousel').carousel({
-        interval: 2000
-        }); 
+    //     $('.myCarousel').carousel({
+    //     interval: 2000
+    //     }); 
     }  
 
 }
