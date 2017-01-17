@@ -1,28 +1,55 @@
-<!--component html goes here -->
-<public-header></public-header>
-<div class="container-fluid">
-    <div class="col-sm-4 cpl-md-4 col-lg-4">
-      <h3>Brands</h3>
-      <div style="height: 100px; overflow-y: auto; border: 1px solid gray; padding:5px;">
-          <div *ngFor="let brand of brands" style="padding:0; margin: 0">
-            <input type="checkbox" style="display: inline-block"/> <label style="display: inline-block">{{brand.name}}</label>
-          </div>
-      </div>
-    </div>
-    <div class="col-sm-4 cpl-md-4 col-lg-4">
-      <h3>Categories</h3>
-      <div style="height: 100px; overflow-y: auto; border: 1px solid gray; padding:5px;">
-          <div *ngFor="let category of categories">
-            <input type="checkbox" style="display: inline-block"/> <label style="display: inline-block">{{category.name}}</label>
-          </div>
-      </div>
-  </div>
-  <div class="col-sm-4 cpl-md-4 col-lg-4">
-    <h3>Prices</h3>
-    <div style="height: 100px; overflow-y: auto; border: 1px solid gray; padding:5px;">
-        <div *ngFor="let price of prices">
-          <input type="checkbox" style="display: inline-block"/> <label style="display: inline-block">{{price.name}}</label>
+    <div class="row no-gutter">
+        <div class="col-lg-1 visible-lg" style="background-color: #000; height:100%"></div>
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10" style="background-color: #F1F1E4">
+            <!--HEADER -->
+            <public-header></public-header>
+            
+            <div class="row">
+                <div style="position:absolute;left:0;z-index: 1010" class="visible-xs">
+                    <button id="ProductSearchButton" type="button" class="btn btn-md glyphicon glyphicon-search pull-left"></button>
+                </div>
+                
+                <div id="SearchPanel" class="col-lg-3 col-md-3 col-sm-3 sidenav" style="min-height:100%; padding-right: 0; background: #F1F1E4; height: 1000px;border-right: 1px dotted #000;">
+
+                    <div class="section-header">
+                        <span class="sub-header" style="color:#fff; white-space:nowrap">Product Search</span>
+                        <div style="position:absolute; top:0;right:0; z-index: 1010">
+                            <button id="SlideIndicatorButton" type="button" class="btn btn-md glyphicon glyphicon-chevron-left pull-left visible-xs"></button>
+                        </div>
+                    </div>
+                    <!--PRODUCT SEARCH-->
+                    <product-search></product-search>
+                </div>
+                <div id="BodyContent" class="col-lg-6 col-md-6 col-sm-9 col-xs-12" style="padding-left: 0; padding-right: 0; background-color: #fff">
+                <!--Content -->
+                </div>
+                <div id="OnTheRoad" class="col-lg-3 col-md-3 col-sm-12 col-xs-12" style="padding-left: 0; padding-right: 0; min-height:100%; background: #F1F1E4; height: 1000px;border-left: 1px dotted #000">
+                    <div style="width: 100%; float: left; margin-top: 0;">
+                        <div class="section-header">
+                            <span class="sub-header" style="color:#fff; white-space:nowrap">On the Road</span>
+                        </div>
+
+                        <div style="padding: 10px;text-align: center"><span style="font-weight: bold;">Look for us at the following events:</span></div>
+                        <div style="padding: 10px 10px">
+                            <!--@Html.Action("Index","Home", new {area = "Calendar"})-->
+                        </div>
+                        <div class="section-header hidden-xs">
+                            <span class="sub-header" style="color:#fff; white-space:nowrap">Social Updates</span>
+                        </div>
+                        <div class="fb-like-box fb_iframe_widget hidden-xs" style="padding-left: 20px" data-href="https://www.facebook.com/GatlinAndSons" data-width="268" data-show-faces="false" data-header="true" data-stream="true" data-show-border="false" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=448378241936683&amp;header=true&amp;href=https%3A%2F%2Fwww.facebook.com%2FGatlinAndSons&amp;locale=en_US&amp;sdk=joey&amp;show_border=false&amp;show_faces=false&amp;stream=true&amp;width=268"><span style="vertical-align: bottom; width: 100%; height: 425px;"><iframe name="f6f809218" width="100%" frameborder="0" allowtransparency="true" scrolling="no" title="fb:like_box Facebook Social Plugin" src="http://www.facebook.com/plugins/like_box.php?app_id=448378241936683&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2FW2xi4Tmu0YA.js%3Fversion%3D41%23cb%3Df243c93044%26domain%3Dwww.gatlinandsonsknifecompany.com%26origin%3Dhttp%253A%252F%252Fwww.gatlinandsonsknifecompany.com%252Ff2cab7e04%26relation%3Dparent.parent&amp;header=true&amp;href=https%3A%2F%2Fwww.facebook.com%2FGatlinAndSons&amp;locale=en_US&amp;sdk=joey&amp;show_border=false&amp;show_faces=false&amp;stream=true&amp;width=268" style="border: none; visibility: visible; width: 100%; height: 425px;" class=""></iframe></span></div>
+                    </div>
+
+                </div>
+            </div>
+
         </div>
+        <div class="col-lg-1 visible-lg" style="background-color: #000; height:100%"></div>
+
     </div>
-  </div>
-</div>
+
+    <!--FOOTER -->
+    <public-footer></public-footer>
+
+    <div id="landscape" style="display:none"></div>
+    <div id="rotateplease" style="display:none"><p><b>Rotate Device to Portrait</b></p></div>

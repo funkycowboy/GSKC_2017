@@ -9,23 +9,9 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var product_service_1 = require('../Services/product.service');
 var PublicLayoutComponent = (function () {
-    function PublicLayoutComponent(productService) {
-        this.productService = productService;
-        this.brands = [];
-        this.categories = [];
-        this.prices = [];
+    function PublicLayoutComponent() {
     }
-    PublicLayoutComponent.prototype.ngOnInit = function () {
-        var _this = this;
-        this.productService.getBrands()
-            .then(function (brands) { return _this.brands = brands; });
-        this.productService.getCategories()
-            .then(function (categories) { return _this.categories = categories; });
-        this.productService.getPrices()
-            .then(function (prices) { return _this.prices = prices; });
-    };
     PublicLayoutComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
@@ -33,7 +19,7 @@ var PublicLayoutComponent = (function () {
             templateUrl: 'public-layout.component.html',
             styleUrls: ['public-layout.component.css']
         }), 
-        __metadata('design:paramtypes', [product_service_1.ProductService])
+        __metadata('design:paramtypes', [])
     ], PublicLayoutComponent);
     return PublicLayoutComponent;
 }());

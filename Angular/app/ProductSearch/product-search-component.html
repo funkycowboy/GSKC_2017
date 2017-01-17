@@ -1,0 +1,120 @@
+<div id="ProductSearch" style="background-color: #ececec; border-right: 1px solid gray;border-bottom: 1px solid gray;">
+    <div class="filter-header">
+        <!-- Default panel contents -->
+        <div data-bind="click: $root.slideFilterList" style="background-color: #c4c2c2; padding: 10px 0; border-bottom: 1px dotted #FFF; cursor:pointer">
+            <div class="button-arrow" style="float:left;margin-left: 5px"></div>
+            <div class="search-type">Search by Product</div>
+            <div style="clear: both"></div>
+        </div>
+
+        <div class="content row no-gutter filter-list-parent show-hide" style="text-align:right">
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12"><input data-bind="click: $root.initializeControls" id="Keyword" name="Keyword" type="text" class="search-form-elements" maxlength="50" value="" placeholder="Name / Item No." style="width: 100%; font-size: 14px" /></div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 hidden-xs"><button type="button" class="orange" style="width:100%; margin:0; padding: 8px 5px; font-weight:bold">Search</button></div>
+            <div style="clear: both"></div>
+        </div>
+    </div>
+    <!-- Search by Brand -->
+
+    <div class="filter-header">
+        <div  style="background-color: #c4c2c2; padding: 10px 0; border-bottom: 1px dotted #FFF; cursor:pointer">
+            <div class="button-arrow" style="float:left; margin-left: 5px"></div>
+            <div class="search-type">Search by Brand</div>
+            <div class="uncheck-all hidden-xs hidden-sm hidden-md hidden-lg" style="float: left; cursor: pointer;margin: 5px 18px" title="Uncheck All"></div>
+            <div style="clear: both"></div>
+        </div>
+
+        <div class="filter-list-parent show-hide">
+            <div class="content" style="margin-left: 0">
+                <ul style="margin-bottom: 0;list-style:none; color: #f08e02;margin-left:-35px;">
+                    <li *ngFor="let brand of selectedBrands" (click) = "removeSelected('brand',brand)" style="padding-top:7px">
+                        <input type="checkbox" title="Click to Remove" name="ManufacturerID" [checked]="brand.selected"/>
+                        <label title="Click to Remove">{{brand.name}}</label>
+                    </li>
+                </ul>
+            </div>
+            <div><input type="text" class="filter-text" placeholder="Type to Filter Options" #BrandFilter (keyup)="0" /></div>
+
+            <div style="clear:both"></div>
+            <div class="content filter-list rounded-corner-scroll" style="overflow-y:scroll; overflow-x: hidden; height:210px">
+                <ul class="list-group" style="list-style:none; margin-bottom: 0;">
+                    <li *ngFor="let brand of (brands | textfilter: BrandFilter.value)"  (click)="addSelected('brand',brand)" style="padding-top:7px">
+                        <div class="ellipsis">
+                            <input type="checkbox" title="Click to add" name="ManufacturerID" />
+                            <label style="display: inline;" title="Click to Add"><span style="color:#f08e02; display: inline-block; width:40px">{{brand.name}}</span></label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Search by Price -->
+
+    <div class="filter-header">
+        <div  style="background-color: #c4c2c2; padding: 10px 0; border-bottom: 1px dotted #FFF; cursor:pointer">
+            <div class="button-arrow" style="float:left; margin-left: 5px"></div>
+            <div class="search-type">Search by Price</div>
+            <div class="uncheck-all hidden-xs hidden-sm hidden-md hidden-lg" style="float: left; cursor: pointer;margin: 5px 18px" title="Uncheck All"></div>
+            <div style="clear: both"></div>
+        </div>
+ 
+        <div class="filter-list-parent show-hide">
+            <div class="content" style="margin-left: 0">
+                <ul style="margin-bottom: 0;list-style:none; color: #f08e02;margin-left:-35px;">
+                    <li *ngFor="let price of selectedPrices" (click) = "removeSelected('price',price)" style="padding-top:7px">
+                        <input type="checkbox" title="Click to Remove" name="PriceID" [checked]="price.selected"/>
+                        <label title="Click to Remove">{{price.name}}</label>
+                    </li>
+                </ul>
+            </div>
+            <div><input type="text" class="filter-text" placeholder="Type to Filter Options" #PriceFilter (keyup)="0" /></div>
+
+            <div style="clear:both"></div>
+            <div class="content filter-list rounded-corner-scroll" style="overflow-y:scroll; overflow-x: hidden; height:210px">
+                <ul class="list-group" style="list-style:none; margin-bottom: 0;">
+                    <li *ngFor="let price of (prices | textfilter: PriceFilter.value)"  (click)="addSelected('price',price)" style="padding-top:7px">
+                        <div class="ellipsis">
+                            <input type="checkbox" title="Click to add" name="PriceID" />
+                            <label style="display: inline;" title="Click to Add"><span style="color:#f08e02; display: inline-block; width:40px">{{price.name}}</span></label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Search by Category -->
+
+    <div class="filter-header">
+        <div  style="background-color: #c4c2c2; padding: 10px 0; border-bottom: 1px dotted #FFF; cursor:pointer">
+            <div class="button-arrow" style="float:left; margin-left: 5px"></div>
+            <div class="search-type">Search by Category</div>
+            <div class="uncheck-all hidden-xs hidden-sm hidden-md hidden-lg" style="float: left; cursor: pointer;margin: 5px 18px" title="Uncheck All"></div>
+            <div style="clear: both"></div>
+        </div>
+ 
+        <div class="filter-list-parent show-hide">
+            <div class="content" style="margin-left: 0">
+                <ul style="margin-bottom: 0;list-style:none; color: #f08e02;margin-left:-35px;">
+                    <li *ngFor="let category of selectedCategories" (click) = "removeSelected('category',category)" style="padding-top:7px">
+                        <input type="checkbox" title="Click to Remove" name="CategoryID" [checked]="category.selected"/>
+                        <label title="Click to Remove">{{category.name}}</label>
+                    </li>
+                </ul>
+            </div>
+            <div><input type="text" class="filter-text" placeholder="Type to Filter Options" #CategoryFilter (keyup)="0" /></div>
+
+            <div style="clear:both"></div>
+            <div class="content filter-list rounded-corner-scroll" style="overflow-y:scroll; overflow-x: hidden; height:210px">
+                <ul class="list-group" style="list-style:none; margin-bottom: 0;">
+                    <li *ngFor="let category of (categories | textfilter: CategoryFilter.value)"  (click)="addSelected('category',category)" style="padding-top:7px">
+                        <div class="ellipsis">
+                            <input type="checkbox" title="Click to add" name="CategoryID" />
+                            <label style="display: inline;" title="Click to Add"><span style="color:#f08e02; display: inline-block; width:40px">{{category.name}}</span></label>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

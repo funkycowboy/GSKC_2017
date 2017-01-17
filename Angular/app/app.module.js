@@ -11,10 +11,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var platform_browser_1 = require('@angular/platform-browser');
 var http_1 = require('@angular/http');
+var text_filter_pipe_1 = require('./Pipes/text-filter.pipe');
+var forms_1 = require('@angular/forms');
 //import { Ng2BootstrapModule } from 'ng2-bootstrap';
 var app_component_1 = require('./app.component');
 var public_header_component_1 = require('./Headers/public-header.component');
 var public_layout_component_1 = require('./Layouts/public-layout.component');
+var public_footer_component_1 = require('./Footers/public-footer.component');
+var product_search_component_1 = require('./ProductSearch/product-search-component');
 var product_service_1 = require('./Services/product.service');
 var angular_in_memory_web_api_1 = require('angular-in-memory-web-api');
 var mock_data_1 = require('./Api/mock-data');
@@ -26,12 +30,16 @@ var AppModule = (function () {
             imports: [
                 platform_browser_1.BrowserModule,
                 http_1.HttpModule,
-                angular_in_memory_web_api_1.InMemoryWebApiModule.forRoot(mock_data_1.MockDataService) //,
+                angular_in_memory_web_api_1.InMemoryWebApiModule.forRoot(mock_data_1.MockDataService),
+                forms_1.FormsModule,
             ],
             declarations: [
                 app_component_1.AppComponent,
                 public_header_component_1.PublicHeaderComponent,
-                public_layout_component_1.PublicLayoutComponent
+                public_layout_component_1.PublicLayoutComponent,
+                public_footer_component_1.PublicFooterComponent,
+                product_search_component_1.ProductSearchComponent,
+                text_filter_pipe_1.TextFilterPipe
             ],
             providers: [product_service_1.ProductService],
             bootstrap: [app_component_1.AppComponent]

@@ -8,26 +8,20 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-// Angular Imports
 var core_1 = require('@angular/core');
-// This Module's Components
-var public_header_component_1 = require('./public-header.component');
-var PublicHeaderModule = (function () {
-    function PublicHeaderModule() {
+var PublicFooterComponent = (function () {
+    function PublicFooterComponent() {
     }
-    PublicHeaderModule = __decorate([
-        core_1.NgModule({
-            imports: [],
-            declarations: [
-                public_header_component_1.PublicHeaderComponent,
-            ],
-            exports: [
-                public_header_component_1.PublicHeaderComponent,
-            ]
+    PublicFooterComponent = __decorate([
+        core_1.Component({
+            moduleId: module.id,
+            selector: 'public-footer',
+            templateUrl: 'public-footer.component.html',
+            styleUrls: ['public-footer.component.css']
         }), 
         __metadata('design:paramtypes', [])
-    ], PublicHeaderModule);
-    return PublicHeaderModule;
+    ], PublicFooterComponent);
+    return PublicFooterComponent;
 }());
-exports.PublicHeaderModule = PublicHeaderModule;
-//# sourceMappingURL=public-header.module.js.map
+exports.PublicFooterComponent = PublicFooterComponent;
+//# sourceMappingURL=public-footer.component.js.map
