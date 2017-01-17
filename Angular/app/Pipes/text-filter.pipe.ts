@@ -11,7 +11,7 @@ export class TextFilterPipe implements PipeTransform {
     //return items.filter(item => item[args[0]].indexOf(args[1]) !== -1);
 
     if (typeof items === 'object') {
-            var resultArray = [];
+            var resultArray:any = [];
             if (args.length === 0) {
                 resultArray = items;
             }

@@ -36,9 +36,9 @@ ngOnInit(): void{
     }
 
   addSelected(dataType: string, data: Object): void {    
-      let obj;
-      let objArray;
-      let objSelectedArray;
+      let obj:any;
+      let objArray:any;
+      let objSelectedArray:any;
 
       switch(dataType){
        
@@ -65,9 +65,9 @@ ngOnInit(): void{
     }
 
   removeSelected(dataType: string, data: Object): void {
-    let obj;
-    let objArray;
-    let objSelectedArray;
+    let obj:any;
+    let objArray:any;
+    let objSelectedArray:any;
 
     switch(dataType){       
       case "brand":
