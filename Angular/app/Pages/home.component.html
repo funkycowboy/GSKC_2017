@@ -15,31 +15,16 @@
                     <div class="col-lg-12 featured-item" style="border-bottom: dotted 0 #000000; padding-bottom: 10px; height: 100%; position: relative; background-color: white;">
                         <div style="position:relative; z-index: 1000; top:0; left:0"><img alt="Deal" src="/Images/Deal2.png" /></div>
                         <div style="position:relative; z-index: 999; top:0; left:0; padding-top: 5px;border: 1px solid #fff; width: 100%">
-                            <div data-bind="visible: (products()[5].LoggedIn() && (products()[5].GroupId() > 0))" style="position: relative; right: -6px; bottom: -50px; display:none;">
-                                <button id="EditProduct" data-bind="click: $root.showAdmin" class="orange">
-                                    <div class="button-edit" style="display: inline-block"></div><span style="margin-left: 3px;">Edit</span>
-                                </button>
-                            </div>
 
-                            <div>
-                                <!-- ko if: (products()[5].SupplierName() == 'GSKC') -->
-                                <img data-bind="attr: {src : '/Images/Knives/Full/' + products()[5].SKU() + '.jpg',alt : 'Check out the ' + products()[5].ManufacturerName() + ' ' + products()[5].ProductName() + ' from our ' + products()[5].CategoryName() + ' collection.',                        title : 'Check out the ' + products()[5].ManufacturerName() + ' ' + products()[5].ProductName() + ' from our ' + products()[5].CategoryName() + ' collection.'}" style="width: 100%">
-                                <!-- /ko -->
-                                <!-- ko ifnot: (products()[5].SupplierName() == 'GSKC') -->
-                                <img data-bind="attr: {src : 'http://productimages.moteng.com/' + products()[5].SKU() + '.jpg',alt : 'Check out the ' + products()[5].ManufacturerName() + ' ' + products()[5].ProductName() + ' from our ' + products()[5].CategoryName() + ' collection.',title : 'Check out the ' + products()[5].ManufacturerName() + ' ' + products()[5].ProductName() + ' from our ' + products()[5].CategoryName() + ' collection.'}" style="width: 100%" />
-                                <!-- /ko -->
+                            <div *ngFor="let product of products"> 
+                                <span>{{product.productName}}</span>                           
+                                <!--<img ng-if="product.supplier == 'GSKC'" ng-src="/Images/Knives/Full/{{product.sku}}.jpg"  alt="Check out the {{product.manufacturerName}} {{product.productName}} from our {{product.categoryName}} collection."
+                                title="Check out the {{product.manufacturerName}} {{product.productName}} from our {{product.categoryName}} collection." style="width: 100%">                                                               -->
                             </div>
                             <div class="FeaturedKnifeHeaderFont" style="margin-top:10px; text-align: center; font-size: 17px"><!--ko text: products()[5].ProductName--><!--/ko--></div>
                             <div class="FeaturedKnifeTextFont product-summary" style="margin:10px 0 10px; text-align: left; line-height: 14px"><!--ko text: products()[5].Description--><!--/ko--></div>
 
                             <div style="position:relative;">
-                                @*<div style="display: inline-block; width:25%">
-                                    <span>msrp: </span>
-                                </div>
-                                <div style="display: inline-block; width:25%">
-                                    <span style="color: #f08e02;font-size: 1.1em; text-decoration: line-through"><span data-bind="currency: products()[5].MsrpCost"></span></span>
-                                </div>*@
-
                                 <div style="display: inline-block; width:100%;z-index: 1003;position: relative; text-align: center">
                                     <img alt="Deal" src="/Images/SalePriceBG.png" />
                                 </div>
@@ -48,11 +33,6 @@
                                 </div>
 
                             </div>
-
-                            @*<div style="top:-19px;position:relative;">
-                                <button type="button" class="orange" style="width:100%; margin:0; padding: 8px 5px; font-weight:bold">Add To Cart</button>
-                            </div>*@
-
                         </div>
 
                         <div style="clear:both"></div>
@@ -128,7 +108,7 @@
                 <span class="sub-header" style="color:#fff; margin:0">Deals of the Day</span>
             </div>
             <div>
-                <div data-bind="foreach: products" style="padding:10px; visibility: visible" class="row">
+                <div *ngFor="let product of products"  style="padding:10px; visibility: visible" class="row">
                     <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 featured-item" style="margin-bottom:10px; border-bottom: dotted 0 #000000; padding-bottom: 10px; position: relative; height: 200px; background-color: white;">
                         <div style="position:absolute; z-index: 1000; top:0; left:0"><img alt="Deal" src="/Images/Deal.png" /></div>
                         <div style="position:absolute; z-index: 1001; top: 56px;right: 5px;"><span>msrp: </span></div>
@@ -136,24 +116,16 @@
                         <div style="position:absolute; z-index: 1001; top: 95px;right: 3px;color: #FFF;font-size: 1.4em;"><span data-bind="currency: RetailCost"></span></div>
                         <div style="position:absolute; z-index: 1000; top:91px; right:0"><img alt="Deal" src="/Images/SalePriceBG.png" /></div>
                         <div style="position:absolute; z-index: 999; top:0; left:0; padding-top: 5px;border: 1px solid #fff; width: 100%">
-                            <div data-bind="visible: (LoggedIn() && (GroupId() > 0))" style="position: absolute; right: -6px; bottom: -50px; display:none;">
-                                <button id="EditProduct" data-bind="click: $parent.showAdmin" class="orange">
-                                    <div class="button-edit" style="display: inline-block"></div><span style="margin-left: 3px;">Edit</span>
-                                </button>
-                            </div>
+                            <div data-bind="attr:{onclick : 'location.href=\'/Index.asp?PageID=4&ProductID=' + ProductId()}" style="cursor:pointer; margin: 0 25px;">                                
+                                <!--<img *ngIf="product.productId == 'GSKC'"  data-bind="attr: {src : '/Images/Knives/Full/' + SKU() + '.jpg',alt : 'Check out the ' + ManufacturerName() + ' ' + ProductName() + ' from our ' + CategoryName() + ' collection.',                        title : 'Check out the ' + ManufacturerName() + ' ' + ProductName() + ' from our ' + CategoryName() + ' collection.'}" class="featured-item-image">-->
 
-                            <div data-bind="attr:{onclick : 'location.href=\'/Index.asp?PageID=4&ProductID=' + ProductId()}" style="cursor:pointer; margin: 0 25px;">
-                                <!-- ko if: (SupplierName() == 'GSKC') -->
-                                <img data-bind="attr: {src : '/Images/Knives/Full/' + SKU() + '.jpg',alt : 'Check out the ' + ManufacturerName() + ' ' + ProductName() + ' from our ' + CategoryName() + ' collection.',                        title : 'Check out the ' + ManufacturerName() + ' ' + ProductName() + ' from our ' + CategoryName() + ' collection.'}" class="featured-item-image">
-                                <!-- /ko -->
-                                <!-- ko ifnot: (SupplierName() == 'GSKC') -->
-                                <img data-bind="attr: {src : 'http://productimages.moteng.com/' + SKU() + '.jpg',alt : 'Check out the ' + ManufacturerName() + ' ' + ProductName() + ' from our ' + CategoryName() + ' collection.',title : 'Check out the ' + ManufacturerName() + ' ' + ProductName() + ' from our ' + CategoryName() + ' collection.'}" class="featured-item-image" />
-                                <!-- /ko -->
+                                <!--<img ngIf="product.productId != 'GSKC'" data-bind="attr: {src : 'http://productimages.moteng.com/' + SKU() + '.jpg',alt : 'Check out the ' + ManufacturerName() + ' ' + ProductName() + ' from our ' + CategoryName() + ' collection.',title : 'Check out the ' + ManufacturerName() + ' ' + ProductName() + ' from our ' + CategoryName() + ' collection.'}" class="featured-item-image" />-->
+                               
                             </div>
                         </div>
                         <div style="position: absolute; left:0;top:125px; border: 1px solid #fff; width:100%; padding-top:10px">
-                            <div class="FeaturedKnifeHeaderFont" style="height: 37px"><!--ko text: ProductName--><!--/ko--></div>
-                            @*<div class="FeaturedKnifeTextFont" style="margin-top:5px;"><!--ko text: Features--><!--/ko--></div>*@
+                            <div class="FeaturedKnifeHeaderFont" style="height: 37px">{{product.productName}}</div>
+                            @*<div class="FeaturedKnifeTextFont" style="margin-top:5px;">{{product.features}}</div>*@
                             <div align="right" class="FeaturedKnifeTextFont" style="margin-top:5px; text-align: right; background-color: #ececec; padding: 2px 5px 3px 5px">
                                 <span data-bind="attr:{onclick : 'location.href=\'/Index.asp?PageID=4&ProductID=' + ProductId() + '\''}" style="cursor: pointer; padding-top:10px;" class="more-information">View Details <span style="font-size: 14px">&raquo</span></span>
                             </div>

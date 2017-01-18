@@ -1,6 +1,6 @@
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
-import { HttpModule } from '@angular/http';
+import {HttpModule } from '@angular/http';
 import {TextFilterPipe} from './Pipes/text-filter.pipe';
 import {FormsModule} from '@angular/forms';
 import {CarouselModule} from 'ng2-bootstrap';
@@ -27,7 +27,6 @@ import {MockDataService} from './Api/mock-data'
         InMemoryWebApiModule.forRoot(MockDataService),
         FormsModule,
         CarouselModule,
-        //Ng2BootstrapModule.forRoot(),
     ],
     declarations: [
         AppComponent,

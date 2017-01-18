@@ -14,25 +14,27 @@ import {Price} from '../Models/price'
 })
 export class ProductSearchComponent implements OnInit{
 
-brands:Brand[] = []
-categories:Category[] = []
-prices:Price[] = []
+  brands:Brand[] = []
+  categories:Category[] = []
+  prices:Price[] = []
 
-selectedBrands: Brand[] = []
-selectedCategories: Category[] = []
-selectedPrices: Price[] = []
+  selectedBrands: Brand[] = []
+  selectedCategories: Category[] = []
+  selectedPrices: Price[] = []
 
-constructor(private productService: ProductService){}
+  constructor(private productService: ProductService){}
 
-ngOnInit(): void{
-    this.productService.getBrands()
-        .then(brands => this.brands = brands);
+  ngOnInit(): void{
+    
+      this.productService.getBrands()        
+      .then(brands => this.brands = brands);
 
-        this.productService.getCategories()
-        .then(categories => this.categories = categories);
+      this.productService.getCategories()
+      .then(categories => this.categories = categories);
 
-        this.productService.getPrices()
-        .then(prices => this.prices = prices);
+      this.productService.getPrices()
+      .then(prices => this.prices = prices);
+
     }
 
   addSelected(dataType: string, data: Object): void {    

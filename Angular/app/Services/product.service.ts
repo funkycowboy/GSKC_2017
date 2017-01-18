@@ -4,6 +4,7 @@ import {Http, Headers} from '@angular/http';
 import {Brand} from '../Models/brand'
 import {Category} from '../Models/category'
 import {Price} from '../Models/price'
+import {Product} from '../Models/product'
 
 import 'rxjs/add/operator/toPromise';
 
@@ -12,6 +13,7 @@ export class ProductService {
     private productBrandUrl = 'api/brands';
     private productPriceUrl = 'api/prices';
     private productCategoryUrl = 'api/categories';
+    private productItemsUrl = 'api/products';
     
 
     constructor(private http: Http){}
@@ -30,12 +32,20 @@ export class ProductService {
         .catch(this.handleError);
     }
 
-     getPrices(): Promise<Price[]>{
+    getPrices(): Promise<Price[]>{
         return this.http.get(this.productPriceUrl)
         .toPromise()
         .then(response => response.json().data as Price[])
         .catch(this.handleError);
+     }
+     
+    getProducts(): Promise<Product[]>{
+        return this.http.get(this.productItemsUrl)
+        .toPromise()
+        .then(response => response.json().data as Product[])
+        .catch(this.handleError);
     }
+    
 
     private handleError(error: any): Promise<any> {
         console.error('An error occurred', error); // for demo purposes only

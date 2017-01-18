@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
-declare var $:any;
+import {ProductService} from '../Services/product.service'
+import {Product} from '../Models/product'
 
 @Component({
     moduleId: module.id,
@@ -8,6 +9,16 @@ declare var $:any;
     templateUrl: 'home.component.html',
     styleUrls: ['home.component.css']
 })
-export class HomeComponent {  
+export class HomeComponent implements OnInit {  
+   
+    products:Product[] = []
 
+    constructor(private productService: ProductService){}
+ 
+    ngOnInit(): void {
+        
+        this.productService.getProducts()
+        .then(products => this.products = products);{                  
+        }
+    }
 }

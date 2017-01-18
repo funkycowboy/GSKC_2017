@@ -33,6 +33,43 @@ export class MockDataService implements InMemoryDbService {
       {id: 6, name: '$100.00 and over'},
     ];
 
-    return {brands, categories, prices};
+    let products = [
+      { productId: 1, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
+      { productId: 2, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
+      { productId: 3, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
+      { productId: 2, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
+      { productId: 3, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
+      { productId: 2, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
+      { productId: 3, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
+      { productId: 2, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
+      { productId: 3, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
+      { productId: 2, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
+      { productId: 3, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
+      { productId: 2, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
+      { productId: 3, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
+      { productId: 2, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
+      { productId: 3, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
+      { productId: 2, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
+      { productId: 3, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
+      { productId: 4, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
+      { productId: 5, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
+      { productId: 6, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
+      { productId: 7, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
+      { productId: 8, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
+      { productId: 9, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
+      { productId: 10, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
+      { productId: 11, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
+      { productId: 12, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
+      { productId: 13, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
+      { productId: 14, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
+      { productId: 15, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
+      { productId: 16, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
+      { productId: 17, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
+      { productId: 18, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
+      { productId: 19, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
+      { productId: 20, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'}
+    ];
+
+    return {brands, categories, prices, products};
   }
 }

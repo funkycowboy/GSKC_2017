@@ -9,9 +9,19 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var product_service_1 = require('../Services/product.service');
 var HomeComponent = (function () {
-    function HomeComponent() {
+    function HomeComponent(productService) {
+        this.productService = productService;
+        this.products = [];
     }
+    HomeComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.productService.getProducts()
+            .then(function (products) { return _this.products = products; });
+        {
+        }
+    };
     HomeComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
@@ -19,7 +29,7 @@ var HomeComponent = (function () {
             templateUrl: 'home.component.html',
             styleUrls: ['home.component.css']
         }), 
-        __metadata('design:paramtypes', [])
+        __metadata('design:paramtypes', [product_service_1.ProductService])
     ], HomeComponent);
     return HomeComponent;
 }());

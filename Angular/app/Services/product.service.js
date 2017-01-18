@@ -17,6 +17,7 @@ var ProductService = (function () {
         this.productBrandUrl = 'api/brands';
         this.productPriceUrl = 'api/prices';
         this.productCategoryUrl = 'api/categories';
+        this.productItemsUrl = 'api/products';
     }
     ProductService.prototype.getBrands = function () {
         return this.http.get(this.productBrandUrl)
@@ -32,6 +33,12 @@ var ProductService = (function () {
     };
     ProductService.prototype.getPrices = function () {
         return this.http.get(this.productPriceUrl)
+            .toPromise()
+            .then(function (response) { return response.json().data; })
+            .catch(this.handleError);
+    };
+    ProductService.prototype.getProducts = function () {
+        return this.http.get(this.productItemsUrl)
             .toPromise()
             .then(function (response) { return response.json().data; })
             .catch(this.handleError);
