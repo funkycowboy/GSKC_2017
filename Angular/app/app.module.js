@@ -20,7 +20,7 @@ var public_layout_component_1 = require('./Layouts/public-layout.component');
 var public_footer_component_1 = require('./Footers/public-footer.component');
 var product_search_component_1 = require('./ProductSearch/product-search-component');
 var home_component_1 = require('./Pages/home.component');
-var demo_carousel_component_1 = require('./Pages/demo-carousel.component');
+var home_carousel_component_1 = require('./Pages/home-carousel.component');
 var product_service_1 = require('./Services/product.service');
 var angular_in_memory_web_api_1 = require('angular-in-memory-web-api');
 var mock_data_1 = require('./Api/mock-data');
@@ -44,7 +44,7 @@ var AppModule = (function () {
                 product_search_component_1.ProductSearchComponent,
                 home_component_1.HomeComponent,
                 text_filter_pipe_1.TextFilterPipe,
-                demo_carousel_component_1.DemoCarouselComponent
+                home_carousel_component_1.HomeCarouselComponent
             ],
             providers: [product_service_1.ProductService],
             bootstrap: [app_component_1.AppComponent]

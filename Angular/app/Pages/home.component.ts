@@ -1,4 +1,4 @@
-import { Component, OnInit, AfterViewChecked } from '@angular/core';
+import { Component } from '@angular/core';
 
 declare var $:any;
 
@@ -8,12 +8,6 @@ declare var $:any;
     templateUrl: 'home.component.html',
     styleUrls: ['home.component.css']
 })
-export class HomeComponent implements AfterViewChecked{
-
-    ngAfterViewChecked(): void{      
-    //     $('.myCarousel').carousel({
-    //     interval: 2000
-    //     }); 
-    }  
+export class HomeComponent {  
 
 }

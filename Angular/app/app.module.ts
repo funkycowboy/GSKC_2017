@@ -11,7 +11,7 @@ import {PublicLayoutComponent} from './Layouts/public-layout.component'
 import {PublicFooterComponent} from './Footers/public-footer.component'
 import {ProductSearchComponent} from './ProductSearch/product-search-component'
 import {HomeComponent} from './Pages/home.component'
-import {DemoCarouselComponent} from './Pages/demo-carousel.component';
+import {HomeCarouselComponent} from './Pages/home-carousel.component';
 
 import {ProductService} from './Services/product.service'
 
@@ -37,7 +37,7 @@ import {MockDataService} from './Api/mock-data'
         ProductSearchComponent,
         HomeComponent,
         TextFilterPipe,
-        DemoCarouselComponent
+        HomeCarouselComponent
     ],
     providers: [ProductService],
     bootstrap: [AppComponent]
