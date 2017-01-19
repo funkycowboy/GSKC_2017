@@ -8,4 +8,5 @@ export class Product {
   imageUrl: string;
   categoryName: string;
   features: string;
+  price: number;
 }

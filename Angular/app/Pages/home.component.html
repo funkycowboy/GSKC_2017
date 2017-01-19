@@ -109,26 +109,23 @@
             </div>
             <div>
                 <div *ngFor="let product of products"  style="padding:10px; visibility: visible" class="row">
-                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 featured-item" style="margin-bottom:10px; border-bottom: dotted 0 #000000; padding-bottom: 10px; position: relative; height: 200px; background-color: white;">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 featured-item" style="margin-bottom:10px; border-bottom: dotted 0 #000000; padding-bottom: 10px; position: relative; height: 245px; background-color: white;">
                         <div style="position:absolute; z-index: 1000; top:0; left:0"><img alt="Deal" src="/Images/Deal.png" /></div>
-                        <div style="position:absolute; z-index: 1001; top: 56px;right: 5px;"><span>msrp: </span></div>
-                        <div style="position:absolute; z-index: 1001; top: 70px;right: 5px;"><span style="color: #f08e02;font-size: 1.1em; text-decoration: line-through" data-bind="currency: MsrpCost"></span></div>
-                        <div style="position:absolute; z-index: 1001; top: 95px;right: 3px;color: #FFF;font-size: 1.4em;"><span data-bind="currency: RetailCost"></span></div>
-                        <div style="position:absolute; z-index: 1000; top:91px; right:0"><img alt="Deal" src="/Images/SalePriceBG.png" /></div>
+                       
                         <div style="position:absolute; z-index: 999; top:0; left:0; padding-top: 5px;border: 1px solid #fff; width: 100%">
-                            <div data-bind="attr:{onclick : 'location.href=\'/Index.asp?PageID=4&ProductID=' + ProductId()}" style="cursor:pointer; margin: 0 25px;">                                
-                                <!--<img *ngIf="product.productId == 'GSKC'"  data-bind="attr: {src : '/Images/Knives/Full/' + SKU() + '.jpg',alt : 'Check out the ' + ManufacturerName() + ' ' + ProductName() + ' from our ' + CategoryName() + ' collection.',                        title : 'Check out the ' + ManufacturerName() + ' ' + ProductName() + ' from our ' + CategoryName() + ' collection.'}" class="featured-item-image">-->
-
-                                <!--<img ngIf="product.productId != 'GSKC'" data-bind="attr: {src : 'http://productimages.moteng.com/' + SKU() + '.jpg',alt : 'Check out the ' + ManufacturerName() + ' ' + ProductName() + ' from our ' + CategoryName() + ' collection.',title : 'Check out the ' + ManufacturerName() + ' ' + ProductName() + ' from our ' + CategoryName() + ' collection.'}" class="featured-item-image" />-->
-                               
+                            <div style="cursor:pointer; margin: 0 25px;">                                
+                                <img *ngIf="product.productId != 'GSKC'" [src]="product.imageUrl" [alt]="product.productName" class="featured-item-image" />                                
                             </div>
                         </div>
                         <div style="position: absolute; left:0;top:125px; border: 1px solid #fff; width:100%; padding-top:10px">
-                            <div class="FeaturedKnifeHeaderFont" style="height: 37px">{{product.productName}}</div>
-                            @*<div class="FeaturedKnifeTextFont" style="margin-top:5px;">{{product.features}}</div>*@
-                            <div align="right" class="FeaturedKnifeTextFont" style="margin-top:5px; text-align: right; background-color: #ececec; padding: 2px 5px 3px 5px">
-                                <span data-bind="attr:{onclick : 'location.href=\'/Index.asp?PageID=4&ProductID=' + ProductId() + '\''}" style="cursor: pointer; padding-top:10px;" class="more-information">View Details <span style="font-size: 14px">&raquo</span></span>
-                            </div>
+                        <div class="FeaturedKnifeHeaderFont" style="position: relative;height: 37px">{{product.productName | ellipsis:50}}</div>
+                        <div class="FeaturedKnifeTextFont" style="position: relative;margin-top:5px;">{{product.features | ellipsis:75 }}</div>
+                        <div style="position: relative">
+                            <div style="position: absolute; z-index:1000; top:7px; left:22px; color: #FFF;font-size: 1.4em;"><span>{{product.price | currency:'USD':true:'1.2-2'}}</span></div>
+                            <div style="position: absolute; z-index:999;top:5px"><img alt="Deal" src="/Images/SalePriceBG.png" /></div>
+                            <div style="position: absolute; right: 10px;cursor: pointer; padding-top:10px;" class="more-information">View More <span style="font-size: 14px">&raquo;</span></div>
+                        </div>                       
+
                         </div>
                     </div>
                 </div>

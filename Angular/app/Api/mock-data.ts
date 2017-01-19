@@ -34,40 +34,28 @@ export class MockDataService implements InMemoryDbService {
     ];
 
     let products = [
-      { productId: 1, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
-      { productId: 2, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
-      { productId: 3, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
-      { productId: 2, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
-      { productId: 3, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
-      { productId: 2, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
-      { productId: 3, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
-      { productId: 2, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
-      { productId: 3, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
-      { productId: 2, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
-      { productId: 3, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
-      { productId: 2, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
-      { productId: 3, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
-      { productId: 2, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
-      { productId: 3, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
-      { productId: 2, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
-      { productId: 3, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
-      { productId: 4, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
-      { productId: 5, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
-      { productId: 6, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
-      { productId: 7, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
-      { productId: 8, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
-      { productId: 9, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
-      { productId: 10, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
-      { productId: 11, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
-      { productId: 12, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
-      { productId: 13, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
-      { productId: 14, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
-      { productId: 15, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
-      { productId: 16, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
-      { productId: 17, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
-      { productId: 18, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
-      { productId: 19, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'},
-      { productId: 20, manufacturerName: 'GSKC',productName: 'Product Name',description: 'This is a sample description for the product.',supplierName: 'GSKC', features: 'This is a sample description for the product.'}
+      { 
+        productId: 1, 
+        manufacturerName: 'Spyderco',
+        categoryName: 'Knives - Folders',
+        productName: 'Byrd Finch 2, Black G10 Handle, Satin Plain',description: 'The Finch2 folder from byrd makes an excellent pocket knife. It is small in size, yet strong in hand. The blade is flat ground 8Cr13MoV steel with a thumb hole for easy one-hand opening. Textured black G-10 handle with steel liners, screw construction, and back lock. The Finch2 has a lanyard hole for pocket carry or attachment to a keychain',
+        supplierName: 'Moteng', 
+        features: 'The Finch2 folder from byrd makes an excellent pocket knife. It is small in size, yet strong in hand. The blade is flat ground 8Cr13MoV steel with a thumb hole for easy one-hand opening. Textured black G-10 handle with steel liners, screw construction, and back lock. The Finch2 has a lanyard hole for pocket carry or attachment to a keychain.',
+        sku: 'BY11GP2',
+        imageUrl: 'http://productimages.moteng.com/BY11GP2.jpg',
+        price: 20.00
+      },
+      { 
+        productId: 2, 
+        manufacturerName: 'Spyderco',
+        categoryName: 'Knives - Folders',
+        productName: 'Byrd Finch 2, Black G10 Handle, Satin Plain',description: 'The Finch2 folder from byrd makes an excellent pocket knife. It is small in size, yet strong in hand. The blade is flat ground 8Cr13MoV steel with a thumb hole for easy one-hand opening. Textured black G-10 handle with steel liners, screw construction, and back lock. The Finch2 has a lanyard hole for pocket carry or attachment to a keychain',
+        supplierName: 'Moteng', 
+        features: 'The Finch2 folder from byrd makes an excellent pocket knife. It is small in size, yet strong in hand. The blade is flat ground 8Cr13MoV steel with a thumb hole for easy one-hand opening. Textured black G-10 handle with steel liners, screw construction, and back lock. The Finch2 has a lanyard hole for pocket carry or attachment to a keychain.',
+        sku: 'BY11GP2',
+        imageUrl: 'http://productimages.moteng.com/BY11GP2.jpg',
+        price: 20.00
+      }
     ];
 
     return {brands, categories, prices, products};

@@ -2,6 +2,7 @@ import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
 import {HttpModule } from '@angular/http';
 import {TextFilterPipe} from './Pipes/text-filter.pipe';
+import {EllipsisPipe} from './Pipes/ellipsis';
 import {FormsModule} from '@angular/forms';
 import {CarouselModule} from 'ng2-bootstrap';
 
@@ -36,6 +37,7 @@ import {MockDataService} from './Api/mock-data'
         ProductSearchComponent,
         HomeComponent,
         TextFilterPipe,
+        EllipsisPipe,
         HomeCarouselComponent
     ],
     providers: [ProductService],
