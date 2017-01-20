@@ -5016,7 +5016,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     -webkit-border-radius: 0;
     border-radius: 0;
     z-index: 1000;
-    top: -71px;
+    top: -108px
 }
 
     .navbar-toggle:focus {
@@ -5054,7 +5054,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
 @media (max-width: 767px) {
     #SearchPanel {
-        /*padding-left: 30px;*/
+        top: 107px;
     }
 
     .navbar-nav .open .dropdown-menu {

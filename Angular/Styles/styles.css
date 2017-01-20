@@ -136,6 +136,7 @@ select {
     margin: 0 5px; 
     color:#fff;
     font-size: 15px;
+    white-space: nowrap
 }
 
 #ProductSearch input[type=text] {
@@ -739,10 +740,12 @@ div#Header {
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
     border-radius: 0;
-    margin-top: -1px;
-    padding: 11px 14px;
-    color:#FFF;
+    margin-top: 0px;
+    padding: 11px 14px 12px 14px;
+    color: #FFF;
     border: 0 solid #ccc;
+    outline:none;
+    top: -41px;
 }
 
     #ProductSearchButton.btn:hover {
@@ -822,7 +825,7 @@ div#Header {
 
     .sidenav {
         position: absolute;
-        /*top: 38px;*/
+        top: 149px;
         height: 0;
         width: 0;
         overflow: hidden;
@@ -841,8 +844,8 @@ div#Header {
         }
 
         .sidenav.off {
-            width: 0;
-            left: 0;
+            width: 80%;
+            left: -80%;
             -webkit-transition: all 1s ease 0s;
             -moz-transition: all 1s ease 0s;
             -o-transition: all 1s ease 0s;
@@ -964,6 +967,13 @@ div#Header {
 @media screen and (min-width: 768px) {
     .featured-item-image {
         width: 120px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    #FeaturedProducts {
+        top: -42px
     }
 }
 
