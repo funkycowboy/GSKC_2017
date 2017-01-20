@@ -4785,7 +4785,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (min-width: 768px) {
     .nav-justified > li {
         display: table-cell;
-        /*width: 1%;*/
+        width: 1%;
         float: none;
     }
 
@@ -5373,9 +5373,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
         color: #ccc;
     }
 
+
 .navbar-inverse {
     background-color: #000;
     border-color: #080808;
+    background-image: none;
 }
 
     .navbar-inverse .navbar-brand {

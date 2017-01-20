@@ -832,8 +832,8 @@ div#Header {
     }
 
         .sidenav.on {
-            width: 100%;
-            right: 0;
+            width: 80%;
+            left: 0;
             -webkit-transition: all 1s ease 0s;
             -moz-transition: all 1s ease 0s;
             -o-transition: all 1s ease 0s;
@@ -841,8 +841,8 @@ div#Header {
         }
 
         .sidenav.off {
-            width: 100%;
-            right: 100%;
+            width: 0;
+            left: 0;
             -webkit-transition: all 1s ease 0s;
             -moz-transition: all 1s ease 0s;
             -o-transition: all 1s ease 0s;
