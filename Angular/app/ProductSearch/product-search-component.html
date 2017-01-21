@@ -1,8 +1,8 @@
 <div id="ProductSearch" style="background-color: #ececec; border-right: 1px solid gray;border-bottom: 1px solid gray;">
     <div class="filter-header">
         <!-- Default panel contents -->
-        <div data-bind="click: $root.slideFilterList" style="background-color: #c4c2c2; padding: 10px 0; border-bottom: 1px dotted #FFF; cursor:pointer">
-            <div class="button-arrow" style="float:left;margin-left: 5px"></div>
+        <div (click)="slideFilterList()" style="background-color: #c4c2c2; padding: 10px 0; border-bottom: 1px dotted #FFF; cursor:pointer">
+            <div (click)="slideFilterList()" class="button-arrow" style="float:left;margin-left: 5px"></div>
             <div class="search-type">Search by Product</div>
             <div style="clear: both"></div>
         </div>
