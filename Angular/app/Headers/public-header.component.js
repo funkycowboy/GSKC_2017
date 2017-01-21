@@ -12,6 +12,14 @@ var core_1 = require('@angular/core');
 var PublicHeaderComponent = (function () {
     function PublicHeaderComponent() {
     }
+    PublicHeaderComponent.prototype.showHideSearch = function () {
+        // $("#SearchPanel").hide();
+        //$("#ProductSearchButton").trigger("click");
+        var $this = $(".sidenav");
+        if ($this.hasClass("on")) {
+            $this.removeClass("on").addClass("off");
+        }
+    };
     PublicHeaderComponent = __decorate([
         core_1.Component({
             moduleId: module.id,

@@ -105,7 +105,7 @@ export class ProductSearchComponent implements OnInit{
     
   }
 
-  slideFilterList(){
+  slideFilterList():void{
       var $target = $(event.target);
       $target.parent().find(".button-arrow").toggleClass("open");           
       $target.closest(".filter-header").find(".filter-list-parent").slideToggle('slow', function(){

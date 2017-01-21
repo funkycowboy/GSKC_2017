@@ -5054,7 +5054,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
 @media (max-width: 767px) {
     #SearchPanel {
-        top: 107px;
+        margin-top:-41px;
     }
 
     .navbar-nav .open .dropdown-menu {
@@ -5378,6 +5378,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     background-color: #000;
     border-color: #080808;
     background-image: none;
+    margin-bottom:40px;
+    border-radius: 0
 }
 
     .navbar-inverse .navbar-brand {
