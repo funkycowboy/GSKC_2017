@@ -6,6 +6,8 @@ import {Brand} from '../Models/brand'
 import {Category} from '../Models/category'
 import {Price} from '../Models/price'
 
+declare var $: any;
+
 @Component({
     moduleId: module.id,
     selector: 'product-search',
@@ -102,4 +104,11 @@ export class ProductSearchComponent implements OnInit{
     });   
     
   }
+
+  slideFilterList(){
+      var $target = $(event.target);
+      $target.parent().find(".button-arrow").toggleClass("open");           
+      $target.closest(".filter-header").find(".filter-list-parent").slideToggle('slow', function(){
+      });
+  };   
 }

@@ -89,6 +89,13 @@ var ProductSearchComponent = (function () {
             }
         });
     };
+    ProductSearchComponent.prototype.slideFilterList = function () {
+        var $target = $(event.target);
+        $target.parent().find(".button-arrow").toggleClass("open");
+        $target.closest(".filter-header").find(".filter-list-parent").slideToggle('slow', function () {
+        });
+    };
+    ;
     ProductSearchComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
