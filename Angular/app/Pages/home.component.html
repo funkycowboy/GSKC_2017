@@ -8,9 +8,7 @@
         </div>
         <div class="hidden-xs hidden-sm hidden-md hidden-lg col-lg-3" style="background-color: #fff; position: relative; right:0; border: 0 solid red">
             <div id="DealOfDayProducts" style="width:100%;position: relative;">
-                @*<div class="section-header">
-                    <span class="sub-header" style="color:#fff; margin:0">Deal of the Day</span>
-                </div>*@
+               
                 <div style="padding:10px; visibility: visible; position: relative;background: url(/Images/GSKC-watermark-bg.png)" class="row">
                     <div class="col-lg-12 featured-item" style="border-bottom: dotted 0 #000000; padding-bottom: 10px; height: 100%; position: relative; background-color: white;">
                         <div style="position:relative; z-index: 1000; top:0; left:0"><img alt="Deal" src="/Images/Deal2.png" /></div>
@@ -44,7 +42,7 @@
         </div>
     </div>
     <div>
-        <div style="float:left; padding: 10px; border-right: 0px dotted #000;" class="col-lg-6 col-md-8 col-sm-8 hidden-xs">
+        <div style="float:left; padding: 10px; border-right: 0px dotted #000;" class="col-lg-6 col-md-7 col-sm-8 hidden-xs">
 
             <div style="padding-bottom:7px; padding: 0 10px 0 10px;">
                 <h1 class="SpecialsFont">Welcome to Gatlin and Sons Knife Company&trade;</h1>
@@ -100,8 +98,8 @@
             </div>
         </div>
 
-        <div style="padding: 0; float: left;" id="FeaturedProducts" class="col-lg-6 col-md-4 col-sm-4 col-xs-12">
-            <div class="section-header-black hidden-xs">
+        <div style="padding: 0px; float: left;" id="FeaturedProducts" class="col-lg-6 col-md-5 col-sm-4 col-xs-12">
+            <div class="section-header hidden-xs">
                 <span class="sub-header" style="color:#fff; margin:0">Featured Products</span>
             </div>
             <div class="section-header visible-xs">
@@ -120,10 +118,18 @@
                         <div style="position: absolute; left:0;top:125px; border: 1px solid #fff; width:100%; padding-top:10px">
                         <div class="FeaturedKnifeHeaderFont" style="position: relative;height: 37px">{{product.productName | ellipsis:50}}</div>
                         <div class="FeaturedKnifeTextFont" style="position: relative;margin-top:5px;">{{product.features | ellipsis:75 }}</div>
-                        <div style="position: relative">
-                            <div style="position: absolute; z-index:1000; top:7px; left:22px; color: #FFF;font-size: 1.4em;"><span>{{product.price | currency:'USD':true:'1.2-2'}}</span></div>
-                            <div style="position: absolute; z-index:999;top:5px"><img alt="Deal" src="/Images/SalePriceBG.png" /></div>
-                            <div style="position: absolute; right: 10px;cursor: pointer; padding-top:10px;" class="more-information">View More <span style="font-size: 14px">&raquo;</span></div>
+ 
+                        <div class="row" style="margin-top: 10px">
+                            <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10" style="padding: 0">
+                                <button style="background: url(Images/gskc-button-icon.png) no-repeat 6px; text-align: right;background-color: #000; border: 0; outline:none; width:100%; margin: 0; height: 37px; padding-right: 10px; border-top-left-radius: 4px; border-bottom-left-radius: 4px">
+                                    <span style="font-size: 1.3em;">Price:</span> <span class="OurPriceFont" style="letter-spacing: 1px; color:#FFF; font-size:1.4em; font-style: italic">{{product.price | currency:'USD':true:'1.2-2'}}</span>
+                                </button>
+                            </div>   
+                            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="padding: 0">             
+                                <button style="text-align:center;background-color: #fe9704; border: 0; outline:none; width:100%; margin: 0;height: 37px; border-top-right-radius: 4px; border-bottom-right-radius: 4px">
+                                    <span style="font-size: 1.4em;cursor: pointer; color: #000;" class="glyphicon glyphicon-info-sign" title="Click for more information."></span> 
+                                </button>
+                             </div>
                         </div>                       
 
                         </div>

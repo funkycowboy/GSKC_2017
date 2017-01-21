@@ -55,7 +55,7 @@ P {
 .OurPriceFont {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
-    color: #000000;
+    color: #FFF;
     font-weight: bold;
 }
 
@@ -173,12 +173,14 @@ select {
 
 
 .more-information {
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    /*font-family: Arial, Helvetica, sans-serif;
     /*font-size: .8em;*/
-    color: #f08e02;
+    /*color: #FFF;
     text-decoration: underline;
     font-weight: bold;
     cursor: pointer;
+    margin-left:10px;*/*/
 }
 
 .photo-not-available {
