@@ -698,7 +698,7 @@ div#Header {
     .gskc-logo {
         position: absolute;
         z-index: 1000;
-        top: -16px;
+        top: 4px;
         left: 50%;
         margin-left: -105px;
         width: 200px;
