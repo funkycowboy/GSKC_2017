@@ -12,8 +12,8 @@ import {PublicHeaderComponent} from './Headers/public-header.component'
 import {PublicLayoutComponent} from './Layouts/public-layout.component'
 import {PublicFooterComponent} from './Footers/public-footer.component'
 import {ProductSearchComponent} from './ProductSearch/product-search-component'
-import {HomeComponent} from './Pages/home.component'
-import {HomeCarouselComponent} from './Pages/home-carousel.component';
+import {HomeComponent} from './Content/home.component'
+import {HomeCarouselComponent} from './Content/home-carousel.component';
 
 //Services
 import {ProductService} from './Services/product.service'

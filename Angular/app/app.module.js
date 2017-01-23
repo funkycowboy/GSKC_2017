@@ -21,8 +21,8 @@ var public_header_component_1 = require('./Headers/public-header.component');
 var public_layout_component_1 = require('./Layouts/public-layout.component');
 var public_footer_component_1 = require('./Footers/public-footer.component');
 var product_search_component_1 = require('./ProductSearch/product-search-component');
-var home_component_1 = require('./Pages/home.component');
-var home_carousel_component_1 = require('./Pages/home-carousel.component');
+var home_component_1 = require('./Content/home.component');
+var home_carousel_component_1 = require('./Content/home-carousel.component');
 //Services
 var product_service_1 = require('./Services/product.service');
 var slideshow_service_1 = require('./Services/slideshow.service');
