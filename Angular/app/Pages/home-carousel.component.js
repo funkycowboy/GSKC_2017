@@ -12,6 +12,10 @@ var core_1 = require('@angular/core');
 var HomeCarouselComponent = (function () {
     function HomeCarouselComponent() {
     }
+    __decorate([
+        core_1.Input(), 
+        __metadata('design:type', Object)
+    ], HomeCarouselComponent.prototype, "imageData", void 0);
     HomeCarouselComponent = __decorate([
         core_1.Component({
             moduleId: module.id,

@@ -1,14 +1,8 @@
 <carousel interval="2000" class="carousel slide hidden-xs" >
-  <slide>
-    <img src="/Images/slide-show-image-7.jpg" alt="First slide" style="width: 100%" >
+  <slide *ngFor="let image of imageData">
+    <img src="{{image.path}}" alt="First slide" style="width: 100%" >
   </slide>
-  <slide>
-    <img src="/Images/slide-show-image-8.jpg" alt="Second slide" style="width: 100%" >
-  </slide>
-  <slide>
-    <img src="/Images/slide-show-image-5.jpg" alt="Third slide" style="width: 100%" >
-  </slide>
-
+  
   <i class="fa fa-chevron-left left carousel-control"></i>
   <i class="fa fa-chevron-right right carousel-control"></i>
 

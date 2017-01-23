@@ -15,6 +15,7 @@ var text_filter_pipe_1 = require('./Pipes/text-filter.pipe');
 var ellipsis_1 = require('./Pipes/ellipsis');
 var forms_1 = require('@angular/forms');
 var ng2_bootstrap_1 = require('ng2-bootstrap');
+//Application specific components
 var app_component_1 = require('./app.component');
 var public_header_component_1 = require('./Headers/public-header.component');
 var public_layout_component_1 = require('./Layouts/public-layout.component');
@@ -22,7 +23,10 @@ var public_footer_component_1 = require('./Footers/public-footer.component');
 var product_search_component_1 = require('./ProductSearch/product-search-component');
 var home_component_1 = require('./Pages/home.component');
 var home_carousel_component_1 = require('./Pages/home-carousel.component');
+//Services
 var product_service_1 = require('./Services/product.service');
+var slideshow_service_1 = require('./Services/slideshow.service');
+//Api 
 var angular_in_memory_web_api_1 = require('angular-in-memory-web-api');
 var mock_data_1 = require('./Api/mock-data');
 var AppModule = (function () {
@@ -48,7 +52,7 @@ var AppModule = (function () {
                 ellipsis_1.EllipsisPipe,
                 home_carousel_component_1.HomeCarouselComponent
             ],
-            providers: [product_service_1.ProductService],
+            providers: [product_service_1.ProductService, slideshow_service_1.SlideshowService],
             bootstrap: [app_component_1.AppComponent]
         }), 
         __metadata('design:paramtypes', [])

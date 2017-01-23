@@ -10,17 +10,25 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var product_service_1 = require('../Services/product.service');
+var slideshow_service_1 = require('../Services/slideshow.service');
+// import * as fs from "fs"
 var HomeComponent = (function () {
-    function HomeComponent(productService) {
+    function HomeComponent(productService, slideshowService) {
         this.productService = productService;
+        this.slideshowService = slideshowService;
         this.products = [];
+        this.slideshowImages = [];
     }
     HomeComponent.prototype.ngOnInit = function () {
+        // fs.readFile('index.html', (err, data) => {
+        //     if (err) throw err
+        //     return data
+        // })
         var _this = this;
         this.productService.getProducts()
             .then(function (products) { return _this.products = products; });
-        {
-        }
+        this.slideshowService.getSlideshowImages()
+            .then(function (images) { return _this.slideshowImages = images; });
     };
     HomeComponent = __decorate([
         core_1.Component({
@@ -29,7 +37,7 @@ var HomeComponent = (function () {
             templateUrl: 'home.component.html',
             styleUrls: ['home.component.css']
         }), 
-        __metadata('design:paramtypes', [product_service_1.ProductService])
+        __metadata('design:paramtypes', [product_service_1.ProductService, slideshow_service_1.SlideshowService])
     ], HomeComponent);
     return HomeComponent;
 }());

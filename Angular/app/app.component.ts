@@ -10,4 +10,7 @@ import {PublicLayoutComponent} from './Layouts/public-layout.component';
 
 export class AppComponent{
     title = "GSKC Website"
+
+
+    
 }

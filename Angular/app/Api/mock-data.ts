@@ -58,6 +58,19 @@ export class MockDataService implements InMemoryDbService {
       }
     ];
 
-    return {brands, categories, prices, products};
+    let slideshowImages = [
+      {id: 1, name: '', path:'/Images//Slideshow/slide-show-image-1.jpg'},
+      {id: 2, name: '', path:'/Images/Slideshow/slide-show-image-2.jpg'},
+      {id: 3, name: '', path:'/Images/Slideshow/slide-show-image-3.jpg'},
+      {id: 4, name: '', path:'/Images/Slideshow/slide-show-image-4.jpg'},
+      {id: 5, name: '', path:'/Images/Slideshow/slide-show-image-5.jpg'},
+      {id: 6, name: '', path:'/Images/Slideshow/slide-show-image-6.jpg'},
+      {id: 7, name: '', path:'/Images/Slideshow/slide-show-image-7.jpg'},
+      {id: 8, name: '', path:'/Images/Slideshow/slide-show-image-8.jpg'},
+      {id: 9, name: '', path:'/Images/Slideshow/slide-show-image-9.png'},
+      {id: 10, name: '', path:'/Images/Slideshow/slide-show-image-10.jpg'},
+    ];
+
+    return {brands, categories, prices, products,slideshowImages};
   }
 }
