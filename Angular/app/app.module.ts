@@ -13,11 +13,13 @@ import {PublicLayoutComponent} from './Layouts/public-layout.component'
 import {PublicFooterComponent} from './Footers/public-footer.component'
 import {ProductSearchComponent} from './ProductSearch/product-search-component'
 import {HomeComponent} from './Content/home.component'
-import {HomeCarouselComponent} from './Content/home-carousel.component';
+import {HomeCarouselComponent} from './Content/home-carousel.component'
+import {CalendarComponent} from './Content/calendar.component'
 
 //Services
 import {ProductService} from './Services/product.service'
 import {SlideshowService} from './Services/slideshow.service'
+import {CalendarService} from './Services/calendar.service'
 
 //Api 
 import { InMemoryWebApiModule } from 'angular-in-memory-web-api'
@@ -42,9 +44,10 @@ import {MockDataService} from './Api/mock-data'
         HomeComponent,
         TextFilterPipe,
         EllipsisPipe,
-        HomeCarouselComponent
+        HomeCarouselComponent,
+        CalendarComponent
     ],
-    providers: [ProductService, SlideshowService],
+    providers: [ProductService, SlideshowService, CalendarService],
     bootstrap: [AppComponent]
 })
 

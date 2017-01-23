@@ -23,9 +23,11 @@ var public_footer_component_1 = require('./Footers/public-footer.component');
 var product_search_component_1 = require('./ProductSearch/product-search-component');
 var home_component_1 = require('./Content/home.component');
 var home_carousel_component_1 = require('./Content/home-carousel.component');
+var calendar_component_1 = require('./Content/calendar.component');
 //Services
 var product_service_1 = require('./Services/product.service');
 var slideshow_service_1 = require('./Services/slideshow.service');
+var calendar_service_1 = require('./Services/calendar.service');
 //Api 
 var angular_in_memory_web_api_1 = require('angular-in-memory-web-api');
 var mock_data_1 = require('./Api/mock-data');
@@ -50,9 +52,10 @@ var AppModule = (function () {
                 home_component_1.HomeComponent,
                 text_filter_pipe_1.TextFilterPipe,
                 ellipsis_1.EllipsisPipe,
-                home_carousel_component_1.HomeCarouselComponent
+                home_carousel_component_1.HomeCarouselComponent,
+                calendar_component_1.CalendarComponent
             ],
-            providers: [product_service_1.ProductService, slideshow_service_1.SlideshowService],
+            providers: [product_service_1.ProductService, slideshow_service_1.SlideshowService, calendar_service_1.CalendarService],
             bootstrap: [app_component_1.AppComponent]
         }), 
         __metadata('design:paramtypes', [])
