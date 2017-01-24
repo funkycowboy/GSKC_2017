@@ -1,72 +1,75 @@
 "use strict";
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var core_1 = require('@angular/core');
+var event_1 = require('../Models/event');
 var GoogleAuthenticationService = (function () {
     function GoogleAuthenticationService() {
-        /*
-         * global application state, so it's OK to keep it as field value of a singleton. alternative would be a
-         * buitl-in global value store.
-         */
-        this.isAuthenticated = false;
-        // check the authentication silently
-        this.internalAuthenticate(true);
+        //gapi.load('client', this.simpleApiAuthentication)
     }
-    GoogleAuthenticationService.prototype.internalAuthenticate = function (immediate) {
-        var _this = this;
-        /* heavily use promises here for 2 reasons:
-         *
-         * nr1: readability (image callback syntax here :( )
-         * nr2: ui synchronisation: due to the GAPI, the result is handled in a callback,
-         *		angular does therefor not know of any scope changes. since ther is no scope
-         *		as in angular1 one cannot manually trigger the scope digest.
-         *		Using Promises solves this problem since the scope digest is triggered on
-         *		resove() and reject().
-         * The callbacks passed to then() are lambdas to ensure the call applies to the correct
-         * scope.
-         */
-        return this.proceedAuthentication(immediate)
-            .then(function () { return _this.initializeGoogleCalendarAPI(); })
-            .catch(function (error) { console.log('authentication failed: ' + error); });
+    GoogleAuthenticationService.prototype.getEvents = function () {
+        return this.initializeAndLoadEvents();
     };
-    GoogleAuthenticationService.prototype.proceedAuthentication = function (immediate) {
+    GoogleAuthenticationService.prototype.initializeAndLoadEvents = function () {
+        gapi.load('client');
         return new Promise(function (resolve, reject) {
-            console.log('proceed authentication - immediate: ' + immediate);
-            gapi.client.setApiKey(GoogleAuthenticationService.apiKey);
-            // var authorizationRequestData =
-            // {
-            // 	'client_id': GoogleAuthenticationService.clientId, 
-            // 	'scope': GoogleAuthenticationService.scopes, 
-            // 	'immediate': immediate
-            // } 
-            // gapi.auth.authorize(authorizationRequestData,
-            // 	(authenticationResult) => {
-            // 		if(authenticationResult && !authenticationResult.error){
-            // 			this.isAuthenticated = true
-            // 			this.setUserData('unknown', '');
-            resolve();
-            // 		}
-            // 		else {
-            // 			this.isAuthenticated = false
-            // 			this.setUserData('','');
-            // 			reject();
-            // 		}
-            // 	}
-            // 	);
+            gapi.client.init({
+                'apiKey': GoogleAuthenticationService.apiKey,
+                'discoveryDocs': GoogleAuthenticationService.discoveryDocs
+            }).then(function () {
+                return new Promise(function (resolve, reject) {
+                    var request = gapi.client.calendar.events.list({
+                        'calendarId': 'b16nmnt6h8cdg3airc1mnshpe8@group.calendar.google.com',
+                        'timeMin': new Date().toISOString(),
+                        'singleEvents': true,
+                        'orderBy': 'startTime'
+                    });
+                    request.execute(function (resp) {
+                        var events = [];
+                        for (var index in resp.items) {
+                            var startDate = resp.items[index].start.dateTime != null ? new Date(resp.items[index].start.dateTime).toLocaleDateString() : resp.items[index].start.date;
+                            var endDate = resp.items[index].end.dateTime != null ? new Date(resp.items[index].end.dateTime).toLocaleDateString() : resp.items[index].end.date;
+                            var startTime = resp.items[index].start.dateTime != null ? new Date(resp.items[index].start.dateTime).toLocaleTimeString().replace(/:\d+ /, ' ') : "";
+                            var endTime = resp.items[index].end.dateTime != null ? new Date(resp.items[index].end.dateTime).toLocaleTimeString().replace(/:\d+ /, ' ') : "";
+                            var event_2 = new event_1.Event();
+                            event_2.Event = resp.items[index].summary;
+                            event_2.StartDate = startDate;
+                            event_2.Date = startDate + (endDate != startDate ? " - " + endDate : "");
+                            event_2.Time = startTime + ((endTime != "") ? " - " + endTime : "");
+                            event_2.Location = resp.items[index].location;
+                            if (resp.items[index].description != null) {
+                                var calenderInfo = resp.items[index].description.split('\n');
+                                event_2.Website = calenderInfo[0].split('=')[1];
+                                event_2.Address = calenderInfo[1].split('=')[1];
+                                event_2.Details = calenderInfo[2].split('=')[1];
+                            }
+                            events.push(event_2);
+                        }
+                        resolve(events);
+                    });
+                });
+            })
+                .then(function (response) {
+                console.log("my test" + response);
+            }, function (reason) {
+                console.log('Error: ' + reason.result.error.message);
+            });
         });
     };
-    GoogleAuthenticationService.prototype.initializeGoogleCalendarAPI = function () {
-        return new Promise(function (resolve, reject) {
-            console.log('initialize Google Calendar API');
-            resolve(gapi.client.load('calendar', 'v3'));
-        });
-    };
-    GoogleAuthenticationService.prototype.setUserData = function (userName, userImageUrl) {
-        this.userName = userName;
-        this.userImageUrl = userImageUrl;
-        console.log('user: ' + this.userName + ', image: ' + this.userImageUrl);
-    };
-    // constants
-    GoogleAuthenticationService.clientId = '98287965123-4qhpo587glm3sjk0qlo2ar2bjgojf441.apps.googleusercontent.com';
+    ;
     GoogleAuthenticationService.apiKey = 'AIzaSyCnZoOGNxfAJEYKF02lP8liEUkPQMecrjs';
-    GoogleAuthenticationService.scopes = ['https://www.googleapis.com/auth/calendar.readonly'];
+    GoogleAuthenticationService.discoveryDocs = ['https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest'];
+    GoogleAuthenticationService = __decorate([
+        core_1.Injectable(), 
+        __metadata('design:paramtypes', [])
+    ], GoogleAuthenticationService);
     return GoogleAuthenticationService;
 }());
 exports.GoogleAuthenticationService = GoogleAuthenticationService;

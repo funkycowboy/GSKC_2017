@@ -1,79 +1,83 @@
+import {Injectable} from '@angular/core';
+
+import {Event} from '../Models/event';
+
 declare var gapi: any;
 
+@Injectable() 
 export class GoogleAuthenticationService {
-	// constants
-	static clientId = '98287965123-4qhpo587glm3sjk0qlo2ar2bjgojf441.apps.googleusercontent.com';
+
 	static apiKey = 'AIzaSyCnZoOGNxfAJEYKF02lP8liEUkPQMecrjs';
-	static scopes = ['https://www.googleapis.com/auth/calendar.readonly'];
-	/* 
-	 * global application state, so it's OK to keep it as field value of a singleton. alternative would be a 
-	 * buitl-in global value store.
-	 */
-	public isAuthenticated: boolean = false;
-	public userName: string;
-	public userImageUrl: string;
+	static discoveryDocs = ['https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest'];	
 
 	constructor(){
-		// check the authentication silently
-		this.internalAuthenticate(true);
+		//gapi.load('client', this.simpleApiAuthentication)
+	}
+	
+	getEvents():Promise<Event[]>{
+		return this.initializeAndLoadEvents();
 	}
 
+	private initializeAndLoadEvents() {
 
-	private internalAuthenticate(immediate: boolean){
-		/* heavily use promises here for 2 reasons:
-		 *
-		 * nr1: readability (image callback syntax here :( )
-		 * nr2: ui synchronisation: due to the GAPI, the result is handled in a callback, 
-		 *		angular does therefor not know of any scope changes. since ther is no scope
-		 *		as in angular1 one cannot manually trigger the scope digest.
-		 *		Using Promises solves this problem since the scope digest is triggered on 
-		 *		resove() and reject().
-		 * The callbacks passed to then() are lambdas to ensure the call applies to the correct
-		 * scope.
-		 */
-		 return this.proceedAuthentication(immediate)
-		 .then(() => this.initializeGoogleCalendarAPI())
-		 //.then((response:any) => this.setUserData(response.result.displayName, response.result.image.url))
-		 .catch((error:any) => {console.log('authentication failed: ' + error)});
-	}
+		gapi.load('client');
 
-	private proceedAuthentication(immediate:boolean){
 		return new Promise((resolve, reject) => {
-			console.log('proceed authentication - immediate: ' + immediate);
-			gapi.client.setApiKey(GoogleAuthenticationService.apiKey);
-			// var authorizationRequestData =
-			// {
-			// 	'client_id': GoogleAuthenticationService.clientId, 
-			// 	'scope': GoogleAuthenticationService.scopes, 
-			// 	'immediate': immediate
-			// } 
-			// gapi.auth.authorize(authorizationRequestData,
-			// 	(authenticationResult) => {
-			// 		if(authenticationResult && !authenticationResult.error){
-			// 			this.isAuthenticated = true
-			// 			this.setUserData('unknown', '');
-						resolve()
-			// 		}
-			// 		else {
-			// 			this.isAuthenticated = false
-			// 			this.setUserData('','');
-			// 			reject();
-			// 		}
-			// 	}
-			// 	);
+
+			gapi.client.init({
+
+				'apiKey': GoogleAuthenticationService.apiKey,
+				'discoveryDocs': GoogleAuthenticationService.discoveryDocs	
+
+			}).then(function() {
+				
+				return new Promise((resolve, reject) => {
+
+					var request = gapi.client.calendar.events.list({
+						'calendarId': 'b16nmnt6h8cdg3airc1mnshpe8@group.calendar.google.com',
+						'timeMin': new Date().toISOString(),
+						'singleEvents': true,
+						'orderBy': 'startTime'
+					});
+
+					request.execute((resp: any) => {
+						
+						let events: Event[] = [];
+						
+						for (var index in resp.items) {
+							var startDate = resp.items[index].start.dateTime != null ? new Date(resp.items[index].start.dateTime).toLocaleDateString() : resp.items[index].start.date;
+							var endDate = resp.items[index].end.dateTime != null ? new Date(resp.items[index].end.dateTime).toLocaleDateString() : resp.items[index].end.date;
+							var startTime = resp.items[index].start.dateTime != null ? new Date(resp.items[index].start.dateTime).toLocaleTimeString().replace(/:\d+ /, ' ') : "";
+							var endTime = resp.items[index].end.dateTime != null ? new Date(resp.items[index].end.dateTime).toLocaleTimeString().replace(/:\d+ /, ' ') : "";
+
+							let event: Event = new Event(); 
+							event.Event = resp.items[index].summary;  
+							event.StartDate = startDate;
+							event.Date = startDate + (endDate != startDate ? " - " + endDate : "");
+							event.Time = startTime + ((endTime != "") ? " - " + endTime : "");
+							event.Location = resp.items[index].location;
+
+							if (resp.items[index].description != null) {
+								var calenderInfo = resp.items[index].description.split('\n');
+								event.Website = calenderInfo[0].split('=')[1];
+								event.Address = calenderInfo[1].split('=')[1];
+								event.Details = calenderInfo[2].split('=')[1];
+							}
+
+							events.push(event);							
+						}
+
+						resolve(events)
+					});
+				});
+				       
+			})
+			.then(	function(response) {
+						console.log("my test" + response);
+					}, 
+					function(reason) {
+						console.log('Error: ' + reason.result.error.message);
+					});
 			});
-	}
-
-	private initializeGoogleCalendarAPI(){
-		return new Promise((resolve, reject) => {
-			console.log('initialize Google Calendar API');
-			resolve(gapi.client.load('calendar', 'v3'));
-		});
-	}
-
-	private setUserData(userName: string, userImageUrl: string){
-		this.userName = userName;
-		this.userImageUrl = userImageUrl;
-		console.log('user: ' + this.userName + ', image: ' + this.userImageUrl);
-	}
+		};	
 }

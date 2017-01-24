@@ -19,8 +19,10 @@ var CalendarComponent = (function () {
     }
     CalendarComponent.prototype.ngOnInit = function () {
         var _this = this;
-        this.googleCalendarService.getEvents()
-            .then(function (events) { return _this.events = events; });
+        this.googleAuthenticationService.getEvents()
+            .then(function (events) { return _this.events = events; })
+            .then(function (response) { return console.log("Test: " + response); })
+            .catch(function (err) { return console.log(err); });
     };
     CalendarComponent = __decorate([
         core_1.Component({
