@@ -10,10 +10,10 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 require('rxjs/add/operator/toPromise');
-var CalendarService = (function () {
-    function CalendarService() {
+var GoogleCalendarService = (function () {
+    function GoogleCalendarService() {
     }
-    CalendarService.prototype.getEvents = function () {
+    GoogleCalendarService.prototype.getEvents = function () {
         return new Promise(function (resolve, reject) {
             var request = gapi.client.calendar.events.list({
                 'calendarId': 'b16nmnt6h8cdg3airc1mnshpe8@group.calendar.google.com',
@@ -67,11 +67,11 @@ var CalendarService = (function () {
         //     };
         // };
     };
-    CalendarService = __decorate([
+    GoogleCalendarService = __decorate([
         core_1.Injectable(), 
         __metadata('design:paramtypes', [])
-    ], CalendarService);
-    return CalendarService;
+    ], GoogleCalendarService);
+    return GoogleCalendarService;
 }());
-exports.CalendarService = CalendarService;
-//# sourceMappingURL=calendar.service.js.map
+exports.GoogleCalendarService = GoogleCalendarService;
+//# sourceMappingURL=google-calendar.service.js.map

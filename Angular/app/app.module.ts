@@ -19,7 +19,8 @@ import {CalendarComponent} from './Content/calendar.component'
 //Services
 import {ProductService} from './Services/product.service'
 import {SlideshowService} from './Services/slideshow.service'
-import {CalendarService} from './Services/calendar.service'
+import {GoogleCalendarService} from './Services/google-calendar.service'
+import {GoogleAuthenticationService} from './Services/google-authentication.service'
 
 //Api 
 import { InMemoryWebApiModule } from 'angular-in-memory-web-api'
@@ -47,7 +48,7 @@ import {MockDataService} from './Api/mock-data'
         HomeCarouselComponent,
         CalendarComponent
     ],
-    providers: [ProductService, SlideshowService, CalendarService],
+    providers: [ProductService, SlideshowService, GoogleAuthenticationService,GoogleCalendarService],
     bootstrap: [AppComponent]
 })
 

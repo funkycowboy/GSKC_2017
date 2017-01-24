@@ -9,15 +9,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var calendar_service_1 = require('../Services/calendar.service');
+var google_calendar_service_1 = require('../Services/google-calendar.service');
+var google_authentication_service_1 = require('../Services/google-authentication.service');
 var CalendarComponent = (function () {
-    function CalendarComponent(calendarService) {
-        this.calendarService = calendarService;
+    function CalendarComponent(googleCalendarService, googleAuthenticationService) {
+        this.googleCalendarService = googleCalendarService;
+        this.googleAuthenticationService = googleAuthenticationService;
         this.events = [];
     }
     CalendarComponent.prototype.ngOnInit = function () {
         var _this = this;
-        this.calendarService.getEvents()
+        this.googleCalendarService.getEvents()
             .then(function (events) { return _this.events = events; });
     };
     CalendarComponent = __decorate([
@@ -27,7 +29,7 @@ var CalendarComponent = (function () {
             templateUrl: 'calendar.component.html',
             styleUrls: ['calendar.component.css']
         }), 
-        __metadata('design:paramtypes', [calendar_service_1.CalendarService])
+        __metadata('design:paramtypes', [google_calendar_service_1.GoogleCalendarService, google_authentication_service_1.GoogleAuthenticationService])
     ], CalendarComponent);
     return CalendarComponent;
 }());

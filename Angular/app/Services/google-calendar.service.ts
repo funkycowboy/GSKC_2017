@@ -6,12 +6,13 @@ import 'rxjs/add/operator/toPromise';
 declare var gapi: any;
 
 @Injectable()
-export class CalendarService {
+export class GoogleCalendarService {
         
     getEvents(): Promise<any> {
 
         return new Promise((resolve, reject) => {
-
+  
+           
             var request = gapi.client.calendar.events.list({
                 'calendarId': 'b16nmnt6h8cdg3airc1mnshpe8@group.calendar.google.com',
                 'timeMin': new Date().toISOString(),
