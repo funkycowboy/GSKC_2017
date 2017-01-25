@@ -10,18 +10,16 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var google_calendar_service_1 = require('../Services/google-calendar.service');
-var google_authentication_service_1 = require('../Services/google-authentication.service');
 var CalendarComponent = (function () {
-    function CalendarComponent(googleCalendarService, googleAuthenticationService) {
+    function CalendarComponent(googleCalendarService) {
         this.googleCalendarService = googleCalendarService;
-        this.googleAuthenticationService = googleAuthenticationService;
         this.events = [];
     }
     CalendarComponent.prototype.ngOnInit = function () {
         var _this = this;
-        this.googleAuthenticationService.getEvents()
+        this.googleCalendarService.getEvents()
             .then(function (events) { return _this.events = events; })
-            .then(function (response) { return console.log("Test: " + response); })
+            .then(function (response) { return console.log("Event List: " + response); })
             .catch(function (err) { return console.log(err); });
     };
     CalendarComponent = __decorate([
@@ -31,7 +29,7 @@ var CalendarComponent = (function () {
             templateUrl: 'calendar.component.html',
             styleUrls: ['calendar.component.css']
         }), 
-        __metadata('design:paramtypes', [google_calendar_service_1.GoogleCalendarService, google_authentication_service_1.GoogleAuthenticationService])
+        __metadata('design:paramtypes', [google_calendar_service_1.GoogleCalendarService])
     ], CalendarComponent);
     return CalendarComponent;
 }());

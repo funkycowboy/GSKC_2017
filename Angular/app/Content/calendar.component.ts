@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import {GoogleCalendarService} from '../Services/google-calendar.service'
-import {GoogleAuthenticationService} from '../Services/google-authentication.service'
 
 import {Event} from '../Models/event';
 
@@ -15,12 +14,12 @@ export class CalendarComponent implements OnInit{
 
 events:Event[] = []
 
-constructor(private googleCalendarService: GoogleCalendarService, private googleAuthenticationService: GoogleAuthenticationService){}
+constructor(private googleCalendarService: GoogleCalendarService){}
 
     ngOnInit():void {
-        this.googleAuthenticationService.getEvents()
+        this.googleCalendarService.getEvents()
          .then(events => this.events = events)
-         .then(response => console.log("Test: " + response))
+         .then(response => console.log("Event List: " + response))
          .catch(err => console.log(err));
 
     }

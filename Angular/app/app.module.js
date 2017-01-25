@@ -28,7 +28,6 @@ var calendar_component_1 = require('./Content/calendar.component');
 var product_service_1 = require('./Services/product.service');
 var slideshow_service_1 = require('./Services/slideshow.service');
 var google_calendar_service_1 = require('./Services/google-calendar.service');
-var google_authentication_service_1 = require('./Services/google-authentication.service');
 //Api 
 var angular_in_memory_web_api_1 = require('angular-in-memory-web-api');
 var mock_data_1 = require('./Api/mock-data');
@@ -56,7 +55,7 @@ var AppModule = (function () {
                 home_carousel_component_1.HomeCarouselComponent,
                 calendar_component_1.CalendarComponent
             ],
-            providers: [product_service_1.ProductService, slideshow_service_1.SlideshowService, google_authentication_service_1.GoogleAuthenticationService, google_calendar_service_1.GoogleCalendarService],
+            providers: [product_service_1.ProductService, slideshow_service_1.SlideshowService, google_calendar_service_1.GoogleCalendarService],
             bootstrap: [app_component_1.AppComponent]
         }), 
         __metadata('design:paramtypes', [])

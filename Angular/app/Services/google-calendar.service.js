@@ -9,64 +9,55 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-require('rxjs/add/operator/toPromise');
+var event_1 = require('../Models/event');
 var GoogleCalendarService = (function () {
     function GoogleCalendarService() {
     }
     GoogleCalendarService.prototype.getEvents = function () {
+        return this.initializeAndLoadEvents();
+    };
+    GoogleCalendarService.prototype.initializeAndLoadEvents = function () {
+        gapi.load('client');
         return new Promise(function (resolve, reject) {
-            var request = gapi.client.calendar.events.list({
-                'calendarId': 'b16nmnt6h8cdg3airc1mnshpe8@group.calendar.google.com',
-                'timeMin': new Date().toISOString(),
-                'singleEvents': true,
-                'orderBy': 'startTime'
-            });
-            //var model: any;
-            request.execute(function (resp) {
-                var events = [];
-                for (var index in resp.items) {
-                    var startDate = resp.items[index].start.dateTime != null ? new Date(resp.items[index].start.dateTime).toLocaleDateString() : resp.items[index].start.date;
-                    var endDate = resp.items[index].end.dateTime != null ? new Date(resp.items[index].end.dateTime).toLocaleDateString() : resp.items[index].end.date;
-                    var startTime = resp.items[index].start.dateTime != null ? new Date(resp.items[index].start.dateTime).toLocaleTimeString().replace(/:\d+ /, ' ') : "";
-                    var endTime = resp.items[index].end.dateTime != null ? new Date(resp.items[index].end.dateTime).toLocaleTimeString().replace(/:\d+ /, ' ') : "";
-                    var event = {};
-                    event.Event = resp.items[index].summary;
-                    event.StartDate = startDate;
-                    event.Date = startDate + (endDate != startDate ? " - " + endDate : "");
-                    event.Time = startTime + ((endTime != "") ? " - " + endTime : "");
-                    event.Location = resp.items[index].location;
-                    if (resp.items[index].description != null) {
-                        var calenderInfo = resp.items[index].description.split('\n');
-                        event.Website = calenderInfo[0].split('=')[1];
-                        event.Address = calenderInfo[1].split('=')[1];
-                        event.Details = calenderInfo[2].split('=')[1];
+            gapi.client.init({
+                'apiKey': GoogleCalendarService.apiKey,
+                'discoveryDocs': GoogleCalendarService.discoveryDocs
+            }).then(function () {
+                var request = gapi.client.calendar.events.list({
+                    'calendarId': 'b16nmnt6h8cdg3airc1mnshpe8@group.calendar.google.com',
+                    'timeMin': new Date().toISOString(),
+                    'singleEvents': true,
+                    'orderBy': 'startTime'
+                });
+                request.execute(function (resp) {
+                    var events = [];
+                    for (var index in resp.items) {
+                        var startDate = resp.items[index].start.dateTime != null ? new Date(resp.items[index].start.dateTime).toLocaleDateString() : resp.items[index].start.date;
+                        var endDate = resp.items[index].end.dateTime != null ? new Date(resp.items[index].end.dateTime).toLocaleDateString() : resp.items[index].end.date;
+                        var startTime = resp.items[index].start.dateTime != null ? new Date(resp.items[index].start.dateTime).toLocaleTimeString().replace(/:\d+ /, ' ') : "";
+                        var endTime = resp.items[index].end.dateTime != null ? new Date(resp.items[index].end.dateTime).toLocaleTimeString().replace(/:\d+ /, ' ') : "";
+                        var event_2 = new event_1.Event();
+                        event_2.Event = resp.items[index].summary;
+                        event_2.StartDate = startDate;
+                        event_2.Date = startDate + (endDate != startDate ? " - " + endDate : "");
+                        event_2.Time = startTime + ((endTime != "") ? " - " + endTime : "");
+                        event_2.Location = resp.items[index].location;
+                        if (resp.items[index].description != null) {
+                            var calenderInfo = resp.items[index].description.split('\n');
+                            event_2.Website = calenderInfo[0].split('=')[1];
+                            event_2.Address = calenderInfo[1].split('=')[1];
+                            event_2.Details = calenderInfo[2].split('=')[1];
+                        }
+                        events.push(event_2);
                     }
-                    events.push(event);
-                }
+                    resolve(events);
+                });
             });
         });
-        // var eventViewModel = function (data) {
-        //     var self = this;
-        //     self.events = ko.observableArray(data);
-        //     self.showHideDetails = function(item, event) {
-        //         var $target = $(event.target);
-        //         var $container = $target.closest("div.calender-container");
-        //         if (!$target.hasClass("open")) {
-        //             $container.find(".website,.time,.map").hide("fade");
-        //             $container.animate({ height: '84px' }, 1000, function () {
-        //                 $container.slideDown("slow");
-        //                 });
-        //         } else {
-        //             $container.prependTo($target.parent());
-        //             setTimeout(function () {
-        //                 $container.find(".website,.time,.map").fadeIn("slow");
-        //                 $container.animate({ height: '346px' }, 1000);     //$(target).height() + 'px'
-        //             }, 1000);
-        //         }
-        //         $target.toggleClass("open");
-        //     };
-        // };
     };
+    ;
+    GoogleCalendarService.apiKey = 'AIzaSyCnZoOGNxfAJEYKF02lP8liEUkPQMecrjs';
+    GoogleCalendarService.discoveryDocs = ['https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest'];
     GoogleCalendarService = __decorate([
         core_1.Injectable(), 
         __metadata('design:paramtypes', [])
