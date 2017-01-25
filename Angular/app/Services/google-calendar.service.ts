@@ -10,6 +10,9 @@ export class GoogleCalendarService {
 	static apiKey = 'AIzaSyCnZoOGNxfAJEYKF02lP8liEUkPQMecrjs';
 	static discoveryDocs = ['https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest'];	
 	
+
+	constructor(){}
+
 	getEvents():Promise<Event[]>{
 		return this.initializeAndLoadEvents();
 	}
@@ -46,7 +49,7 @@ export class GoogleCalendarService {
 
 							let event: Event = new Event(); 
 							event.Event = resp.items[index].summary;  
-							event.StartDate = startDate;
+							event.StartDate = startDate; 
 							event.Date = startDate + (endDate != startDate ? " - " + endDate : "");
 							event.Time = startTime + ((endTime != "") ? " - " + endTime : "");
 							event.Location = resp.items[index].location;
@@ -54,7 +57,8 @@ export class GoogleCalendarService {
 							if (resp.items[index].description != null) {
 								var calenderInfo = resp.items[index].description.split('\n');
 								event.Website = calenderInfo[0].split('=')[1];
-								event.Address = calenderInfo[1].split('=')[1];
+								//event.Address = calenderInfo[1].split('=')[1];
+								event.Address = "http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=" + calenderInfo[1].split('=')[1] +"&ie=UTF8&z=15&t=m&iwloc=near&output=embed"
 								event.Details = calenderInfo[2].split('=')[1];
 							}
 

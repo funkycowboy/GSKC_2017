@@ -1,5 +1,5 @@
 export class Event {
-  Address: number;
+  Address: string;
   Date: string;
   Event: string;
   StartDate: string;

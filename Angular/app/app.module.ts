@@ -1,10 +1,13 @@
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
 import {HttpModule } from '@angular/http';
+
+//Pipes
 import {TextFilterPipe} from './Pipes/text-filter.pipe';
 import {EllipsisPipe} from './Pipes/ellipsis';
 import {FormsModule} from '@angular/forms';
 import {CarouselModule} from 'ng2-bootstrap';
+import {SafeHtmlPipe} from './Pipes/safeHtml.pipe'
 
 //Application specific components
 import {AppComponent} from './app.component';
@@ -44,6 +47,7 @@ import {MockDataService} from './Api/mock-data'
         HomeComponent,
         TextFilterPipe,
         EllipsisPipe,
+        SafeHtmlPipe,
         HomeCarouselComponent,
         CalendarComponent
     ],

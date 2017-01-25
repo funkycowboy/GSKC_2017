@@ -444,23 +444,15 @@ select {
     }
 
 .button-arrow {
-    /*position:absolute; 
-            z-index:100; 
-            right: 7px; 
-            top:45px; */
-    background: url(/Images/ui-icons_454545_256x240.png) 608px -192px;
-    width: 20px;
+    background: url(/Images/ui-icons_FFFFFF_256x240.png) 608px -190px;
+    /*background-repeat: no-repeat;*/
+    width: 17px;
     height: 20px;
     cursor: pointer;
-    background-color: #FFF;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    border: 2px solid orange;
 }
 
 .open {
-    background-position: 640px -192px;
+    background-position: 640px -190px;
 }
 
 .button-edit {
@@ -901,7 +893,7 @@ div#Header {
 
         #Calendar .calender-container {
             border: 2px solid #3a3a3a;
-            border-radius: 10px;
+            border-radius: 3px;
             margin-bottom: 5px;
             padding: 5px;
             background-color: gray;
@@ -915,7 +907,7 @@ div#Header {
             }
 
             #Calendar .calender-container span {
-                font-family: Arial;
+                /*font-family: Arial;*/
                 font-size: 14px;
             }
 
@@ -932,13 +924,9 @@ div#Header {
                 font-size: 15px;
                 font-weight: bold;
                 color: #FFF;
-                /*border-bottom: 1px dotted #FFF;*/
-                padding: 0px;
+                padding-left: 3px;
                 background-color: #3a3a3a;
-                border-radius: 5px;
-                border-top-left-radius: 0px;
-                border-bottom-left-radius: 0px;
-                height: 20px;
+                border-radius: 2px;
             }
 
         #Calendar .calender-image {

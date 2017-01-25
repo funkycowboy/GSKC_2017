@@ -3,6 +3,9 @@ import {GoogleCalendarService} from '../Services/google-calendar.service'
 
 import {Event} from '../Models/event';
 
+
+declare var $: any;
+
 @Component({
     moduleId: module.id,
     selector: 'calendar',
@@ -23,5 +26,27 @@ constructor(private googleCalendarService: GoogleCalendarService){}
          .catch(err => console.log(err));
 
     }
+
+    showHideDetails(): void {
+        var $target = $(event.target);
+        var $container = $target.closest("div.calender-container");
+
+        if (!$target.hasClass("open")) {
+            $container.find(".website,.time,.map").hide("fade");
+            $container.animate({ height: '84px' }, 1000, function () {
+                $container.slideDown("slow");
+                });
+        } else {
+            $container.prependTo($target.parent().parent());
+            setTimeout(function () {
+                $container.find(".website,.time,.map").fadeIn("slow");
+                $container.animate({ height: '346px' }, 1000);     //$(target).height() + 'px'
+
+            }, 1000);
+
+        }
+
+        $target.toggleClass("open");
+    };
         
 }

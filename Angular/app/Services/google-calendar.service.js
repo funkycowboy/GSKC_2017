@@ -45,7 +45,8 @@ var GoogleCalendarService = (function () {
                         if (resp.items[index].description != null) {
                             var calenderInfo = resp.items[index].description.split('\n');
                             event_2.Website = calenderInfo[0].split('=')[1];
-                            event_2.Address = calenderInfo[1].split('=')[1];
+                            //event.Address = calenderInfo[1].split('=')[1];
+                            event_2.Address = "http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=" + calenderInfo[1].split('=')[1] + "&ie=UTF8&z=15&t=m&iwloc=near&output=embed";
                             event_2.Details = calenderInfo[2].split('=')[1];
                         }
                         events.push(event_2);

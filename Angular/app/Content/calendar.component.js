@@ -22,6 +22,25 @@ var CalendarComponent = (function () {
             .then(function (response) { return console.log("Event List: " + response); })
             .catch(function (err) { return console.log(err); });
     };
+    CalendarComponent.prototype.showHideDetails = function () {
+        var $target = $(event.target);
+        var $container = $target.closest("div.calender-container");
+        if (!$target.hasClass("open")) {
+            $container.find(".website,.time,.map").hide("fade");
+            $container.animate({ height: '84px' }, 1000, function () {
+                $container.slideDown("slow");
+            });
+        }
+        else {
+            $container.prependTo($target.parent().parent());
+            setTimeout(function () {
+                $container.find(".website,.time,.map").fadeIn("slow");
+                $container.animate({ height: '346px' }, 1000); //$(target).height() + 'px'
+            }, 1000);
+        }
+        $target.toggleClass("open");
+    };
+    ;
     CalendarComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
