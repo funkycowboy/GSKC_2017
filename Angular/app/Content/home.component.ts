@@ -6,8 +6,6 @@ import {SlideshowService} from '../Services/slideshow.service'
 import {Product} from '../Models/product'
 import {Image} from '../Models/file.image'
 
-// import * as fs from "fs"
-
 @Component({
     moduleId: module.id,
     selector: 'home',
@@ -22,11 +20,6 @@ export class HomeComponent implements OnInit {
     constructor(private productService: ProductService, private slideshowService: SlideshowService){}
  
     ngOnInit(): void {
-        
-        // fs.readFile('index.html', (err, data) => {
-        //     if (err) throw err
-        //     return data
-        // })
 
         this.productService.getProducts()
         .then(products => this.products = products);
