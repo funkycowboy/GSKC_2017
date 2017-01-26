@@ -3,6 +3,9 @@ import {BrowserModule} from '@angular/platform-browser';
 import {HttpModule } from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
 
+//Modules
+import { AppRoutingModule } from './app-routing.module';
+
 //Pipes
 import {TextFilterPipe} from './Pipes/text-filter.pipe';
 import {EllipsisPipe} from './Pipes/ellipsis';
@@ -32,33 +35,15 @@ import { InMemoryWebApiModule } from 'angular-in-memory-web-api'
 import {MockDataService} from './Api/mock-data'
 
 
-const appRoutes: Routes = [
-    
-    {   path: 'home',
-        component: HomeComponent
-    }, 
-    {   path: 'support',
-        component: SupportComponent
-    },
-    {   path: 'contact-us',
-        component: ContactComponent
-    },   
-    {   path: '', 
-        redirectTo: '/home',
-        pathMatch: 'full'
-    },
-
-]
-
 
 @NgModule({
     imports: [
+        AppRoutingModule,
         BrowserModule,
         CarouselModule,
         FormsModule,
         HttpModule,
-        InMemoryWebApiModule.forRoot(MockDataService),
-        RouterModule.forRoot(appRoutes)
+        InMemoryWebApiModule.forRoot(MockDataService)
     ],
     declarations: [
         //Components

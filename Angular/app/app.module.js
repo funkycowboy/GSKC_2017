@@ -11,7 +11,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var platform_browser_1 = require('@angular/platform-browser');
 var http_1 = require('@angular/http');
-var router_1 = require('@angular/router');
+//Modules
+var app_routing_module_1 = require('./app-routing.module');
 //Pipes
 var text_filter_pipe_1 = require('./Pipes/text-filter.pipe');
 var ellipsis_1 = require('./Pipes/ellipsis');
@@ -36,33 +37,18 @@ var google_calendar_service_1 = require('./Services/google-calendar.service');
 //Api 
 var angular_in_memory_web_api_1 = require('angular-in-memory-web-api');
 var mock_data_1 = require('./Api/mock-data');
-var appRoutes = [
-    { path: 'home',
-        component: home_component_1.HomeComponent
-    },
-    { path: 'support',
-        component: support_component_1.SupportComponent
-    },
-    { path: 'contact-us',
-        component: contact_component_1.ContactComponent
-    },
-    { path: '',
-        redirectTo: '/home',
-        pathMatch: 'full'
-    },
-];
 var AppModule = (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         core_1.NgModule({
             imports: [
+                app_routing_module_1.AppRoutingModule,
                 platform_browser_1.BrowserModule,
                 ng2_bootstrap_1.CarouselModule,
                 forms_1.FormsModule,
                 http_1.HttpModule,
-                angular_in_memory_web_api_1.InMemoryWebApiModule.forRoot(mock_data_1.MockDataService),
-                router_1.RouterModule.forRoot(appRoutes)
+                angular_in_memory_web_api_1.InMemoryWebApiModule.forRoot(mock_data_1.MockDataService)
             ],
             declarations: [
                 //Components
