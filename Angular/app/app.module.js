@@ -11,6 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var platform_browser_1 = require('@angular/platform-browser');
 var http_1 = require('@angular/http');
+var router_1 = require('@angular/router');
 //Pipes
 var text_filter_pipe_1 = require('./Pipes/text-filter.pipe');
 var ellipsis_1 = require('./Pipes/ellipsis');
@@ -19,6 +20,7 @@ var ng2_bootstrap_1 = require('ng2-bootstrap');
 var safeHtml_pipe_1 = require('./Pipes/safeHtml.pipe');
 //Application specific components
 var app_component_1 = require('./app.component');
+var contact_component_1 = require('./Content/contact.component');
 var public_header_component_1 = require('./Headers/public-header.component');
 var public_layout_component_1 = require('./Layouts/public-layout.component');
 var public_footer_component_1 = require('./Footers/public-footer.component');
@@ -26,6 +28,7 @@ var product_search_component_1 = require('./ProductSearch/product-search-compone
 var home_component_1 = require('./Content/home.component');
 var home_carousel_component_1 = require('./Content/home-carousel.component');
 var calendar_component_1 = require('./Content/calendar.component');
+var support_component_1 = require('./Content/support.component');
 //Services
 var product_service_1 = require('./Services/product.service');
 var slideshow_service_1 = require('./Services/slideshow.service');
@@ -33,6 +36,21 @@ var google_calendar_service_1 = require('./Services/google-calendar.service');
 //Api 
 var angular_in_memory_web_api_1 = require('angular-in-memory-web-api');
 var mock_data_1 = require('./Api/mock-data');
+var appRoutes = [
+    { path: 'home',
+        component: home_component_1.HomeComponent
+    },
+    { path: 'support',
+        component: support_component_1.SupportComponent
+    },
+    { path: 'contact-us',
+        component: contact_component_1.ContactComponent
+    },
+    { path: '',
+        redirectTo: '/home',
+        pathMatch: 'full'
+    },
+];
 var AppModule = (function () {
     function AppModule() {
     }
@@ -40,25 +58,34 @@ var AppModule = (function () {
         core_1.NgModule({
             imports: [
                 platform_browser_1.BrowserModule,
+                ng2_bootstrap_1.CarouselModule,
+                forms_1.FormsModule,
                 http_1.HttpModule,
                 angular_in_memory_web_api_1.InMemoryWebApiModule.forRoot(mock_data_1.MockDataService),
-                forms_1.FormsModule,
-                ng2_bootstrap_1.CarouselModule,
+                router_1.RouterModule.forRoot(appRoutes)
             ],
             declarations: [
+                //Components
                 app_component_1.AppComponent,
+                calendar_component_1.CalendarComponent,
+                contact_component_1.ContactComponent,
+                home_carousel_component_1.HomeCarouselComponent,
+                home_component_1.HomeComponent,
+                public_footer_component_1.PublicFooterComponent,
                 public_header_component_1.PublicHeaderComponent,
                 public_layout_component_1.PublicLayoutComponent,
-                public_footer_component_1.PublicFooterComponent,
                 product_search_component_1.ProductSearchComponent,
-                home_component_1.HomeComponent,
-                text_filter_pipe_1.TextFilterPipe,
+                support_component_1.SupportComponent,
+                //Pipes
                 ellipsis_1.EllipsisPipe,
                 safeHtml_pipe_1.SafeHtmlPipe,
-                home_carousel_component_1.HomeCarouselComponent,
-                calendar_component_1.CalendarComponent
+                text_filter_pipe_1.TextFilterPipe
             ],
-            providers: [product_service_1.ProductService, slideshow_service_1.SlideshowService, google_calendar_service_1.GoogleCalendarService],
+            providers: [
+                google_calendar_service_1.GoogleCalendarService,
+                product_service_1.ProductService,
+                slideshow_service_1.SlideshowService
+            ],
             bootstrap: [app_component_1.AppComponent]
         }), 
         __metadata('design:paramtypes', [])
