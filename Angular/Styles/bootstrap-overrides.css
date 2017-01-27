@@ -6414,6 +6414,7 @@ a.list-group-item-danger {
 
 .panel-body {
     padding: 15px;
+    font-size: 12px;
 }
 
 .panel-heading {
@@ -6432,12 +6433,13 @@ a.list-group-item-danger {
 .panel-title {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 16px;
+    font-size: 12px;
     color: inherit;
 }
 
     .panel-title > a {
         color: inherit;
+        outline:none;
     }
 
 .panel-footer {
@@ -6632,7 +6634,7 @@ a.list-group-item-danger {
 }
 
     .panel-group .panel {
-        margin-bottom: 0;
+        margin-bottom: 4px;
         -moz-border-radius: 4px;
         -webkit-border-radius: 4px;
         border-radius: 4px;

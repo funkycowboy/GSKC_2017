@@ -43,6 +43,7 @@ var AppModule = (function () {
     AppModule = __decorate([
         core_1.NgModule({
             imports: [
+                ng2_bootstrap_1.AccordionModule.forRoot(),
                 app_routing_module_1.AppRoutingModule,
                 platform_browser_1.BrowserModule,
                 ng2_bootstrap_1.CarouselModule,

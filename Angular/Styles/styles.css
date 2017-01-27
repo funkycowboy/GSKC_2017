@@ -305,26 +305,12 @@ select {
     font-size: 1em; 
     padding: 15px 0; 
     border-bottom: dotted 1px #000;
+    margin-bottom:10px;
 }
 
-#SupportFAQs  div.faq-question  {     
-    font-weight: bold; 
-    margin-bottom: 5px; 
+#SupportFAQs  div.question > span  {
+    font-weight: bold;
 }
-
-    #SupportFAQs  div.faq-question > span   {     
-        display: inline-block;
-        margin-right: 8px;
-    }
-
-    #SupportFAQs  div.faq-answer  {     
-    margin-bottom: 20px; 
-}
-
-    #SupportFAQs  div.faq-answer > span   {     
-        display: inline-block;
-        margin-right: 8px;
-    }
 
 .ProductCompare td {
     border-bottom: dotted 1px #000;

@@ -33,16 +33,16 @@ constructor(private googleCalendarService: GoogleCalendarService){}
 
         if (!$target.hasClass("open")) {
             $container.find(".website,.time,.map").hide("fade");
-            $container.animate({ height: '84px' }, 1000, function () {
+            $container.animate({ height: '84px' }, 500, function () {
                 $container.slideDown("slow");
                 });
         } else {
             $container.prependTo($target.parent().parent());
             setTimeout(function () {
                 $container.find(".website,.time,.map").fadeIn("slow");
-                $container.animate({ height: '346px' }, 1000);     //$(target).height() + 'px'
+                $container.animate({ height: '346px' }, 500);     //$(target).height() + 'px'
 
-            }, 1000);
+            }, 500);
 
         }
 

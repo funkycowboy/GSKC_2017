@@ -27,7 +27,7 @@ var CalendarComponent = (function () {
         var $container = $target.closest("div.calender-container");
         if (!$target.hasClass("open")) {
             $container.find(".website,.time,.map").hide("fade");
-            $container.animate({ height: '84px' }, 1000, function () {
+            $container.animate({ height: '84px' }, 500, function () {
                 $container.slideDown("slow");
             });
         }
@@ -35,8 +35,8 @@ var CalendarComponent = (function () {
             $container.prependTo($target.parent().parent());
             setTimeout(function () {
                 $container.find(".website,.time,.map").fadeIn("slow");
-                $container.animate({ height: '346px' }, 1000); //$(target).height() + 'px'
-            }, 1000);
+                $container.animate({ height: '346px' }, 500); //$(target).height() + 'px'
+            }, 500);
         }
         $target.toggleClass("open");
     };
