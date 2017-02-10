@@ -1,0 +1,8 @@
+5002070,Viper, Drop Pt, Tumbled Anozdized Bronze,2016-12-07,0,0,0,16DP-02ANBRONZE,0,0,000000000000,0,lb,Knives : Fixed Blade,Active,0.00,0.00,16DP-02ANBRONZE,0,,,,,-1071607681,81
+5002071,Viper, Tumbled/Tumbled Handle,2016-12-07,0,0,0,16DP-01TM,0,0,000000000000,0,lb,Knives : Fixed Blade,Active,0.00,0.00,16DP-01TM,0,,,,,-1071607681,81
+5002072,Katana, Tumbled/Tumble Handle, Tumbled Spring,2016-12-07,0,0,0,07DPD-01TM,0,0,000000000000,0,lb,Knives : Fixed Blade,Active,0.00,0.00,07DPD-01TM,0,,,,,-1071607681,81
+5002073,Micro Praetorian, G10  Hi Vis Orange/PVD Handle,2016-12-07,0,0,0,09DPD-11PV,0,0,000000000000,0,lb,Knives : Fixed Blade,Active,0.00,0.00,09DPD-11PV,0,,,,,-1071607681,81
+5002078,Praetorian G G10 Digi/Tumbled PVD Handle PVD Hdwe,2016-12-07,0,0,0,07DPD-01TM,0,0,000000000000,0,lb,Knives : Fixed Blade,Active,0.00,0.00,07DPD-01TM,0,,,,,-1071607681,81
+5002080,Praetorian T, Tumbled/Tumbled Handle,2016-12-07,0,0,0,12DTT-01TM,0,0,000000000000,0,lb,Knives : Fixed Blade,Active,0.00,0.00,12DTT-01TM,0,,,,,-1071607681,81
+5002096,Katana, Bronze Tumbled/Anodized Handle,2016-12-07,0,0,0,07DTD-02ANBRZ,0,0,000000000000,0,lb,Knives : Fixed Blade,Active,0.00,0.00,07DTD-02ANBRZ,0,,,,,-1071607681,81
+5002097,Micro Praetorian, G10 Black Handle, PVD Hardware,2016-12-07,0,0,0,09DPD-08ANBLUE,0,0,000000000000,0,lb,Knives : Fixed Blade,Active,0.00,0.00,09DPD-08ANBLUE,0,,,,,-1071607681,81

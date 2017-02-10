@@ -1,0 +1,2092 @@
+Kickout File
+"KTXTOOL"	0	48	180	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK01DV-08TM"	0	8	244	"D"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK01DY-08TM"	0	4	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK01DY-09TM"	0	11	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK01DY-10TM"	0	1	365	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK02DV-10TM"	0	0	365	"D"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK03DVT-08TM"	0	4	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK03DVT-10TM"	0	2	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK03DY-08TM"	0	2	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK03DY-09TM"	0	2	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK04DV-08TM"	0	0	365	"D"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK04DV-09TM"	0	6	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK04DY-08TM"	0	6	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK05DP-02ANBZ"	0	6	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK05DX-02ANBL"	0	0	365	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK06DJ-01TM"	0	0	365	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK06DP-01TM"	0	6	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK06DP-02ANBL"	0	0	365	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK06DT-02ANBL"	0	0	365	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK06DT-02ANBZ"	0	7	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK07DMD-01TM"	0	0	365	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK07DPD-01TM"	0	18	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK07DPT-01TM"	0	2	365	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK07DTD-02ANBZ"	0	18	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK08DPD-01TM"	0	4	365	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK08DPD-02ANBL"	0	7	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK08DPD-02ANBZ"	0	3	365	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK08DPD-03FL"	0	3	365	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK08DTD-01TM"	0	6	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK08DTD-02ANBL"	0	10	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK08DTD-03FL"	0	8	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK08DXD-01TM"	0	0	365	"D"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK08DXD-03FL"	0	1	365	"D"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK09DPD-07TM"	0	19	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK09DPD-08FL"	0	17	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK09DTD-10TM"	0	10	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK09DXD-07TM"	0	3	365	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK09DXD-08FL"	0	0	365	"D"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK09DXD-09FL"	0	0	365	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK09DXD-09TM"	0	10	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK09DXD-10TM"	0	0	365	"D"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK10DXT-08TM"	0	22	244	"D"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK10DXT-09TM"	0	14	244	"D"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK11DPT-07TM"	0	32	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK11DPT-08FL"	0	20	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK11DPT-09TM"	0	3	365	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK11DXT-08FL"	0	3	365	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK11DXT-08TM"	0	3	365	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK11DXT-09FL"	0	3	365	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK11DXT-09TM"	0	3	365	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK12DPT-01TM"	0	24	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK12DPT-02ANBZ"	0	25	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK12DPT-03FL"	0	27	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK12DTT-01TM"	0	31	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK12DTT-02ANBL"	0	28	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK12DTT-03FL"	0	50	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK12DXT-02ANBZ"	0	0	365	"D"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK14DP-02ANBL"	0	6	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK15DP-03FL"	0	6	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK15DT-01TM"	0	0	365	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK16DTD-01TM"	0	0	365	"D"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK16DTD-02ANBZ"	0	2	244	"D"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK16DX-02ANBZBL"	0	0	365	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK16DXD-01TM"	0	7	244	"D"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK16DXD-02ANBL"	0	2	244	"D"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK16DXD-02ANBZ"	0	4	244	"D"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK16DXD-03FL"	0	0	365	"D"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK17DV-03FL"	0	0	365	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK19DTT-01TM"	0	0	365	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK24DP-03FL"	0	3	244	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK24DP-30PV"	0	9	244	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK24DV-01TM"	0	6	244	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK24DV-03FL"	0	10	244	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK25DP-01TM"	0	3	244	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK25DP-03FL"	0	10	244	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK25SP-30PV"	0	6	244	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK25ST-01TM"	0	6	244	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK26DP-03FL"	0	6	244	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK26DP-30PV"	0	12	244	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK26DV-01TM"	0	9	244	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK26DV-03FL"	0	6	244	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK27DP-08FL"	0	9	244	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK27DP-08TM"	0	9	244	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK28DPD-08PV"	0	12	244	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK28DPD-10FL"	0	6	244	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK28DPD-10TM"	0	6	244	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK28DPT-08FL"	0	9	244	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK28DPT-08TM"	0	9	244	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK28DPT-09FL"	0	6	244	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK28DPT-09TM"	0	6	244	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK28DVT-08FL"	0	9	244	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK28DVT-08TM"	0	9	244	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK29DPT-01TM"	0	6	244	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK29DPT-03FL"	0	6	244	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK29DVT-01TM"	0	6	244	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK29DVT-03FL"	0	8	365	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK31DJ-05TM"	0	12	365	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK31DP-05PV"	0	12	365	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK31DP-05TM"	0	12	365	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK31DT-05FL"	0	12	365	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK32DT-05TM"	0	6	365	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK33DT-02ANBRZ"	0	10	365	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK33DT-03FL"	0	10	365	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK34DT-02ANBRZ"	0	6	365	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK34DT-02FL"	0	6	365	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK36DP-30TM"	0	4	365	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK36DT-02ANBRZ"	0	6	365	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK50DP-08KB"	0	5	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK52DP-08KB"	0	3	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK52DP-10KB"	0	2	365	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK52DP08KB"	0	5	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK52DX-08KB"	0	0	365	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK53DXD-19KB"	0	10	244	"D"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK54DXT-19KB"	0	4	244	"D"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK55DXD-08KB"	0	2	244	"D"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK58DXD-19KB"	0	1	244	"D"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK62DX-17KO"	0	1	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK62DXD-18KB"	0	0	365	"D"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK65DXD-08KB"	0	2	244	"D"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK66DXD-17KB"	0	2	244	"D"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK66DXD-18KB"	0	1	244	"D"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK69DP-08KB"	0	3	244	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK74DXD-08KB"	0	3	244	"D"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK77DXD-19KB"	0	0	365	"D"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK77DXD-19NB"	0	0	365	"D"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK80DXD-01KB"	0	3	244	"D"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK81DXD-08KB"	0	3	244	"D"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK83DXD-08KB"	0	2	244	"D"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MK887P-13KB"	0	3	244	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT-TBOT"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT100-1"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT100-1BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT101-1BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT101-1GR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT101-1TA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT101-2BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT101-2GR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT101-3GR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT102-1"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT102-1GR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT102-1TA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT102-1Z"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT102-2BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT102-2GR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT102-2TA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT102-2Z"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT103-10"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT103-1BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT103-1GR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT103-1Z"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT103-2BL"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT103-2GR"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT103-2TA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT103-3"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT103-3BL"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT104-10"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT104-11"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT104-2"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT104-4"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT104-5"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT104-7"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT104-8"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT105-1"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT105-1GR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT105-1M"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT105-1ODM"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT105-1TA"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT105-1TAM"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT105-4"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT105-7"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT105-7M"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT105-7TIM"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT105M-1"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT105M-10"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT105M-10OD"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT105M-1TA"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT105M-4"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT105M-7"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT105M-7TI"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT110-10"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT115-1"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT115-1LE"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT115-2"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT115-7"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT115-8"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT115-9"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT116-1Z"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT116-7"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT117-1"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT117-7"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT117-8"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT117-9"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT153-1"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT153-10"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT153-10GR"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT153-10RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT153-10TA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT153-11"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT153-11APOD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT153-11OD"	0	1	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT153-1BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT153-1GR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT153-1OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT153-1RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT153-1T"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT153-1TA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT153-2"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT153-2T"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT153-4"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT153-4BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT153-4GR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT153-4RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT153-4TA"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT153-5"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT153-5TA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT153-7"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT153-7GR"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT153-7TA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT153-8"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT153-8BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT159-1"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT159-10"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT159-11"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT159-1BRT"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT159-1T"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT159-2"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT159-2T"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT159-4"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT159-5"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT159-7"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT159-8"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT160-11TA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT160-5GR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT160-5TA"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT161-1"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT161-10"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT161-11"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT161-1GR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT161-1GRT"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT161-1T"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT161-1TA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT161-2GRT"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT161-2T"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT161-4"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT161-4GR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT161-5"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT161-5TA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT161-7"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT161-7GR"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT162-10GR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT162-10TA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT162-1TA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT162-4GR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT162-5GR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT163-10"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT163-11"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT163-12"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT163-1BRT"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT163-4"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT163-5"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT164-10"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT164-1K"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT167-1"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT167-10C"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT167-11"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT167-1C"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT167-2"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT167-4"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT167-4C"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT167-5"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT167-7"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT167-8"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT167-APO"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT194-1"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT194-10"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT194-11"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT194-2"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT194-4"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT194-5"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT196-1"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT196-10"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT196-10AP"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT196-11"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT196-11AP"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT196-2"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT196-7"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT196-8"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT400-SS-BK"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT401-SS-BB"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT401-SS-BZ"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT401-SS-LG"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT401-SS-OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MT401-SS-RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MTA163-1"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MTA163-1Z"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MTA163-7Z"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MTA163-9Z"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MTCCLOSER-TIT"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MTCSTAR-CF"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MTCSTAR-G10"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"MTCSTAR-TIT"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"TFF2DTANANBRONZ"	0	3	244	"D"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"TFF4DTTUMTUM"	0	12	244	"D"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"TFK1DTGBLKFLM"	0	6	244	"D"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT106-1"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT106-10"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT106-10OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT106-10RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT106-12"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT106-1RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT106-1T"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT106-1TA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT106-2"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT106-4"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT106-4OD"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT106-4RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT106-5"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT106-5RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT106-6"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT106-6RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT113-1"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT113-10AP"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT113-10APTA"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT113-11AP"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT113-11APTA"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT113-1TA"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT113-2"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT113-2TA"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT113-4"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT113-4TA"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT113-5"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT113-5TA"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT114-1"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT114-10AP"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT114-10APTA"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT114-11AP"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT114-11APTA"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT114-12AP"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT114-12APTA"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT114-1TA"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT114-2"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT114-2TA"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT114-3"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT114-3TA"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT114-4"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT114-4TA"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT114-5"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT114-5TA"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT114-6"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT114-6TA"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT119-1"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT119-11"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT119-2"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT119-3"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT119-3T"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT119-4"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT119-4GR"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT119-5"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT119-6"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT119-7"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT119-8"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-1"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-10"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-10CF"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-10PU"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-11"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-11GY"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-11RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-1BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-1CF"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-1GC"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-1GY"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-1OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-1OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-1PU"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-1RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-1T"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-1TA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-1TAN"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-1TC"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-2"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-2CF"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-2GY"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-2OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-2PU"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-2T"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-2TAN"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-4"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-4BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-4CF"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-4OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-4OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-5"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-5BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-5OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-5TA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-7"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-7BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT120-8"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT121-1"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT121-10"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT121-10OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT121-11"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT121-11CF"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT121-1BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT121-1CF"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT121-1GC"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT121-1GY"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT121-1OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT121-1OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT121-1PU"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT121-1T"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT121-1TA"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT121-1TAN"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT121-1TC"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT121-1UC"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT121-2"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT121-2BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT121-2CF"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT121-2OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT121-2PU"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT121-2T"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT121-2TAN"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT121-4"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT121-4BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT121-4CF"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT121-4RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT121-5"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT121-5OD"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT121-5RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT121-7"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT121-7OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT121-7Z"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-1"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-10"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-10CF"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-10GY"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-10OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-10RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-11"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-11BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-11OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-12"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-12BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-12OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-12RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-1BL"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-1CF"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-1GC"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-1GY"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-1OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-1OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-1PU"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-1RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-1T"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-1TA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-1TC"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-1UC"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-1Z"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-2"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-2CF"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-2OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-2RD"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-2T"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-3"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-3CF"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-3RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-3Z"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-4"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-4BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-4OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-4OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-4RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-5"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-6RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-7"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-7Z"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-8"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-8Z"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT122-9"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-1"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-10"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-10BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-10GY"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-10OD"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-10PU"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-10RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-11"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-11GY"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-11RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-1BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-1CF"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-1GC"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-1GY"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-1OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-1OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-1PU"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-1T"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-1TA"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-1TAN"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-1TC"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-1UC"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-2"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-2BL"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-2CF"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-2GC"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-2GY"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-2OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-2OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-2PU"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-2T"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-2TA"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-2TC"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-2UC"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-2Z"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-3"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-4"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-4BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-4CF"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-4GY"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-4OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-4PU"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-4RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-4TA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-5"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-5BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-5CF"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-5OD"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-5RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-7"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-7Z"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT123-8Z"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT126-1"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT135-1"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT135-10"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT135-10BL"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT135-10TA"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT135-11BL"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT135-13OD"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT135-1BL"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT135-1OR"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT135-1RD"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT135-1T"	0	4	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT135-1TA"	0	16	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT135-2"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT135-2OD"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT135-2T"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT135-2TA"	0	6	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT135-4"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT135-4RD"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT135-7"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT135-8"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT136-1"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT136-1CM"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT136-4"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT136-4BL"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT137-4GR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT138-1"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT138-10"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT138-10OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT138-10OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT138-11"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT138-11GR"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT138-12"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT138-1OD"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT138-1RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT138-1T"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT138-2"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT138-2RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT138-2T"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT138-3"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT138-4"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT138-4BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT138-4OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT138-4RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT138-4TA"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT138-5"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT138-5GR"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT138-5RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT138-6"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT138-7"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT138-8"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT138-8RD"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT139-1"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT139-10"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT139-10OD"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT139-10OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT139-10RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT139-10TA"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT139-11"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT139-11AP"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT139-11OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT139-1OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT139-1OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT139-1RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT139-1T"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT139-1TAN"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT139-2"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT139-2OD"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT139-2RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT139-2T"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT139-4"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT139-4OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT139-4OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT139-4RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT139-4TQ"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT139-5"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT139-5OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT139-7"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT139-7OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT139-8"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT139-8OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT140-1"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT140-10OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT140-4"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT140-5"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-1"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-10"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-10PU"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-11"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-12"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-1GC"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-1OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-1OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-1PU"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-1RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-1T"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-1TA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-2"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-2OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-2PU"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-2T"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-3"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-3OD"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-3OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-3PU"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-3RD"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-3T"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-4"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-4OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-4OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-4PU"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-4RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-5"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-5OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-5PU"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-6"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-6PU"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-7"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-7PU"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-8"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT142-8PU"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT143-1"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT143-10"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT143-11"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT143-1GC"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT143-1OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT143-1OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT143-1T"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT143-1TAN"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT143-1TC"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT143-1UC"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT143-2"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT143-2T"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT143-2TAN"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT143-4"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT143-4BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT143-5"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT143-5PU"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT143-7"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT143-8"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT144-1"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT144-10"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT144-10OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT144-11OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT144-12OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT144-1OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT144-1OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT144-1T"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT144-1TC"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT144-2"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT144-2OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT144-2T"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT144-3"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT144-3PU"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT144-3T"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT144-4"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT144-4OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT144-4PU"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT144-4RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT144-5"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT144-7"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT144-7OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-1"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-10"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-10BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-10OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-10OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-10PU"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-10RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-10TA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-10TQ"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-11BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-11OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-11PU"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-11TA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-11TQ"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-1GC"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-1OR"	0	1	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-1RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-1T"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-1TC"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-1VI"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-2"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-2RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-2T"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-2TA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-2UC"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-3OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-3UC"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-3Z"	0	3	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-4"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-4BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-4OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-4OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-4RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-4TA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-4TQ"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-7"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-7OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-7OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-7RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-8"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT147-9TA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT148-1"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT148-10"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT148-10APOD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT148-10APTA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT148-10BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT148-10OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT148-10TA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT148-10TQ"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT148-11"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT148-1BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT148-1GC"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT148-1OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT148-1OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT148-1RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT148-1T"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT148-1TA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT148-1TC"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT148-1UC"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT148-1VI"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT148-2"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT148-2BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT148-2GC"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT148-2OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT148-2OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT148-2T"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT148-2TC"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT148-4"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT148-4Z"	0	1	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT148-7"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT148-8"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-1"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-10"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-10APOD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-10APTA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-10BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-10DT"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-10DTOD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-10OD"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-10OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-10PU"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-10RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-10TQ"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-11"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-11DT"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-11DTOD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-11PU"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-11TQ"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-12"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-1AP"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-1DTOD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-1DTZ"	0	0	360	"D"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-1GC"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-1PK"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-1T"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-1TC"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-1UC"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-1VI"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-2DT"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-2DTOD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-2DTZ"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-2GC"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-2PK"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-2RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-2T"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-2TA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-2TC"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-2TQ"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-2UC"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-2VI"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-3"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-3GC"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-3OD"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-3OR"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-3RD"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-3T"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-3TA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-3UC"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-3VI"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-3Z"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-4"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-4PK"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-5"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-5OR"	0	2	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-6"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-7"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-7DTOD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-7DTZ"	0	0	360	"D"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-7OD"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-7OR"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-8"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-8DTOD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-8DTZ"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-8OR"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-8RD"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT149-9"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT150-1"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT150-10"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT150-10OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT150-11OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT150-11OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT150-11RD"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT150-1BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT150-1GC"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT150-1OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT150-1OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT150-1RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT150-1T"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT150-1TA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT150-1TQ"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT150-2"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT150-2BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT150-2T"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT150-3"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT150-4"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT150-4RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT150-4TA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT150-5"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT150-5BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT150-7OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT150-7RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT150-8OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT150-9"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT150-9RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT151-1"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT151-10"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT151-10BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT151-10OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT151-10RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT151-11"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT151-11BL"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT151-11OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT151-1OR"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT151-1RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT151-1TC"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT151-2"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT151-4"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT151-4BL"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT151-4OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT151-4RD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT151-5"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT152-1"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT152-10"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT152-2"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT152-4"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT152-5"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT152-8"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT154-1"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT154-10"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT154-10AP"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT154-11"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT154-11AP"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT154-2"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT154-4"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT154-5"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT154-7"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT154-8"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT155-1"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT155-10"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT155-11"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT155-2"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT155-4"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT155-5"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT155-7"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT155-8"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT170-1"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT170-10"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT170-10GR"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT170-10ZG"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT170-11"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT170-12"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT170-1T"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT170-1ZG"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT170-2"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT170-4"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT170-4SI"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT170-4ZG"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT170-5"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT170-5SI"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT170-6"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT170-7ZG"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT173-1"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT173-10"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT173-10AP"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT173-11"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT173-11AP"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT173-2"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT173-7"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT173-8"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT175-10"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT175-1T"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT175-2"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT175-2T"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT175-3T"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT175-7"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT176-1"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT176-10"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT176-11"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT176-12"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT176-1T"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT176-2"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT176-2T"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT176-3"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT176-3T"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT176-4"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT176-5"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT176-6"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT176-7"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT176-8"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT176-9"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT178-1"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT178-10"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT178-10AP"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT178-11"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT178-11AP"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT178-2"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT178-4"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT178-5"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT179-1"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT179-10"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT179-11"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT179-12"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT179-2"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT179-3"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT179-4"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT179-5"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT179-6"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT179-7"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT179-8"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT179-9"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT180-1"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT180-10"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT180-10AP"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT180-10OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT180-11"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT180-11AP"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT180-12"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT180-1OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT180-1TA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT180-2"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT180-3"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT180-4"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT180-4OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT180-4TA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT180-5"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT180-5OD"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT180-5TA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT180-6"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT180-7"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT180-8"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT180-9"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT181-10"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT181-11"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT181-12"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT181-6"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT192-1"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT192-10"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT192-10AP"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT192-10OD"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT192-10ODAP"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT192-10TA"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT192-10TAAP"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT192-11"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT192-11AP"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT192-11OD"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT192-11ODAP"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT192-11TA"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT192-11TAAP"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT192-1OD"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT192-1TA"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT192-2"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT192-2OD"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT192-2TA"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT192-7"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT192-7OD"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT192-7TA"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT192-8"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT192-8OD"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT192-8TA"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT231-1"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT231-11"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT231-1T"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT231-2T"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT231-4"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT231-5"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT231-7"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT231-8"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT232-1"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT232-10"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT232-11"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT232-2"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT232-4"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT232-5"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT232-7"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT232-8"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT233-1"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT233-10"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT233-11"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT233-2"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT233-4"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT233-5"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT233-7"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT233-8"	0	0	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT249-10"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT249-10TA"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT249-1Z"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MT249-2PU"	0	1	360	"P"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MTCHALO4-SW"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MTELEMENTBK"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MTELEMENTDIST"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MTHALOSEDV"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,"X-MTHALOTEDV"	0	0	360	"S"
+	-1071607673	123	Conversion failed because the data value overflowed the type used by the flat file source adapter.
+,
