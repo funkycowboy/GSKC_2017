@@ -10,9 +10,9 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var router_1 = require('@angular/router');
-var contact_component_1 = require('./Content/contact.component');
-var home_component_1 = require('./Content/home.component');
-var support_component_1 = require('./Content/support.component');
+var contact_component_1 = require('./Content/contact/contact.component');
+var home_component_1 = require('./Content/home/home.component');
+var support_component_1 = require('./Content/support/support.component');
 var appRoutes = [
     { path: 'home',
         component: home_component_1.HomeComponent

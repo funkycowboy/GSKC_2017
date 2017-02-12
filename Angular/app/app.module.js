@@ -21,15 +21,15 @@ var ng2_bootstrap_1 = require('ng2-bootstrap');
 var safeHtml_pipe_1 = require('./Pipes/safeHtml.pipe');
 //Application specific components
 var app_component_1 = require('./app.component');
-var contact_component_1 = require('./Content/contact.component');
+var contact_component_1 = require('./Content/contact/contact.component');
 var public_header_component_1 = require('./Headers/public-header.component');
 var public_layout_component_1 = require('./Layouts/public-layout.component');
 var public_footer_component_1 = require('./Footers/public-footer.component');
 var product_search_component_1 = require('./ProductSearch/product-search-component');
-var home_component_1 = require('./Content/home.component');
-var home_carousel_component_1 = require('./Content/home-carousel.component');
-var calendar_component_1 = require('./Content/calendar.component');
-var support_component_1 = require('./Content/support.component');
+var home_component_1 = require('./Content/home/home.component');
+var home_carousel_component_1 = require('./Content/home-carousel/home-carousel.component');
+var calendar_component_1 = require('./Content/calendar/calendar.component');
+var support_component_1 = require('./Content/support/support.component');
 //Services
 var product_service_1 = require('./Services/product.service');
 var slideshow_service_1 = require('./Services/slideshow.service');

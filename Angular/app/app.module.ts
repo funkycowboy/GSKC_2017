@@ -15,15 +15,15 @@ import {SafeHtmlPipe} from './Pipes/safeHtml.pipe'
 
 //Application specific components
 import {AppComponent} from './app.component'
-import {ContactComponent} from './Content/contact.component'
+import {ContactComponent} from './Content/contact/contact.component'
 import {PublicHeaderComponent} from './Headers/public-header.component'
 import {PublicLayoutComponent} from './Layouts/public-layout.component'
 import {PublicFooterComponent} from './Footers/public-footer.component'
 import {ProductSearchComponent} from './ProductSearch/product-search-component'
-import {HomeComponent} from './Content/home.component'
-import {HomeCarouselComponent} from './Content/home-carousel.component'
-import {CalendarComponent} from './Content/calendar.component'
-import {SupportComponent} from './Content/support.component'
+import {HomeComponent} from './Content/home/home.component'
+import {HomeCarouselComponent} from './Content/home-carousel/home-carousel.component'
+import {CalendarComponent} from './Content/calendar/calendar.component'
+import {SupportComponent} from './Content/support/support.component'
 
 //Services
 import {ProductService} from './Services/product.service'

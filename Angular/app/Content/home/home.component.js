@@ -9,8 +9,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var product_service_1 = require('../Services/product.service');
-var slideshow_service_1 = require('../Services/slideshow.service');
+var product_service_1 = require('../../Services/product.service');
+var slideshow_service_1 = require('../../Services/slideshow.service');
 var HomeComponent = (function () {
     function HomeComponent(productService, slideshowService) {
         this.productService = productService;

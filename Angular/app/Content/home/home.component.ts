@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
-import {ProductService} from '../Services/product.service'
-import {SlideshowService} from '../Services/slideshow.service'
+import {ProductService} from '../../Services/product.service'
+import {SlideshowService} from '../../Services/slideshow.service'
 
-import {Product} from '../Models/product'
-import {Image} from '../Models/file.image'
+import {Product} from '../../Models/product'
+import {Image} from '../../Models/file.image'
 
 @Component({
     moduleId: module.id,

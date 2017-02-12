@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import {GoogleCalendarService} from '../Services/google-calendar.service'
+import {GoogleCalendarService} from '../../Services/google-calendar.service'
 
-import {Event} from '../Models/event';
+import {Event} from '../../Models/event';
 
 
 declare var $: any;

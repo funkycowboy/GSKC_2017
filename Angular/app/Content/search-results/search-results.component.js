@@ -9,18 +9,19 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var DemoCarouselComponent = (function () {
-    function DemoCarouselComponent() {
+var SearchResultsComponent = (function () {
+    function SearchResultsComponent() {
     }
-    DemoCarouselComponent = __decorate([
+    SearchResultsComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
-            selector: 'demo-carousel',
-            templateUrl: 'demo-carousel.component.html'
+            selector: 'search-results',
+            templateUrl: 'search-results.component.html',
+            styleUrls: ['search-results.component.css']
         }), 
         __metadata('design:paramtypes', [])
-    ], DemoCarouselComponent);
-    return DemoCarouselComponent;
+    ], SearchResultsComponent);
+    return SearchResultsComponent;
 }());
-exports.DemoCarouselComponent = DemoCarouselComponent;
-//# sourceMappingURL=demo-carousel.component.js.map
+exports.SearchResultsComponent = SearchResultsComponent;
+//# sourceMappingURL=search-results.component.js.map
