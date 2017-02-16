@@ -14,8 +14,8 @@
   DTS:LocaleID="1033"
   DTS:MaxErrorCount="0"
   DTS:ObjectName="MIP"
-  DTS:VersionBuild="825"
-  DTS:VersionGUID="{A20B0C18-EC76-4646-9700-B35F9D1EFE32}">
+  DTS:VersionBuild="833"
+  DTS:VersionGUID="{A4906A16-DF3C-41F5-B943-8D0F8C202720}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">6</DTS:Property>
   <DTS:ConnectionManagers>
@@ -27,7 +27,7 @@
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:FileUsageType="2"
-          DTS:ConnectionString="C:\Users\funkycowboy\GSKC Business\Moteng Inventory Import\New Process\FTP\DataFiles" />
+          DTS:ConnectionString="C:\Users\funkycowboy\Documents\GitHub\GSKC_2017\Moteng Inventory Import\New Process\FTP\DataFiles" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -51,7 +51,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAGrqX+Pq5SEWG/Z2U6tcRiQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACA4JM8fM6CW6MVREgY2FB2gm+eQ8U2Xwab5IqMc36r1AAAAAAOgAAAAAIAACAAAACK21b4fPY3TGd0jDe8390HvbUwMKBicHWhmoY+NyOKmyAAAACiTUVBejOk+IsOXhMhQOMgQZ0r/M36phToz/FxVi19ukAAAACinpuZcuv08RssdYw3DVan7xR7URg4sl/FZabqw4nvBU45fw5Za+31sJwlhWQb4YbriYrixjc2S9KWS9uIttTM</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAGrqX+Pq5SEWG/Z2U6tcRiQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAQOoAs55fq7oUjghwUBaJ2ZAkGpSGAmQHwjODGSiHUJAAAAAAOgAAAAAIAACAAAACWh9GClwxrc3o0Qt7WGNAQz0ZqpfZ/f1I1DbHYJgIh5yAAAACi2dVDwSjWbTPMZ7N3n+VtBsXaU/k4bxwwdouwJ+47wkAAAADX7k1oWj20iFAyBzCqegrpwAsW3Xou/9W991TnqCnd7Uo8eXbdsZoWQBhqMJ5JVbvq/oeEDzYawWT2Mv0oNmRA</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -68,7 +68,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\funkycowboy\GSKC Business\Moteng Inventory Import\New Process\KickoutFiles\Kickout_DBImport_BulletFile_2016823_2042.txt">
+          DTS:ConnectionString="C:\Users\funkycowboy\Documents\GitHub\GSKC_2017\Moteng Inventory Import\New Process\KickoutFiles\Kickout_DBImport_BulletFile_2016823_2042.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -77,7 +77,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="SKU"
-              DTS:DTSID="{85DB2C44-5EB7-4599-8EB0-333A8D8587D4}"
+              DTS:DTSID="{06C9D63B-84AC-4C0A-ABAA-CA33DFBA857D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -86,7 +86,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="PRICE"
-              DTS:DTSID="{08B62C84-F73F-437F-8200-F4AE01B20266}"
+              DTS:DTSID="{CFF61397-1E7C-40F6-8F95-5C44FCCA9460}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -94,7 +94,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorCode"
-              DTS:DTSID="{67469113-3996-4D7E-A23B-1B1CE1F15F38}"
+              DTS:DTSID="{6869623F-3C70-468B-8D84-2A95D48EE5BC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -102,7 +102,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorColumn"
-              DTS:DTSID="{E9CB2F7B-9563-469B-B9A5-99E61D853D28}"
+              DTS:DTSID="{407D309A-2A2D-4876-B5F5-CA56C5AD2B3C}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -124,7 +124,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\\Users\\funkycowboy\\GSKC Business\\Moteng Inventory Import\\New Process\\KickoutFiles\\Kickout_FileImport_pricing_2017210_07.txt">
+          DTS:ConnectionString="C:\\Users\\funkycowboy\\Documents\\GitHub\\GSKC_2017\\Moteng Inventory Import\\New Process\\KickoutFiles\\Kickout_FileImport_pricing_2017215_2323.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -169,7 +169,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\\Users\\funkycowboy\\GSKC Business\\Moteng Inventory Import\\New Process\\KickoutFiles\\Kickout_DBImport_products_2017210_07.txt">
+          DTS:ConnectionString="C:\\Users\\funkycowboy\\Documents\\GitHub\\GSKC_2017\\Moteng Inventory Import\\New Process\\KickoutFiles\\Kickout_DBImport_products_2017215_2323.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -178,7 +178,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="SKU"
-              DTS:DTSID="{49A7AD05-5F20-40D3-B8E0-B5322A3A6546}"
+              DTS:DTSID="{70B91BD4-13AB-4E5D-B001-B740063F2EC7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -187,7 +187,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Description"
-              DTS:DTSID="{813BC320-A324-42D1-B158-46DF750A5289}"
+              DTS:DTSID="{4E72C53A-DC56-45B5-B806-7F83B274521A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -195,7 +195,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="Date Created"
-              DTS:DTSID="{C79B26D4-8734-478A-9BFE-763CB97B8961}"
+              DTS:DTSID="{6155B443-7FAE-4CE1-B6F9-5506CCB2B063}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -204,7 +204,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DimensionH"
-              DTS:DTSID="{6C9854AF-A3A5-4245-A084-6656AC6C8395}"
+              DTS:DTSID="{EDBDC09C-D3BF-488E-B408-86FE034527F1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -213,7 +213,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DimensionL"
-              DTS:DTSID="{26B3F60F-8102-48AB-9AB5-ECB4566EAA67}"
+              DTS:DTSID="{3AD404BF-9499-468E-B0EB-4E05E1E31432}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -222,7 +222,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DimensionW"
-              DTS:DTSID="{B0528E16-DBFF-47A5-9352-1ECC68645069}"
+              DTS:DTSID="{4BF631D3-DB64-4C73-96B7-47AD7433CBEB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -231,7 +231,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Manufacturer"
-              DTS:DTSID="{50D012FE-E061-4804-AD5D-862B4030A4D9}"
+              DTS:DTSID="{964DFC56-D6AC-48AF-BF74-1C270D2183A5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -240,7 +240,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Image URL"
-              DTS:DTSID="{D6E68EB1-69FF-4C74-9D62-50E0CA252507}"
+              DTS:DTSID="{BD285A9F-47AC-4C9C-881B-A183B31B3AA1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -249,7 +249,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Thumbnail URL"
-              DTS:DTSID="{F0F1274A-A094-444E-BC33-CDEC002D8E33}"
+              DTS:DTSID="{83FA4D75-E913-4016-B87D-53381CD2E92A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -258,7 +258,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="UPC Code"
-              DTS:DTSID="{8DB5F2E9-1845-477D-B0D7-06C1876EDF49}"
+              DTS:DTSID="{2F55114C-66F0-4CBB-8FFC-C819BEA3C1E1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -266,7 +266,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="Weight"
-              DTS:DTSID="{1886C5DF-9CF3-4C73-80FF-5C40CEC59D25}"
+              DTS:DTSID="{29A15F93-349D-446B-A9B5-F12B42449070}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -275,7 +275,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Weight Units"
-              DTS:DTSID="{A7EE0675-DEBF-4F5D-BB0C-5408882D14C2}"
+              DTS:DTSID="{312DD265-3070-4F0B-BFC7-679CFB5F1596}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -284,7 +284,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Class   Category"
-              DTS:DTSID="{7F52EFFB-C974-431D-AEB1-6EA35171AD44}"
+              DTS:DTSID="{3E103502-EBA1-4B08-B0CE-0878BCA5EFA7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -293,7 +293,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Active Item"
-              DTS:DTSID="{4FE50C63-E70C-4872-A753-3626866B0A73}"
+              DTS:DTSID="{C6848903-4359-41B2-867B-728677C39B4D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -301,7 +301,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="MAP"
-              DTS:DTSID="{487E35EA-9276-41D8-BB46-6413572C423C}"
+              DTS:DTSID="{221CDD24-604F-43E3-AD3B-F7AEDC46BC30}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -309,7 +309,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="MSRP"
-              DTS:DTSID="{DDB8717E-809B-46D5-9162-F47656F7055D}"
+              DTS:DTSID="{7C7BC0D9-CB5A-4CD1-BE7E-E9B931D74137}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -318,7 +318,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="MPN"
-              DTS:DTSID="{87F1E1B6-9385-4EAD-9A21-613CC022132A}"
+              DTS:DTSID="{D90AF728-5754-4BF0-9997-25BEE2C16901}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -327,7 +327,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Detailed Description"
-              DTS:DTSID="{A54C3504-ECC1-4279-80F5-388F2C3B6898}"
+              DTS:DTSID="{55ED2F1E-7464-480F-943B-836E970C95B0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -335,7 +335,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="Shipping Weight"
-              DTS:DTSID="{0DC1A8B7-69CE-486A-ABEF-8C65C0A56219}"
+              DTS:DTSID="{6F011118-632F-4853-9D69-721F5921DEA3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -343,7 +343,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="Shipping Length"
-              DTS:DTSID="{7234457C-26DF-4FF3-BE4E-21821782C739}"
+              DTS:DTSID="{018E9D39-8582-4AE3-96C4-9324D83A791A}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -351,7 +351,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="Shipping Width"
-              DTS:DTSID="{165EB2A8-F165-4D9A-A637-7D3007B4173F}"
+              DTS:DTSID="{9CCFDDF6-FE25-41C5-AF1A-2D7B239B2312}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -359,7 +359,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="Shipping Height"
-              DTS:DTSID="{2ADD3425-543E-407D-83F0-098AF97C4528}"
+              DTS:DTSID="{DED42BB5-9C26-45D6-87D0-763EC8BEEB3E}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -367,7 +367,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorCode"
-              DTS:DTSID="{9E4399E0-D14C-42F4-99DB-2EFBB8E51382}"
+              DTS:DTSID="{B084DD6D-0062-4258-A2E8-03AC1BE38985}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -375,7 +375,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorColumn"
-              DTS:DTSID="{BC84DD16-D334-4132-9761-FBE11ADCA54E}"
+              DTS:DTSID="{918379ED-1E86-4D90-BF45-B50C3A77FE64}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -397,7 +397,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\\Users\\funkycowboy\\GSKC Business\\Moteng Inventory Import\\New Process\\KickoutFiles\\Kickout_FileImport_products_2017210_07.txt">
+          DTS:ConnectionString="C:\\Users\\funkycowboy\\Documents\\GitHub\\GSKC_2017\\Moteng Inventory Import\\New Process\\KickoutFiles\\Kickout_FileImport_products_2017215_2323.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -405,7 +405,7 @@
               DTS:DataType="302"
               DTS:TextQualified="True"
               DTS:ObjectName="Flat File Source Error Output Column"
-              DTS:DTSID="{94CD8ED5-C71B-406B-9B2F-B0EBEA8BA649}"
+              DTS:DTSID="{1CE6DEF6-A8B5-4180-B40D-77272FA704B5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -413,7 +413,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorCode"
-              DTS:DTSID="{E840C39C-6B2A-4BC5-BD35-54A8F35ACEBF}"
+              DTS:DTSID="{0C1714B7-96C9-4ABC-B7C8-80B76C3ACF93}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -421,7 +421,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorColumn"
-              DTS:DTSID="{E5544EF7-8AFD-42A6-B2A5-81E47079DE5F}"
+              DTS:DTSID="{43775A4D-9E49-437A-95E2-620B3D23A3FD}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -443,7 +443,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\\Users\\funkycowboy\\GSKC Business\\Moteng Inventory Import\\New Process\\KickoutFiles\\Kickout_DBImport_ss-inv_2017210_07.txt">
+          DTS:ConnectionString="C:\\Users\\funkycowboy\\Documents\\GitHub\\GSKC_2017\\Moteng Inventory Import\\New Process\\KickoutFiles\\Kickout_DBImport_ss-inv_2017215_2323.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -452,7 +452,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="SKU"
-              DTS:DTSID="{6361F105-E959-4846-BF34-237FD2AA1C23}"
+              DTS:DTSID="{3C8B131E-DD3A-4F59-8A78-606BDD099AE0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -461,7 +461,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="QTY"
-              DTS:DTSID="{BD169D91-DBAC-4E74-865E-067717160EBF}"
+              DTS:DTSID="{79CE8EFC-6F9D-4EE3-8FAE-E535E688773F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -469,7 +469,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorCode"
-              DTS:DTSID="{94161FF0-AB08-4720-8B93-C28CB559DB68}"
+              DTS:DTSID="{3D1106FB-B184-46C5-84A6-272A97B0A8F0}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -477,7 +477,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorColumn"
-              DTS:DTSID="{0F9C3402-DC0D-4751-BCDD-6E198213885B}"
+              DTS:DTSID="{28EA33F3-E4AA-4EEF-85CB-CAA06B33CCDD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -486,7 +486,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="PRICE"
-              DTS:DTSID="{EF87F790-AEDB-489D-A12C-B48C2B73F83A}"
+              DTS:DTSID="{FCA4830B-06D6-4617-9E0C-71ED69BC20F0}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -508,7 +508,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\\Users\\funkycowboy\\GSKC Business\\Moteng Inventory Import\\New Process\\KickoutFiles\\Kickout_FileImport_ss-inv_2017210_07.txt">
+          DTS:ConnectionString="C:\\Users\\funkycowboy\\Documents\\GitHub\\GSKC_2017\\Moteng Inventory Import\\New Process\\KickoutFiles\\Kickout_FileImport_ss-inv_2017215_2323.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -516,7 +516,7 @@
               DTS:DataType="302"
               DTS:TextQualified="True"
               DTS:ObjectName="Flat File Source Error Output Column"
-              DTS:DTSID="{1764FD87-BF49-42A2-A4BA-2D51321A4659}"
+              DTS:DTSID="{FEF01496-7A28-42F2-A90F-695488FF800C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -524,7 +524,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorCode"
-              DTS:DTSID="{8CA45006-E0FB-4D6B-9208-0DE57A1167DD}"
+              DTS:DTSID="{90E4E339-ACF4-4F7F-9BE1-489DCBCD5185}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -532,7 +532,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ErrorColumn"
-              DTS:DTSID="{572CF30D-AB9B-4845-AEF0-3783D1180AC6}"
+              DTS:DTSID="{F1125685-FAA9-4962-91CF-EBDE6884EF69}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -554,7 +554,7 @@
             <DTS:Property
               DTS:Name="ServerPassword"
               Sensitive="1"
-              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAGrqX+Pq5SEWG/Z2U6tcRiQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACZX5LoSr8KjfiHpnZbbuWYrdkzG10UQFrmpKO5U6kIdgAAAAAOgAAAAAIAACAAAAAfinHPS33F/p2ZSAxu7JJNbBugLwn8tWpjvWC/hph86iAAAAA21n7ElbJcYPVO2+XU87Go7hc3bjA0tLnkHdg1EmmcTEAAAAClTuva7Q7A9Wj1J6qplNnYj3oAYMp1+fhds8DDR7l0QV0hfU91D7RtsQ+3IJ//CbTgeEYyUYLybaX5+0fz8HJK</DTS:Property>
+              Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAGrqX+Pq5SEWG/Z2U6tcRiQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB5iIi8A3Rt51xt/etcaHKRMW7nSeVrIOW+BYjJ9aboLwAAAAAOgAAAAAIAACAAAAAmW/I3C13U/ogfwK4BK0ddFmTinnfXSDxYAGhYiUfT7yAAAAAlgzC4IX0LqcdQgB633fA4BeQBtoHPeLUuRyBT+WxhgkAAAAAy6G269kPU2PmewpBqKnZ40reYrQ3N4SI10IVJZZh90WawO1VeQa1bd6Xn/1Mtzh97M9IihgoMClLt2dpqYxSC</DTS:Property>
           </DTS:FtpConnection>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
@@ -593,7 +593,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\funkycowboy\GSKC Business\Moteng Inventory Import\New Process\FTP\DataFiles\Pricing.csv">
+          DTS:ConnectionString="C:\Users\funkycowboy\Documents\GitHub\GSKC_2017\Moteng Inventory Import\New Process\FTP\DataFiles\Pricing.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -602,7 +602,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="SKU"
-              DTS:DTSID="{B8BA85B7-5010-498B-B1BD-EF3B32BEE4F5}"
+              DTS:DTSID="{2B7E9472-41CB-4182-BF96-86C2B05BC63C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -611,7 +611,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="PRICE"
-              DTS:DTSID="{38835D73-5163-4D7E-A922-BF3BD76C4101}"
+              DTS:DTSID="{4F3C73DB-2F64-4799-ABB5-F62D813A41C5}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -631,7 +631,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\funkycowboy\GSKC Business\Moteng Inventory Import\New Process\FTP\DataFiles\products.csv">
+          DTS:ConnectionString="C:\Users\funkycowboy\Documents\GitHub\GSKC_2017\Moteng Inventory Import\New Process\FTP\DataFiles\products.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -640,7 +640,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="SKU"
-              DTS:DTSID="{5680E32A-F5BB-4583-8DC1-643B0ECD0DD6}"
+              DTS:DTSID="{D12B18E8-7B8C-4F94-9D2C-091BD126E324}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -649,7 +649,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Description"
-              DTS:DTSID="{DAB2593F-01C1-4F2E-8F57-58B82818501A}"
+              DTS:DTSID="{B454BC2F-FCB4-4FF7-9BEB-469F008818EE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -657,7 +657,7 @@
               DTS:DataType="7"
               DTS:TextQualified="True"
               DTS:ObjectName="Date Created"
-              DTS:DTSID="{84ACB51B-0A42-45D8-A9C0-262FE05CF45D}"
+              DTS:DTSID="{4F91FFF4-2D34-4DB4-A568-F4D4EC79E0E3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -666,7 +666,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DimensionH"
-              DTS:DTSID="{D88F7516-3C30-4643-8CE4-F9DBA24CF3A1}"
+              DTS:DTSID="{E070FF4C-1CB8-4189-AD48-9B496A17E53C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -675,7 +675,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DimensionL"
-              DTS:DTSID="{111263AF-BE11-4355-A48E-F49D7B195163}"
+              DTS:DTSID="{86B0E769-C086-4E90-ABA0-58B7E97652AD}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -684,7 +684,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="DimensionW"
-              DTS:DTSID="{DBC4C7C5-B872-472D-8D98-D80DB1A5BD8C}"
+              DTS:DTSID="{3C7B20AF-7C1E-44C2-8828-50C575E35902}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -693,7 +693,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Manufacturer"
-              DTS:DTSID="{F7F166A5-6765-4FF0-8FA4-54148F5C656E}"
+              DTS:DTSID="{F983ED98-A0B7-4BE3-B2B4-602A451A0673}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -702,7 +702,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Image URL"
-              DTS:DTSID="{9C264774-35EA-4CC2-9181-494BA13CA002}"
+              DTS:DTSID="{FAC43221-EC20-4F99-A1D9-6078CBF86AC7}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -711,7 +711,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Thumbnail URL"
-              DTS:DTSID="{222AE24C-A0CE-4FBD-86FD-D0D74DE7DD4C}"
+              DTS:DTSID="{805DF2E9-3614-4D31-88F0-D5B4D5B542CA}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -720,7 +720,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="UPC Code"
-              DTS:DTSID="{B17EE7DB-3D9B-4D94-B5D3-32D66D98B7B2}"
+              DTS:DTSID="{73C818DC-1719-4810-B2D7-A9CF94954075}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -728,7 +728,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="Weight"
-              DTS:DTSID="{23DDB16E-229A-43C9-979A-740A08AE76F4}"
+              DTS:DTSID="{7EA22017-7556-43B3-89BA-C2C16F00048C}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -737,7 +737,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Weight Units"
-              DTS:DTSID="{D79E846F-4FA1-4260-913D-0675EE334146}"
+              DTS:DTSID="{19B339B6-6B47-46CC-99CB-957568D0F0D3}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -746,7 +746,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Class   Category"
-              DTS:DTSID="{04CAD76B-6A36-4A56-99F1-82D09841CFD5}"
+              DTS:DTSID="{F8A6197C-6FB3-4BA2-83DC-D41F403447D9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -755,7 +755,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Active Item"
-              DTS:DTSID="{2547FD1F-0DB5-4533-8307-F75EF6D60502}"
+              DTS:DTSID="{273B353D-073E-4F6A-9C23-199D84AF56FB}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -763,7 +763,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="MAP"
-              DTS:DTSID="{76B77B2B-0F4C-4FAE-9D0C-40337F2031B3}"
+              DTS:DTSID="{9CF7565E-26BB-4DD0-A031-4B26AB76E9BC}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -771,7 +771,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="MSRP"
-              DTS:DTSID="{19D1E555-144B-48EE-B313-2E2D7130C456}"
+              DTS:DTSID="{209CDE09-5661-4A49-95FC-A9080241038D}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -780,7 +780,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="MPN"
-              DTS:DTSID="{D7356C3B-6AD6-43C7-A5BF-42CF2B0E2FCD}"
+              DTS:DTSID="{E4BF1845-93E2-4CA9-857B-7EB69EDC881F}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -789,7 +789,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="Detailed Description"
-              DTS:DTSID="{5AB948D0-434C-491D-BB35-08A9CCD2F363}"
+              DTS:DTSID="{5C424254-5BB7-456B-A760-82C6F74997DE}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -797,7 +797,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="Shipping Weight"
-              DTS:DTSID="{2E889702-ABF5-42ED-A1B6-F034E9DBB413}"
+              DTS:DTSID="{4527E09E-A758-4EA5-B9DF-ED1E8C7F9D96}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -805,7 +805,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="Shipping Length"
-              DTS:DTSID="{3C47C18F-3C88-4551-BEAF-20C46499E8A2}"
+              DTS:DTSID="{F2DC73FC-138B-4E73-9131-5FA520E9A2A5}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -813,7 +813,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="Shipping Width"
-              DTS:DTSID="{2F1AE964-C5E4-47B9-A222-52FF4DB1E398}"
+              DTS:DTSID="{EC3D76CC-D1E1-409C-9EA0-11F02366F871}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -821,7 +821,7 @@
               DTS:DataType="4"
               DTS:TextQualified="True"
               DTS:ObjectName="Shipping Height"
-              DTS:DTSID="{C50BA85F-A6F5-4D23-A38F-0503DBF0CEEC}"
+              DTS:DTSID="{598BBDC9-7152-401A-A5ED-0B98E7BA2B65}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -841,7 +841,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\funkycowboy\GSKC Business\Moteng Inventory Import\New Process\FTP\DataFiles\ssi-inv.csv">
+          DTS:ConnectionString="C:\Users\funkycowboy\Documents\GitHub\GSKC_2017\Moteng Inventory Import\New Process\FTP\DataFiles\ssi-inv.csv">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -850,7 +850,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="SKU"
-              DTS:DTSID="{200FB58D-BB60-498F-BD60-2D4F9C976896}"
+              DTS:DTSID="{87EBFF2B-06B0-4F92-9D61-9C4ECFEA203B}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -859,7 +859,7 @@
               DTS:DataType="129"
               DTS:TextQualified="True"
               DTS:ObjectName="QTY"
-              DTS:DTSID="{2FB7832C-2E6F-4A2B-9CAC-AC3718E28090}"
+              DTS:DTSID="{8A57EDB1-AC9A-4856-B3F8-B472AE70C570}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -886,7 +886,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="sEmailAttachment_Kickout_DBImport_pricing">
       <DTS:VariableValue
-        DTS:DataType="8">C:\\Users\\funkycowboy\\GSKC Business\\Moteng Inventory Import\\New Process\\KickoutFiles\\Kickout_DBImport_pricing_2017210_07.txt</DTS:VariableValue>
+        DTS:DataType="8">C:\\Users\\funkycowboy\\Documents\\GitHub\\GSKC_2017\\Moteng Inventory Import\\New Process\\KickoutFiles\\Kickout_DBImport_pricing_2017215_2323.txt</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -897,7 +897,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="sEmailAttachment_Kickout_DBImport_products">
       <DTS:VariableValue
-        DTS:DataType="8">C:\\Users\\funkycowboy\\GSKC Business\\Moteng Inventory Import\\New Process\\KickoutFiles\\Kickout_DBImport_products_2017210_07.txt</DTS:VariableValue>
+        DTS:DataType="8">C:\\Users\\funkycowboy\\Documents\\GitHub\\GSKC_2017\\Moteng Inventory Import\\New Process\\KickoutFiles\\Kickout_DBImport_products_2017215_2323.txt</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -908,7 +908,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="sEmailAttachment_Kickout_DBImport_ss_inv">
       <DTS:VariableValue
-        DTS:DataType="8">C:\\Users\\funkycowboy\\GSKC Business\\Moteng Inventory Import\\New Process\\KickoutFiles\\Kickout_DBImport_ss-inv_2017210_07.txt</DTS:VariableValue>
+        DTS:DataType="8">C:\\Users\\funkycowboy\\Documents\\GitHub\\GSKC_2017\\Moteng Inventory Import\\New Process\\KickoutFiles\\Kickout_DBImport_ss-inv_2017215_2323.txt</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -919,7 +919,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="sEmailAttachment_Kickout_FileImport_pricing">
       <DTS:VariableValue
-        DTS:DataType="8">C:\\Users\\funkycowboy\\GSKC Business\\Moteng Inventory Import\\New Process\\KickoutFiles\\Kickout_FileImport_pricing_2017210_07.txt</DTS:VariableValue>
+        DTS:DataType="8">C:\\Users\\funkycowboy\\Documents\\GitHub\\GSKC_2017\\Moteng Inventory Import\\New Process\\KickoutFiles\\Kickout_FileImport_pricing_2017215_2323.txt</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -930,7 +930,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="sEmailAttachment_Kickout_FileImport_products">
       <DTS:VariableValue
-        DTS:DataType="8">C:\\Users\\funkycowboy\\GSKC Business\\Moteng Inventory Import\\New Process\\KickoutFiles\\Kickout_FileImport_products_2017210_07.txt</DTS:VariableValue>
+        DTS:DataType="8">C:\\Users\\funkycowboy\\Documents\\GitHub\\GSKC_2017\\Moteng Inventory Import\\New Process\\KickoutFiles\\Kickout_FileImport_products_2017215_2323.txt</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -941,7 +941,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="sEmailAttachment_Kickout_FileImport_ss_inv">
       <DTS:VariableValue
-        DTS:DataType="8">C:\\Users\\funkycowboy\\GSKC Business\\Moteng Inventory Import\\New Process\\KickoutFiles\\Kickout_FileImport_ss-inv_2017210_07.txt</DTS:VariableValue>
+        DTS:DataType="8">C:\\Users\\funkycowboy\\Documents\\GitHub\\GSKC_2017\\Moteng Inventory Import\\New Process\\KickoutFiles\\Kickout_FileImport_ss-inv_2017215_2323.txt</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -1022,7 +1022,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="sKickoutFilePath">
       <DTS:VariableValue
-        DTS:DataType="8">C:\\Users\\funkycowboy\\GSKC Business\\Moteng Inventory Import\\New Process\\KickoutFiles\\Kickout_</DTS:VariableValue>
+        DTS:DataType="8">C:\\Users\\funkycowboy\\Documents\\GitHub\\GSKC_2017\\Moteng Inventory Import\\New Process\\KickoutFiles\\Kickout_</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -1033,7 +1033,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="sKickoutFileSuffix">
       <DTS:VariableValue
-        DTS:DataType="8">_2017210_07.txt</DTS:VariableValue>
+        DTS:DataType="8">_2017215_2323.txt</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -10868,35 +10868,14 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA]]></arrayElement>
           Language="CSharp"
           ReadOnlyVariables="User::sEmailAttachment,User::sEmailBody,User::sEmailSubject,System::TaskID,User::sEmailPassword,User::sEmailPort,User::sEmailSendCC,User::sEmailSendFrom,User::sEmailSendFromName,User::sEmailSendTo,User::sEmailServer,User::sEmailUser">
           <ProjectItem
-            Name="Properties\AssemblyInfo.cs"
-            Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_2aa46bc076ea41acbf84c85d2719ecab.csproj")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("ST_2aa46bc076ea41acbf84c85d2719ecab.csproj")]
-[assembly: AssemblyCopyright("Copyright @ Microsoft 2012")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+            Name="Properties\Settings.settings"
+            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.resx"
             Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -11016,39 +10995,6 @@ using System.Runtime.CompilerServices;
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 </root>]]></ProjectItem>
-          <ProjectItem
-            Name="Properties\Settings.Designer.cs"
-            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
-// <auto-generated>
-//     This code was generated by a tool.
-//
-//     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is regenerated.
-// </auto-generated>
-//------------------------------------------------------------------------------
-
-[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope = "member", Target = "ST_2aa46bc076ea41acbf84c85d2719ecab.csproj.Properties.Settings.get_Default():ST_2aa46bc076ea41acbf84c85d2719ecab.csproj.Properties.Sett" +
-    "ings")]
-
-namespace ST_2aa46bc076ea41acbf84c85d2719ecab.csproj.Properties
-{
-
-
-    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase
-    {
-
-        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-        private static Settings defaultInstance = new Settings();
-
-        public static Settings Default
-        {
-            get
-            {
-                return defaultInstance;
-            }
-        }
-    }
-}]]></ProjectItem>
           <ProjectItem
             Name="ScriptMain.cs"
             Encoding="UTF8"><![CDATA[/*
@@ -11206,27 +11152,6 @@ namespace ST_2aa46bc076ea41acbf84c85d2719ecab.csproj
     }
 }]]></ProjectItem>
           <ProjectItem
-            Name="Project"
-            Encoding="UTF16LE"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
-<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
-	<msb:PropertyGroup>
-		<msb:ProjectId>{BA4C160A-E1C3-40AA-9BBD-A27F1A8065C4}</msb:ProjectId>
-		<msb:NoContent>Reference;Import;Folder</msb:NoContent>
-		<msb:Language>msBuild</msb:Language>
-		<msb:DisplayName>st_2aa46bc076ea41acbf84c85d2719ecab</msb:DisplayName>
-		<msb:CodeName>st_2aa46bc076ea41acbf84c85d2719ecab</msb:CodeName>
-	</msb:PropertyGroup>
-	<msb:ItemGroup>
-		<msb:File Include="Properties\AssemblyInfo.cs"/>
-		<msb:File Include="Properties\Resources.resx"/>
-		<msb:File Include="Properties\Settings.Designer.cs"/>
-		<msb:File Include="Properties\Resources.Designer.cs"/>
-		<msb:File Include="Properties\Settings.settings"/>
-		<msb:File Include="ScriptMain.cs"/>
-		<msb:Project Include="st_2aa46bc076ea41acbf84c85d2719ecab.csproj"/>
-	</msb:ItemGroup>
-</c:Project>]]></ProjectItem>
-          <ProjectItem
             Name="st_2aa46bc076ea41acbf84c85d2719ecab.csproj"
             Encoding="UTF16LE"><![CDATA[<?xml version="1.0" encoding="utf-16"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
@@ -11364,14 +11289,89 @@ namespace ST_2aa46bc076ea41acbf84c85d2719ecab.csproj
   </PropertyGroup>
 </Project>]]></ProjectItem>
           <ProjectItem
-            Name="Properties\Settings.settings"
-            Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+            Name="Project"
+            Encoding="UTF16LE"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
+<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
+	<msb:PropertyGroup>
+		<msb:ProjectId>{BA4C160A-E1C3-40AA-9BBD-A27F1A8065C4}</msb:ProjectId>
+		<msb:NoContent>Reference;Import;Folder</msb:NoContent>
+		<msb:Language>msBuild</msb:Language>
+		<msb:DisplayName>st_2aa46bc076ea41acbf84c85d2719ecab</msb:DisplayName>
+		<msb:CodeName>st_2aa46bc076ea41acbf84c85d2719ecab</msb:CodeName>
+	</msb:PropertyGroup>
+	<msb:ItemGroup>
+		<msb:File Include="Properties\AssemblyInfo.cs"/>
+		<msb:File Include="Properties\Resources.resx"/>
+		<msb:File Include="Properties\Settings.Designer.cs"/>
+		<msb:File Include="Properties\Resources.Designer.cs"/>
+		<msb:File Include="Properties\Settings.settings"/>
+		<msb:File Include="ScriptMain.cs"/>
+		<msb:Project Include="st_2aa46bc076ea41acbf84c85d2719ecab.csproj"/>
+	</msb:ItemGroup>
+</c:Project>]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\Settings.Designer.cs"
+            Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+[assembly: global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode", Scope = "member", Target = "ST_2aa46bc076ea41acbf84c85d2719ecab.csproj.Properties.Settings.get_Default():ST_2aa46bc076ea41acbf84c85d2719ecab.csproj.Properties.Sett" +
+    "ings")]
+
+namespace ST_2aa46bc076ea41acbf84c85d2719ecab.csproj.Properties
+{
+
+
+    internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase
+    {
+
+        [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+        private static Settings defaultInstance = new Settings();
+
+        public static Settings Default
+        {
+            get
+            {
+                return defaultInstance;
+            }
+        }
+    }
+}]]></ProjectItem>
+          <ProjectItem
+            Name="Properties\AssemblyInfo.cs"
+            Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_2aa46bc076ea41acbf84c85d2719ecab.csproj")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("Microsoft")]
+[assembly: AssemblyProduct("ST_2aa46bc076ea41acbf84c85d2719ecab.csproj")]
+[assembly: AssemblyCopyright("Copyright @ Microsoft 2012")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
           <ProjectItem
             Name="Properties\Resources.Designer.cs"
             Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -15176,7 +15176,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -15198,7 +15200,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -15220,7 +15224,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -15266,7 +15272,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=]]></arrayElement>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
