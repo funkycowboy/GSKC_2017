@@ -10,11 +10,11 @@ WITH FeaturedPicks AS (
 		FROM	Product r
 		WHERE	manufacturerid in 
 				(select ManufacturerID from GSKC.dbo.Manufacturers where Name in ('Kershaw', 'Spyderco','Cold Steel')) --'Kershaw', 'Spyderco','Cold Steel'
-				AND RetailCost BETWEEN 50 AND 90
+				AND RetailCost BETWEEN 40 AND 80
 
 
 	) r
-	WHERE r.rn = 5
+	WHERE r.rn = 10
 	--ORDER BY r.productid DESC
 )
 
