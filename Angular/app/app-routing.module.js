@@ -13,6 +13,7 @@ var router_1 = require('@angular/router');
 var contact_component_1 = require('./Content/contact/contact.component');
 var home_component_1 = require('./Content/home/home.component');
 var support_component_1 = require('./Content/support/support.component');
+var search_results_component_1 = require('./Content/search-results/search-results.component');
 var appRoutes = [
     { path: 'home',
         component: home_component_1.HomeComponent
@@ -23,10 +24,13 @@ var appRoutes = [
     { path: 'contact-us',
         component: contact_component_1.ContactComponent
     },
+    { path: 'search',
+        component: search_results_component_1.SearchResultsComponent
+    },
     { path: '',
         redirectTo: '/home',
         pathMatch: 'full'
-    },
+    }
 ];
 var AppRoutingModule = (function () {
     function AppRoutingModule() {

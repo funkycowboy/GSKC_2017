@@ -24,6 +24,7 @@ import {HomeComponent} from './Content/home/home.component'
 import {HomeCarouselComponent} from './Content/home-carousel/home-carousel.component'
 import {CalendarComponent} from './Content/calendar/calendar.component'
 import {SupportComponent} from './Content/support/support.component'
+import {SearchResultsComponent} from './Content/search-results/search-results.component'
 
 //Services
 import {ProductService} from './Services/product.service'
@@ -58,6 +59,7 @@ import {MockDataService} from './Api/mock-data'
         PublicLayoutComponent,
         ProductSearchComponent,
         SupportComponent,
+        SearchResultsComponent,
         //Pipes
         EllipsisPipe,
         SafeHtmlPipe,

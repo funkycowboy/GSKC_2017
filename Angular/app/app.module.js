@@ -30,6 +30,7 @@ var home_component_1 = require('./Content/home/home.component');
 var home_carousel_component_1 = require('./Content/home-carousel/home-carousel.component');
 var calendar_component_1 = require('./Content/calendar/calendar.component');
 var support_component_1 = require('./Content/support/support.component');
+var search_results_component_1 = require('./Content/search-results/search-results.component');
 //Services
 var product_service_1 = require('./Services/product.service');
 var slideshow_service_1 = require('./Services/slideshow.service');
@@ -63,6 +64,7 @@ var AppModule = (function () {
                 public_layout_component_1.PublicLayoutComponent,
                 product_search_component_1.ProductSearchComponent,
                 support_component_1.SupportComponent,
+                search_results_component_1.SearchResultsComponent,
                 //Pipes
                 ellipsis_1.EllipsisPipe,
                 safeHtml_pipe_1.SafeHtmlPipe,
