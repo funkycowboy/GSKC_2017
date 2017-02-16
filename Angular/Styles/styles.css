@@ -621,7 +621,7 @@ div#Header {
         z-index: 1000; 
         top: -9px; 
         left:50%; 
-        margin-left: -157px; 
+        margin-left: -134px; 
         width:275px;
     }
 
@@ -632,6 +632,7 @@ div#Header {
 
     li.nav-menu-spacer {
         width: 5%;
+        background: url(/Images/bg_button-large-blk.png) #f08e02 10px 13px;
     }
 
     .call-gskc {
@@ -651,7 +652,7 @@ div#Header {
         z-index: 1000; 
         top: -9px; 
         left:50%; 
-        margin-left: -157px; 
+        margin-left: -134px; 
         width:275px;
     }
 
@@ -661,6 +662,7 @@ div#Header {
         }
     li.nav-menu-spacer {
         width: 5%;
+        background: url(/Images/bg_button-large-blk.png) #f08e02 10px 13px;
     }
 
     .call-gskc {
