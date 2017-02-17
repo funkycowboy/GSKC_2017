@@ -1,0 +1,30 @@
+#SearchResults {
+    text-align: center; 
+    padding: 10px;    
+}
+
+#SearchResults div:first-child {
+   padding:20px
+}
+
+#SearchResults div.item {
+    width:175px; 
+    display: inline-block; 
+    vertical-align: top; 
+    border-bottom: 1px dotted #000;
+}
+
+#SearchResults label.item-price {
+    font-weight: bold;
+}
+
+#SearchResults label.item-price {
+    line-height: 15px;
+}
+
+#SearchResults .item-img {
+    width: 100%; 
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
