@@ -12,6 +12,7 @@
     display: inline-block; 
     vertical-align: top; 
     border-bottom: 1px dotted #000;
+    margin-bottom: 10px;
 }
 
 #SearchResults label.item-price {
@@ -22,7 +23,7 @@
     line-height: 15px;
 }
 
-#SearchResults .item-img {
+#SearchResults img.item-img {
     width: 100%; 
     position: relative;
     top: 50%;
