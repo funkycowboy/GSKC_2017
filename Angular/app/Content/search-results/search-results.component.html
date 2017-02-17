@@ -1,5 +1,22 @@
 <div style="text-align: center; padding: 10px;">
-    <div *ngFor="let product of products" style="width:125px; display: inline-block; vertical-align: top; border-bottom: 1px dotted #000">
+
+    <div style="padding:20px">
+
+        <!--<pagination-controls (pageChange)="p = $event"></pagination-controls>-->
+        <pagination-controls  class="my-pagination"
+                      (pageChange)="p = $event"
+                      maxSize="10"
+                      directionLinks="true"
+                      autoHide="true"
+                      previousLabel="Previous"
+                      nextLabel="Next"
+                      screenReaderPaginationLabel="Pagination"
+                      screenReaderPageLabel="page"
+                      screenReaderCurrentLabel="You're on page">
+        </pagination-controls>
+
+    </div>
+    <div *ngFor="let product of products | paginate: { itemsPerPage: 10, currentPage: p, totalItems: 200 }" style="width:125px; display: inline-block; vertical-align: top; border-bottom: 1px dotted #000">
         <div style="height: 140px;">
             <img src="{{product.ImageUrl}}" alt="" style="width: 100%; position: relative;top: 50%;transform: translateY(-50%);"> 
         </div>

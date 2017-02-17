@@ -13,6 +13,7 @@ var platform_browser_1 = require('@angular/platform-browser');
 var http_1 = require('@angular/http');
 //Modules
 var app_routing_module_1 = require('./app-routing.module');
+var ng2_pagination_1 = require('ng2-pagination');
 //Pipes
 var text_filter_pipe_1 = require('./Pipes/text-filter.pipe');
 var ellipsis_1 = require('./Pipes/ellipsis');
@@ -50,7 +51,8 @@ var AppModule = (function () {
                 ng2_bootstrap_1.CarouselModule,
                 forms_1.FormsModule,
                 http_1.HttpModule,
-                angular_in_memory_web_api_1.InMemoryWebApiModule.forRoot(mock_data_1.MockDataService)
+                angular_in_memory_web_api_1.InMemoryWebApiModule.forRoot(mock_data_1.MockDataService),
+                ng2_pagination_1.Ng2PaginationModule
             ],
             declarations: [
                 //Components

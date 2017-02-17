@@ -5,6 +5,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 //Modules
 import { AppRoutingModule } from './app-routing.module';
+import { Ng2PaginationModule} from 'ng2-pagination'; 
 
 //Pipes
 import {TextFilterPipe} from './Pipes/text-filter.pipe';
@@ -45,7 +46,8 @@ import {MockDataService} from './Api/mock-data'
         CarouselModule,
         FormsModule,
         HttpModule,
-        InMemoryWebApiModule.forRoot(MockDataService)
+        InMemoryWebApiModule.forRoot(MockDataService),
+        Ng2PaginationModule
     ],
     declarations: [
         //Components
