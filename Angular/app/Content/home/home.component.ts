@@ -22,7 +22,7 @@ export class HomeComponent implements OnInit {
     ngOnInit(): void {
 
         this.productService.getProducts()
-        .then(products => this.products = products);
+        .then(products => this.products = products.splice(0,2));
 
         this.slideshowService.getSlideshowImages()
         .then(images => this.slideshowImages = images);

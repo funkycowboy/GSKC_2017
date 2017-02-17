@@ -21,7 +21,7 @@ var HomeComponent = (function () {
     HomeComponent.prototype.ngOnInit = function () {
         var _this = this;
         this.productService.getProducts()
-            .then(function (products) { return _this.products = products; });
+            .then(function (products) { return _this.products = products.splice(0, 2); });
         this.slideshowService.getSlideshowImages()
             .then(function (images) { return _this.slideshowImages = images; });
     };

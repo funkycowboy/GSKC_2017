@@ -15,11 +15,11 @@
                         <div style="position:relative; z-index: 999; top:0; left:0; padding-top: 5px;border: 1px solid #fff; width: 100%">
 
                             <div *ngFor="let product of products"> 
-                                <span>{{product.productName}}</span>                           
-                                <!--<img ng-if="product.supplier == 'GSKC'" ng-src="/Images/Knives/Full/{{product.sku}}.jpg"  alt="Check out the {{product.manufacturerName}} {{product.productName}} from our {{product.categoryName}} collection."
-                                title="Check out the {{product.manufacturerName}} {{product.productName}} from our {{product.categoryName}} collection." style="width: 100%">                                                               -->
+                                <span>{{product.Name}}</span>                           
+                                <!--<img ng-if="product.SupplierName == 'GSKC'" ng-src="/Images/Knives/Full/{{product.SKU}}.jpg"  alt="Check out the {{product.ManufacturerName}} {{product.Name}} from our {{product.CategoryName}} collection."
+                                title="Check out the {{product.ManufacturerName}} {{product.Name}} from our {{product.CategoryName}} collection." style="width: 100%">                                                               -->
                             </div>
-                            <div class="FeaturedKnifeHeaderFont" style="margin-top:10px; text-align: center; font-size: 17px"><!--ko text: products()[5].ProductName--><!--/ko--></div>
+                            <div class="FeaturedKnifeHeaderFont" style="margin-top:10px; text-align: center; font-size: 17px"><!--ko text: products()[5].Name--><!--/ko--></div>
                             <div class="FeaturedKnifeTextFont product-summary" style="margin:10px 0 10px; text-align: left; line-height: 14px"><!--ko text: products()[5].Description--><!--/ko--></div>
 
                             <div style="position:relative;">
@@ -27,7 +27,7 @@
                                     <img alt="Deal" src="/Images/SalePriceBG.png" />
                                 </div>
                                 <div style="display: inline-block; width:100%; z-index: 1004; position: relative; right: 8px; top:-29px; text-align: center">
-                                    <span style="color: #FFF; font-size: 1.4em;" data-bind="currency: products()[5].RetailCost"></span>
+                                    <span style="color: #FFF; font-size: 1.4em;" data-bind="currency: products()[5].RetailPrice"></span>
                                 </div>
 
                             </div>
@@ -112,17 +112,17 @@
                        
                         <div style="position:absolute; z-index: 999; top:0; left:0; padding-top: 5px;border: 1px solid #fff; width: 100%">
                             <div style="cursor:pointer; margin: 0 25px;">                                
-                                <img *ngIf="product.productId != 'GSKC'" [src]="product.imageUrl" [alt]="product.productName" class="featured-item-image" />                                
+                                <img *ngIf="product.Id != 'GSKC'" [src]="product.ImageUrl" [alt]="product.Name" class="featured-item-image" />                                
                             </div>
                         </div>
                         <div style="position: absolute; left:0;top:125px; border: 1px solid #fff; width:100%; padding-top:10px">
-                        <div class="FeaturedKnifeHeaderFont" style="position: relative;height: 37px">{{product.productName | ellipsis:50}}</div>
-                        <div class="FeaturedKnifeTextFont" style="position: relative;margin-top:5px;">{{product.features | ellipsis:75 }}</div>
+                        <div class="FeaturedKnifeHeaderFont" style="position: relative;height: 37px">{{product.Name | ellipsis:50}}</div>
+                        <div class="FeaturedKnifeTextFont" style="position: relative;margin-top:5px;">{{product.Description | ellipsis:75 }}</div>
  
                         <div class="row" style="margin-top: 10px">
                             <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10" style="padding: 0">
                                 <button style="background: url(Images/gskc-button-icon.png) no-repeat 6px; text-align: right;background-color: #000; border: 0; outline:none; width:100%; margin: 0; height: 37px; padding-right: 10px; border-top-left-radius: 4px; border-bottom-left-radius: 4px">
-                                    <span style="font-size: 1.3em;">Price:</span> <span class="OurPriceFont" style="letter-spacing: 1px; color:#FFF; font-size:1.4em; font-style: italic">{{product.price | currency:'USD':true:'1.2-2'}}</span>
+                                    <span style="font-size: 1.3em;">Price:</span> <span class="OurPriceFont" style="letter-spacing: 1px; color:#FFF; font-size:1.4em; font-style: italic">{{product.RetailPrice | currency:'USD':true:'1.2-2'}}</span>
                                 </button>
                             </div>   
                             <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="padding: 0">             
