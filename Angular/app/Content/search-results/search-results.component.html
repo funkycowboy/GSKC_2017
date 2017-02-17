@@ -1,0 +1,14 @@
+<div style="text-align: center; padding: 10px;">
+    <div *ngFor="let product of products" style="width:125px; display: inline-block; vertical-align: top; border-bottom: 1px dotted #000">
+        <div style="height: 140px;">
+            <img src="{{product.ImageUrl}}" alt="" style="width: 100%; position: relative;top: 50%;transform: translateY(-50%);"> 
+        </div>
+        <div style="height: 150px;">
+            <label style="font-weight:bold">Price: {{product.RetailPrice | currency:'USD':true:'1.2-2'}}</label> <span class="glyphicon glyphicon-zoom-in" style="color: #f08e02; font-size:20px;"></span>
+            <button class="orange" style="font-size: 10px"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
+            <label style="line-height: 16px">{{product.Name}}</label>
+            
+        </div>       
+    </div>
+    
+</div>
