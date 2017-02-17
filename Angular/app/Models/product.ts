@@ -1,12 +1,15 @@
 export class Product {
-  productId: number;
-  manufacturerName: string;
-  productName: string;
-  description: string;
-  supplierName: string;
-  sku: string;
-  imageUrl: string;
-  categoryName: string;
-  features: string;
-  price: number;
+  Id: number; 
+  SKU: string; 
+  Description: string;
+  Name: string;
+  ItemNumber: string;
+  RetailPrice: string;
+  ImageUrl: string;
+  SupplierId: number;
+  SupplierName: string;
+  ManufacturerId: number;
+  ManufacturerName: string;
+  CategoryId: number;
+  CategoryName: string;  
 }
