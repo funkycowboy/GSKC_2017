@@ -3,8 +3,8 @@ import { InMemoryDbService } from 'angular-in-memory-web-api';
 export class MockDataService implements InMemoryDbService {
   createDb() {
     let brands = [
-      {id: 11, name: '12 Survivors'},
-      {id: 12, name: '5.11'},
+      {id: 8760, name: '12 Survivors'},
+      {id: 8581, name: '5.11'},
       {id: 13, name: '5.11 Tctical Series'},
       {id: 14, name: 'AccuSharp'},
       {id: 15, name: 'Adam Unlimited'},
@@ -16,7 +16,7 @@ export class MockDataService implements InMemoryDbService {
     ];
 
     let categories = [
-      {id: 11, name: 'Knives - Fixed Blades'},
+      {id: 13262, name: 'Knives - Fixed Blades'},
       {id: 12, name: 'Knives - Folders'},
       {id: 13, name: 'Knives - Accessories'},
       {id: 14, name: 'Knives - Fantasy'},
@@ -33,30 +33,6 @@ export class MockDataService implements InMemoryDbService {
       {id: 6, name: '$100.00 and over'},
     ];
 
-    // let products = [
-    //   { 
-    //     productId: 1, 
-    //     manufacturerName: 'Spyderco',
-    //     categoryName: 'Knives - Folders',
-    //     productName: 'Byrd Finch 2, Black G10 Handle, Satin Plain',description: 'The Finch2 folder from byrd makes an excellent pocket knife. It is small in size, yet strong in hand. The blade is flat ground 8Cr13MoV steel with a thumb hole for easy one-hand opening. Textured black G-10 handle with steel liners, screw construction, and back lock. The Finch2 has a lanyard hole for pocket carry or attachment to a keychain',
-    //     supplierName: 'Moteng', 
-    //     features: 'The Finch2 folder from byrd makes an excellent pocket knife. It is small in size, yet strong in hand. The blade is flat ground 8Cr13MoV steel with a thumb hole for easy one-hand opening. Textured black G-10 handle with steel liners, screw construction, and back lock. The Finch2 has a lanyard hole for pocket carry or attachment to a keychain.',
-    //     sku: 'BY11GP2',
-    //     imageUrl: 'http://productimages.moteng.com/BY11GP2.jpg',
-    //     price: 20.00
-    //   },
-    //   { 
-    //     productId: 2, 
-    //     manufacturerName: 'Spyderco',
-    //     categoryName: 'Knives - Folders',
-    //     productName: 'Byrd Finch 2, Black G10 Handle, Satin Plain',description: 'The Finch2 folder from byrd makes an excellent pocket knife. It is small in size, yet strong in hand. The blade is flat ground 8Cr13MoV steel with a thumb hole for easy one-hand opening. Textured black G-10 handle with steel liners, screw construction, and back lock. The Finch2 has a lanyard hole for pocket carry or attachment to a keychain',
-    //     supplierName: 'Moteng', 
-    //     features: 'The Finch2 folder from byrd makes an excellent pocket knife. It is small in size, yet strong in hand. The blade is flat ground 8Cr13MoV steel with a thumb hole for easy one-hand opening. Textured black G-10 handle with steel liners, screw construction, and back lock. The Finch2 has a lanyard hole for pocket carry or attachment to a keychain.',
-    //     sku: 'BY11GP2',
-    //     imageUrl: 'http://productimages.moteng.com/BY11GP2.jpg',
-    //     price: 20.00
-    //   }
-    // ];
 
     let slideshowImages = [
       {id: 1, name: '', path:'/Images//Slideshow/slide-show-image-1.jpg'},

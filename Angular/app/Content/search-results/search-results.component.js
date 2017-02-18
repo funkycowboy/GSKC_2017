@@ -9,17 +9,41 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var router_1 = require("@angular/router");
 var product_service_1 = require('../../Services/product.service');
 var SearchResultsComponent = (function () {
-    function SearchResultsComponent(productService) {
-        this.productService = productService;
-        this.products = [];
-    }
-    SearchResultsComponent.prototype.ngOnInit = function () {
+    function SearchResultsComponent(productService, route) {
         var _this = this;
-        this.productService.getProducts()
-            .then(function (products) { return _this.products = products; });
-    };
+        this.productService = productService;
+        this.route = route;
+        this.products = [];
+        this.route.queryParams.subscribe(function (params) {
+            _this.brand = params["Brand"] == undefined ? '' : params["Brand"];
+            _this.price = params["Price"] == undefined ? '' : params["Brand"];
+            ;
+            _this.category = params["Category"] == undefined ? '' : params["Brand"];
+            ;
+            if (_this.brand != "" && _this.price != "" && _this.category != "") {
+                _this.productService.getProducts()
+                    .then(function (products) { return _this.products = products.filter(function (x) {
+                    return _this.brand.includes(x.ManufacturerId.toString())
+                        || _this.category.includes(x.CategoryId.toString());
+                }); });
+            }
+            else {
+                _this.productService.getProducts()
+                    .then(function (products) { return _this.products = products; });
+            }
+        });
+        // ngOnInit(): void {     
+        //     alert("test");           
+        //     this.productService.getProducts()
+        //         .then(products => this.products = products.filter(x => 
+        //             this.brand.includes(x.ManufacturerId.toString())
+        //             //&& this.price.includes(x.ManufacturerId.toString())
+        //             && this.category.includes(x.CategoryId.toString())));
+        // }
+    }
     SearchResultsComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
@@ -27,7 +51,7 @@ var SearchResultsComponent = (function () {
             templateUrl: 'search-results.component.html',
             styleUrls: ['search-results.component.css']
         }), 
-        __metadata('design:paramtypes', [product_service_1.ProductService])
+        __metadata('design:paramtypes', [product_service_1.ProductService, router_1.ActivatedRoute])
     ], SearchResultsComponent);
     return SearchResultsComponent;
 }());

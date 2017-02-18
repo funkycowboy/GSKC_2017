@@ -15,7 +15,7 @@
         </pagination-controls>
 
     </div>
-    <div class="item" *ngFor="let product of products | paginate: { itemsPerPage: 10, currentPage: p, totalItems: 40 }">
+    <div class="item" *ngFor="let product of products | paginate: { itemsPerPage: 10, currentPage: p }">
         <div style="height: 140px;">
             <img class="item-img" src="{{product.ImageUrl}}" alt="{{product.Name}}"> 
         </div>

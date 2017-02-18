@@ -9,10 +9,12 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var router_1 = require('@angular/router');
 var product_service_1 = require('../Services/product.service');
 var ProductSearchComponent = (function () {
-    function ProductSearchComponent(productService) {
+    function ProductSearchComponent(productService, router) {
         this.productService = productService;
+        this.router = router;
         this.brands = [];
         this.categories = [];
         this.prices = [];
@@ -53,6 +55,7 @@ var ProductSearchComponent = (function () {
         obj.selected = true;
         objSelectedArray.push(obj);
         objArray.splice(objArray.indexOf(obj), 1);
+        this.updateParams();
     };
     ProductSearchComponent.prototype.removeSelected = function (dataType, data) {
         var obj;
@@ -88,6 +91,17 @@ var ProductSearchComponent = (function () {
                 return 0;
             }
         });
+        this.updateParams();
+    };
+    ProductSearchComponent.prototype.updateParams = function () {
+        var navigationExtras = {
+            queryParams: {
+                "Brand": this.selectedBrands.map(function (a) { return a.id; }),
+                "Price": this.selectedPrices.map(function (a) { return a.id; }),
+                "Category": this.selectedCategories.map(function (a) { return a.id; })
+            }
+        };
+        this.router.navigate(['/search'], navigationExtras);
     };
     ProductSearchComponent.prototype.slideFilterList = function () {
         var $target = $(event.target);
@@ -103,7 +117,7 @@ var ProductSearchComponent = (function () {
             templateUrl: 'product-search-component.html',
             styleUrls: ['product-search-component.css']
         }), 
-        __metadata('design:paramtypes', [product_service_1.ProductService])
+        __metadata('design:paramtypes', [product_service_1.ProductService, router_1.Router])
     ], ProductSearchComponent);
     return ProductSearchComponent;
 }());

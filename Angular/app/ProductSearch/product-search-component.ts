@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router,NavigationExtras }  from '@angular/router';
 
 import {ProductService} from '../Services/product.service'
 
@@ -24,7 +25,7 @@ export class ProductSearchComponent implements OnInit{
   selectedCategories: Category[] = []
   selectedPrices: Price[] = []
 
-  constructor(private productService: ProductService){}
+  constructor(private productService: ProductService,  private router: Router){}
 
   ngOnInit(): void{
     
@@ -65,7 +66,9 @@ export class ProductSearchComponent implements OnInit{
 
       obj.selected = true
       objSelectedArray.push(obj);
-      objArray.splice(objArray.indexOf(obj), 1);              
+      objArray.splice(objArray.indexOf(obj), 1); 
+
+      this.updateParams();                 
     }
 
   removeSelected(dataType: string, data: Object): void {
@@ -102,7 +105,21 @@ export class ProductSearchComponent implements OnInit{
         return 0;
       }
     });   
+
+    this.updateParams();
     
+  }
+
+  updateParams(): void {
+    let navigationExtras: NavigationExtras = {
+                queryParams: {
+                    "Brand": this.selectedBrands.map(function(a) {return a.id;}),
+                    "Price": this.selectedPrices.map(function(a) {return a.id;}), 
+                    "Category": this.selectedCategories.map(function(a) {return a.id;})
+                }
+            };
+
+      this.router.navigate(['/search'], navigationExtras); 
   }
 
   slideFilterList():void{
