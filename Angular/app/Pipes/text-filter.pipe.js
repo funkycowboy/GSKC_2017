@@ -24,7 +24,7 @@ var TextFilterPipe = (function () {
             else {
                 for (var _i = 0, items_1 = items; _i < items_1.length; _i++) {
                     var item = items_1[_i];
-                    if (item.name != null && item.name.match(new RegExp('' + args, 'i'))) {
+                    if (item.Name != null && item.Name.match(new RegExp('' + args, 'i'))) {
                         resultArray.push(item);
                     }
                 }

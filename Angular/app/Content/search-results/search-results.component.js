@@ -19,15 +19,16 @@ var SearchResultsComponent = (function () {
         this.products = [];
         this.route.queryParams.subscribe(function (params) {
             _this.brand = params["Brand"] == undefined ? '' : params["Brand"];
-            _this.price = params["Price"] == undefined ? '' : params["Brand"];
+            _this.price = params["Price"] == undefined ? '' : params["Price"];
             ;
-            _this.category = params["Category"] == undefined ? '' : params["Brand"];
-            ;
-            if (_this.brand != "" && _this.price != "" && _this.category != "") {
+            _this.category = params["Category"] == undefined ? '' : params["Category"];
+            _this.keyword = params["Keyword"] == undefined ? '' : params["Keyword"];
+            if (_this.brand != "" || _this.price != "" || _this.category != "" || _this.category != "" || _this.keyword != "") {
                 _this.productService.getProducts()
                     .then(function (products) { return _this.products = products.filter(function (x) {
                     return _this.brand.includes(x.ManufacturerId.toString())
-                        || _this.category.includes(x.CategoryId.toString());
+                        || _this.category.includes(x.CategoryId.toString())
+                        || x.Name.toLowerCase().includes(_this.keyword.toLowerCase());
                 }); });
             }
             else {
@@ -35,14 +36,6 @@ var SearchResultsComponent = (function () {
                     .then(function (products) { return _this.products = products; });
             }
         });
-        // ngOnInit(): void {     
-        //     alert("test");           
-        //     this.productService.getProducts()
-        //         .then(products => this.products = products.filter(x => 
-        //             this.brand.includes(x.ManufacturerId.toString())
-        //             //&& this.price.includes(x.ManufacturerId.toString())
-        //             && this.category.includes(x.CategoryId.toString())));
-        // }
     }
     SearchResultsComponent = __decorate([
         core_1.Component({

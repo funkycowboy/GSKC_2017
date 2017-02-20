@@ -8,8 +8,8 @@
         </div>
 
         <div class="content row no-gutter filter-list-parent show-hide" style="text-align:right">
-            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12"><input data-bind="click: $root.initializeControls" id="Keyword" name="Keyword" type="text" class="search-form-elements" maxlength="50" value="" placeholder="Name / Item No." style="width: 100%; font-size: 14px" /></div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 hidden-xs"><button type="button" class="orange" style="width:100%; margin:0; padding: 8px 5px; font-weight:bold">Search</button></div>
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12"><input id="Keyword" name="Keyword" type="text"  [(ngModel)]="keyWordSearchValue" class="search-form-elements" maxlength="50" value="" placeholder="Name / Item No." style="width: 100%; font-size: 14px" /></div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 hidden-xs"><button type="button" class="orange" style="width:100%; margin:0; padding: 8px 5px; font-weight:bold" (click)="searchByKeyword()">Search</button></div>
             <div style="clear: both"></div>
         </div>
     </div>
@@ -27,8 +27,8 @@
             <div class="content" style="margin-left: 0">
                 <ul style="margin-bottom: 0;list-style:none; color: #f08e02;margin-left:-35px;">
                     <li *ngFor="let brand of selectedBrands" (click) = "removeSelected('brand',brand)" style="padding-top:7px">
-                        <input type="checkbox" title="Click to Remove" name="ManufacturerID" [checked]="brand.selected"/>
-                        <label title="Click to Remove">{{brand.name}}</label>
+                        <input type="checkbox" title="Click to Remove" name="ManufacturerID" [checked]="brand.Selected"/>
+                        <label title="Click to Remove">{{brand.Name}}</label>
                     </li>
                 </ul>
             </div>
@@ -40,7 +40,7 @@
                     <li *ngFor="let brand of (brands | textfilter: BrandFilter.value)"  (click)="addSelected('brand',brand)" style="padding-top:7px">
                         <div class="ellipsis">
                             <input type="checkbox" title="Click to add" name="ManufacturerID" />
-                            <label style="display: inline;" title="Click to Add"><span style="color:#f08e02; display: inline-block; width:40px">{{brand.name}}</span></label>
+                            <label style="display: inline;" title="Click to Add"><span style="color:#f08e02; display: inline-block; width:40px">{{brand.Name}}</span></label>
                         </div>
                     </li>
                 </ul>
@@ -62,8 +62,8 @@
             <div class="content" style="margin-left: 0">
                 <ul style="margin-bottom: 0;list-style:none; color: #f08e02;margin-left:-35px;">
                     <li *ngFor="let price of selectedPrices" (click) = "removeSelected('price',price)" style="padding-top:7px">
-                        <input type="checkbox" title="Click to Remove" name="PriceID" [checked]="price.selected"/>
-                        <label title="Click to Remove">{{price.name}}</label>
+                        <input type="checkbox" title="Click to Remove" name="PriceID" [checked]="price.Selected"/>
+                        <label title="Click to Remove">{{price.Name}}</label>
                     </li>
                 </ul>
             </div>
@@ -75,7 +75,7 @@
                     <li *ngFor="let price of (prices | textfilter: PriceFilter.value)"  (click)="addSelected('price',price)" style="padding-top:7px">
                         <div class="ellipsis">
                             <input type="checkbox" title="Click to add" name="PriceID" />
-                            <label style="display: inline;" title="Click to Add"><span style="color:#f08e02; display: inline-block; width:40px">{{price.name}}</span></label>
+                            <label style="display: inline;" title="Click to Add"><span style="color:#f08e02; display: inline-block; width:40px">{{price.Name}}</span></label>
                         </div>
                     </li>
                 </ul>
@@ -97,8 +97,8 @@
             <div class="content" style="margin-left: 0">
                 <ul style="margin-bottom: 0;list-style:none; color: #f08e02;margin-left:-35px;">
                     <li *ngFor="let category of selectedCategories" (click) = "removeSelected('category',category)" style="padding-top:7px">
-                        <input type="checkbox" title="Click to Remove" name="CategoryID" [checked]="category.selected"/>
-                        <label title="Click to Remove">{{category.name}}</label>
+                        <input type="checkbox" title="Click to Remove" name="CategoryID" [checked]="category.Selected"/>
+                        <label title="Click to Remove">{{category.Name}}</label>
                     </li>
                 </ul>
             </div>
@@ -110,7 +110,7 @@
                     <li *ngFor="let category of (categories | textfilter: CategoryFilter.value)"  (click)="addSelected('category',category)" style="padding-top:7px">
                         <div class="ellipsis">
                             <input type="checkbox" title="Click to add" name="CategoryID" />
-                            <label style="display: inline;" title="Click to Add"><span style="color:#f08e02; display: inline-block; width:40px">{{category.name}}</span></label>
+                            <label style="display: inline;" title="Click to Add"><span style="color:#f08e02; display: inline-block; width:40px">{{category.Name}}</span></label>
                         </div>
                     </li>
                 </ul>

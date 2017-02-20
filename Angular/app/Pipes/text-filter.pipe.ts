@@ -18,7 +18,7 @@ export class TextFilterPipe implements PipeTransform {
  
             else {
                 for (let item of items) {
-                    if (item.name != null && item.name.match(new RegExp(''+args, 'i'))) {
+                    if (item.Name != null && item.Name.match(new RegExp(''+args, 'i'))) {
                         resultArray.push(item);
                     }
                 }

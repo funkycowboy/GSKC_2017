@@ -17,6 +17,8 @@ declare var $: any;
 })
 export class ProductSearchComponent implements OnInit{
 
+  keyWordSearchValue = "";
+
   brands:Brand[] = []
   categories:Category[] = []
   prices:Price[] = []
@@ -64,7 +66,7 @@ export class ProductSearchComponent implements OnInit{
           break; 
       }    
 
-      obj.selected = true
+      obj.Selected = true
       objSelectedArray.push(obj);
       objArray.splice(objArray.indexOf(obj), 1); 
 
@@ -97,9 +99,9 @@ export class ProductSearchComponent implements OnInit{
     objArray.push(obj);
     objSelectedArray.splice(objSelectedArray.indexOf(obj), 1);    
     objArray.sort((a: any, b: any) => {
-      if (a.name < b.name) {
+      if (a.Name < b.Name) {
         return -1;
-      } else if (a.name > b.name) {
+      } else if (a.Name > b.Name) {
         return 1;
       } else {
         return 0;
@@ -113,9 +115,24 @@ export class ProductSearchComponent implements OnInit{
   updateParams(): void {
     let navigationExtras: NavigationExtras = {
                 queryParams: {
-                    "Brand": this.selectedBrands.map(function(a) {return a.id;}),
-                    "Price": this.selectedPrices.map(function(a) {return a.id;}), 
-                    "Category": this.selectedCategories.map(function(a) {return a.id;})
+                    "Brand": this.selectedBrands.map(function(a) {return a.Id;}),
+                    "Price": this.selectedPrices.map(function(a) {return a.Id;}), 
+                    "Category": this.selectedCategories.map(function(a) {return a.Id;})
+                }
+            };
+
+      this.router.navigate(['/search'], navigationExtras); 
+  }
+
+  searchByKeyword(): void {
+
+    
+    let navigationExtras: NavigationExtras = {
+                queryParams: {
+                    "Brand": "",
+                    "Price": "", 
+                    "Category": "",
+                    "Keyword": this.keyWordSearchValue
                 }
             };
 

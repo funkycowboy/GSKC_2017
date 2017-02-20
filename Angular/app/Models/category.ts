@@ -1,5 +1,5 @@
 export class Category {
-  id: number;
-  name: string;
-  selected: boolean;
+  Id: number;
+  Name: string;
+  Selected: boolean;
 }

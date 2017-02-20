@@ -15,6 +15,7 @@ var ProductSearchComponent = (function () {
     function ProductSearchComponent(productService, router) {
         this.productService = productService;
         this.router = router;
+        this.keyWordSearchValue = "";
         this.brands = [];
         this.categories = [];
         this.prices = [];
@@ -52,7 +53,7 @@ var ProductSearchComponent = (function () {
                 objSelectedArray = this.selectedCategories;
                 break;
         }
-        obj.selected = true;
+        obj.Selected = true;
         objSelectedArray.push(obj);
         objArray.splice(objArray.indexOf(obj), 1);
         this.updateParams();
@@ -81,10 +82,10 @@ var ProductSearchComponent = (function () {
         objArray.push(obj);
         objSelectedArray.splice(objSelectedArray.indexOf(obj), 1);
         objArray.sort(function (a, b) {
-            if (a.name < b.name) {
+            if (a.Name < b.Name) {
                 return -1;
             }
-            else if (a.name > b.name) {
+            else if (a.Name > b.Name) {
                 return 1;
             }
             else {
@@ -96,9 +97,20 @@ var ProductSearchComponent = (function () {
     ProductSearchComponent.prototype.updateParams = function () {
         var navigationExtras = {
             queryParams: {
-                "Brand": this.selectedBrands.map(function (a) { return a.id; }),
-                "Price": this.selectedPrices.map(function (a) { return a.id; }),
-                "Category": this.selectedCategories.map(function (a) { return a.id; })
+                "Brand": this.selectedBrands.map(function (a) { return a.Id; }),
+                "Price": this.selectedPrices.map(function (a) { return a.Id; }),
+                "Category": this.selectedCategories.map(function (a) { return a.Id; })
+            }
+        };
+        this.router.navigate(['/search'], navigationExtras);
+    };
+    ProductSearchComponent.prototype.searchByKeyword = function () {
+        var navigationExtras = {
+            queryParams: {
+                "Brand": "",
+                "Price": "",
+                "Category": "",
+                "Keyword": this.keyWordSearchValue
             }
         };
         this.router.navigate(['/search'], navigationExtras);
