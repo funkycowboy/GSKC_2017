@@ -19,6 +19,7 @@ export class SearchResultsComponent {
     public price: string;
     public category: string;
     public keyword: string;
+    public showNotFound: boolean;
 
     constructor(private productService: ProductService, private route: ActivatedRoute){
 
@@ -35,12 +36,16 @@ export class SearchResultsComponent {
                         this.brand.includes(x.ManufacturerId.toString())
                         //&& this.price.includes(x.ManufacturerId.toString())
                         || this.category.includes(x.CategoryId.toString())
-                        || x.Name.toLowerCase().includes(this.keyword.toLowerCase())
-                        ));
+                        || (this.keyword != '' ? x.Name.toLowerCase().includes(this.keyword) : null)
+                        ))
+                    .then(p => this.showNotFound = this.products.length == 0)
+                    
 
-            }else{
-                 this.productService.getProducts()
-                    .then(products => this.products = products);
+            }else{               
+
+                this.productService.getProducts()
+                    .then(products => this.products = products)
+                    .then(products => this.showNotFound = false)
             }
         });
     

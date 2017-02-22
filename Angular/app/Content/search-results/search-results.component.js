@@ -28,12 +28,14 @@ var SearchResultsComponent = (function () {
                     .then(function (products) { return _this.products = products.filter(function (x) {
                     return _this.brand.includes(x.ManufacturerId.toString())
                         || _this.category.includes(x.CategoryId.toString())
-                        || x.Name.toLowerCase().includes(_this.keyword.toLowerCase());
-                }); });
+                        || (_this.keyword != '' ? x.Name.toLowerCase().includes(_this.keyword) : null);
+                }); })
+                    .then(function (p) { return _this.showNotFound = _this.products.length == 0; });
             }
             else {
                 _this.productService.getProducts()
-                    .then(function (products) { return _this.products = products; });
+                    .then(function (products) { return _this.products = products; })
+                    .then(function (products) { return _this.showNotFound = false; });
             }
         });
     }
