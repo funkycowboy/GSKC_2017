@@ -8,8 +8,10 @@
         </div>
 
         <div class="content row no-gutter filter-list-parent show-hide" style="text-align:right">
-            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12"><input id="Keyword" name="Keyword" type="text"  [(ngModel)]="keyWordSearchValue" class="search-form-elements" maxlength="50" value="" placeholder="Name / Item No." style="width: 100%; font-size: 14px" /></div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 hidden-xs"><button type="button" class="orange" style="width:100%; margin:0; padding: 8px 5px; font-weight:bold" (click)="searchByKeyword()">Search</button></div>
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <input id="Keyword" name="Keyword" type="text" (keyup.enter)="searchByKeyword()"  [(ngModel)]="keyWordSearchValue" class="search-form-elements" maxlength="50" value="" placeholder="Name / Item No." style="width: 100%; font-size: 14px" /></div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 hidden-xs">
+                <button type="button" class="orange" style="width:100%; margin:0; padding: 8px 5px; font-weight:bold" (click)="searchByKeyword()">Search</button></div>
             <div style="clear: both"></div>
         </div>
     </div>
