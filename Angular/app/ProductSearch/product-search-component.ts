@@ -47,35 +47,36 @@ export class ProductSearchComponent implements OnInit{
         .then(prices => this.prices = prices);
   }
   
-  addSelected(dataType: string, data: Object): void {    
-      let obj:any;
-      let objArray:any;
-      let objSelectedArray:any;
+    addSelected(dataType: string, data: Object): void {    
+        let obj:any;
+        let objArray:any;
+        let objSelectedArray:any;
 
-      switch(dataType){
+        switch(dataType){
        
-        case "brand":
-          obj = (<Brand>data); 
-          objArray = this.brands; 
-          objSelectedArray = this.selectedBrands;
-          break;  
-        case "price":
-          obj = (<Price>data); 
-          objArray = this.prices; 
-          objSelectedArray = this.selectedPrices;
-          break;                 
-        case "category":
-          obj = (<Category>data); 
-          objArray = this.categories; 
-          objSelectedArray = this.selectedCategories;
-          break; 
-      }    
+            case "brand":
+            obj = (<Brand>data); 
+            objArray = this.brands; 
+            objSelectedArray = this.selectedBrands;
+            break;  
+            case "price":
+            obj = (<Price>data); 
+            objArray = this.prices; 
+            objSelectedArray = this.selectedPrices;
+            break;                 
+            case "category":
+            obj = (<Category>data); 
+            objArray = this.categories; 
+            objSelectedArray = this.selectedCategories;
+            break; 
+        }    
 
-      obj.Selected = true
-      objSelectedArray.push(obj);
-      objArray.splice(objArray.indexOf(obj), 1); 
-
-      this.updateParams();                 
+        obj.Selected = true
+        objSelectedArray.push(obj);
+        objArray.splice(objArray.indexOf(obj), 1); 
+        
+        this.updateSearchParams() 
+                    
   }
 
   removeSelected(dataType: string, data: Object): void {
@@ -105,7 +106,7 @@ export class ProductSearchComponent implements OnInit{
     objSelectedArray.splice(objSelectedArray.indexOf(obj), 1);  
     this.sortArray(objArray)      
 
-    this.updateParams();
+     this.updateSearchParams(); 
     
   }
 
@@ -121,12 +122,14 @@ export class ProductSearchComponent implements OnInit{
       }); 
   }
 
-  updateParams(): void {
+  updateSearchParams(): void {
+
     let navigationExtras: NavigationExtras = {
                 queryParams: {
                     "Brand": this.selectedBrands.map(function(a) {return a.Id;}),
                     "Price": this.selectedPrices.map(function(a) {return a.Id;}), 
-                    "Category": this.selectedCategories.map(function(a) {return a.Id;})
+                    "Category": this.selectedCategories.map(function(a) {return a.Id;}),
+                    "Keyword": this.keyWordSearchValue
                 }
             };
 
@@ -135,20 +138,12 @@ export class ProductSearchComponent implements OnInit{
 
   searchByKeyword(): void {    
    
-      this.clearSelections(this.brands,this.selectedBrands);
-      this.clearSelections(this.prices,this.selectedPrices);
-      this.clearSelections(this.categories,this.selectedCategories);
+        this.clearSelections(this.brands,this.selectedBrands);
+        this.clearSelections(this.prices,this.selectedPrices);
+        this.clearSelections(this.categories,this.selectedCategories);
 
-      let navigationExtras: NavigationExtras = {
-                  queryParams: {
-                      "Brand": "",
-                      "Price": "", 
-                      "Category": "",
-                      "Keyword": this.keyWordSearchValue
-                  }
-              };
-
-      this.router.navigate(['/search'], navigationExtras); 
+        this.updateSearchParams(); 
+     
   }
 
   slideFilterList():void{

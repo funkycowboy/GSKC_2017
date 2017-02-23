@@ -59,7 +59,7 @@ var ProductSearchComponent = (function () {
         obj.Selected = true;
         objSelectedArray.push(obj);
         objArray.splice(objArray.indexOf(obj), 1);
-        this.updateParams();
+        this.updateSearchParams();
     };
     ProductSearchComponent.prototype.removeSelected = function (dataType, data) {
         var obj;
@@ -85,7 +85,7 @@ var ProductSearchComponent = (function () {
         objArray.push(obj);
         objSelectedArray.splice(objSelectedArray.indexOf(obj), 1);
         this.sortArray(objArray);
-        this.updateParams();
+        this.updateSearchParams();
     };
     ProductSearchComponent.prototype.sortArray = function (objArray) {
         objArray.sort(function (a, b) {
@@ -100,12 +100,13 @@ var ProductSearchComponent = (function () {
             }
         });
     };
-    ProductSearchComponent.prototype.updateParams = function () {
+    ProductSearchComponent.prototype.updateSearchParams = function () {
         var navigationExtras = {
             queryParams: {
                 "Brand": this.selectedBrands.map(function (a) { return a.Id; }),
                 "Price": this.selectedPrices.map(function (a) { return a.Id; }),
-                "Category": this.selectedCategories.map(function (a) { return a.Id; })
+                "Category": this.selectedCategories.map(function (a) { return a.Id; }),
+                "Keyword": this.keyWordSearchValue
             }
         };
         this.router.navigate(['/search'], navigationExtras);
@@ -114,15 +115,7 @@ var ProductSearchComponent = (function () {
         this.clearSelections(this.brands, this.selectedBrands);
         this.clearSelections(this.prices, this.selectedPrices);
         this.clearSelections(this.categories, this.selectedCategories);
-        var navigationExtras = {
-            queryParams: {
-                "Brand": "",
-                "Price": "",
-                "Category": "",
-                "Keyword": this.keyWordSearchValue
-            }
-        };
-        this.router.navigate(['/search'], navigationExtras);
+        this.updateSearchParams();
     };
     ProductSearchComponent.prototype.slideFilterList = function () {
         var $target = $(event.target);
