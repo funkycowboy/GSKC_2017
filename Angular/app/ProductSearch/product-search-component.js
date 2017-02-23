@@ -24,6 +24,9 @@ var ProductSearchComponent = (function () {
         this.selectedPrices = [];
     }
     ProductSearchComponent.prototype.ngOnInit = function () {
+        this.reloadLists();
+    };
+    ProductSearchComponent.prototype.reloadLists = function () {
         var _this = this;
         this.productService.getBrands()
             .then(function (brands) { return _this.brands = brands; });
@@ -81,6 +84,10 @@ var ProductSearchComponent = (function () {
         }
         objArray.push(obj);
         objSelectedArray.splice(objSelectedArray.indexOf(obj), 1);
+        this.sortArray(objArray);
+        this.updateParams();
+    };
+    ProductSearchComponent.prototype.sortArray = function (objArray) {
         objArray.sort(function (a, b) {
             if (a.Name < b.Name) {
                 return -1;
@@ -92,7 +99,6 @@ var ProductSearchComponent = (function () {
                 return 0;
             }
         });
-        this.updateParams();
     };
     ProductSearchComponent.prototype.updateParams = function () {
         var navigationExtras = {
@@ -105,6 +111,9 @@ var ProductSearchComponent = (function () {
         this.router.navigate(['/search'], navigationExtras);
     };
     ProductSearchComponent.prototype.searchByKeyword = function () {
+        this.clearSelections(this.brands, this.selectedBrands);
+        this.clearSelections(this.prices, this.selectedPrices);
+        this.clearSelections(this.categories, this.selectedCategories);
         var navigationExtras = {
             queryParams: {
                 "Brand": "",
@@ -122,6 +131,14 @@ var ProductSearchComponent = (function () {
         });
     };
     ;
+    ProductSearchComponent.prototype.clearSelections = function (objArray, objSelectedArray) {
+        var _this = this;
+        objSelectedArray.forEach(function (x) {
+            objArray.push(x);
+            _this.sortArray(objArray);
+        });
+        objSelectedArray.splice(0, 10);
+    };
     ProductSearchComponent = __decorate([
         core_1.Component({
             moduleId: module.id,

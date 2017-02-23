@@ -31,17 +31,22 @@ export class ProductSearchComponent implements OnInit{
 
   ngOnInit(): void{
     
+      this.reloadLists()      
+
+  }
+
+  reloadLists(): void {
+
       this.productService.getBrands()        
-      .then(brands => this.brands = brands);
+        .then(brands => this.brands = brands);
 
       this.productService.getCategories()
-      .then(categories => this.categories = categories);
+        .then(categories => this.categories = categories);
 
       this.productService.getPrices()
-      .then(prices => this.prices = prices);
-
-    }
-
+        .then(prices => this.prices = prices);
+  }
+  
   addSelected(dataType: string, data: Object): void {    
       let obj:any;
       let objArray:any;
@@ -71,45 +76,49 @@ export class ProductSearchComponent implements OnInit{
       objArray.splice(objArray.indexOf(obj), 1); 
 
       this.updateParams();                 
-    }
+  }
 
   removeSelected(dataType: string, data: Object): void {
-    let obj:any;
-    let objArray:any;
-    let objSelectedArray:any;
+      let obj:any;
+      let objArray:any;
+      let objSelectedArray:any;
 
-    switch(dataType){       
-      case "brand":
-          obj = (<Brand>data);   
-          objArray = this.brands; 
-          objSelectedArray = this.selectedBrands;      
-          break; 
-      case "price":
-          obj = (<Price>data);   
-          objArray = this.prices; 
-          objSelectedArray = this.selectedPrices;      
-          break;    
-      case "category":
-          obj = (<Category>data);   
-          objArray = this.categories; 
-          objSelectedArray = this.selectedCategories;      
-          break;
+      switch(dataType){       
+        case "brand":
+            obj = (<Brand>data);   
+            objArray = this.brands; 
+            objSelectedArray = this.selectedBrands;      
+            break; 
+        case "price":
+            obj = (<Price>data);   
+            objArray = this.prices; 
+            objSelectedArray = this.selectedPrices;      
+            break;    
+        case "category":
+            obj = (<Category>data);   
+            objArray = this.categories; 
+            objSelectedArray = this.selectedCategories;      
+            break;
     }                
 
     objArray.push(obj);
-    objSelectedArray.splice(objSelectedArray.indexOf(obj), 1);    
-    objArray.sort((a: any, b: any) => {
-      if (a.Name < b.Name) {
-        return -1;
-      } else if (a.Name > b.Name) {
-        return 1;
-      } else {
-        return 0;
-      }
-    });   
+    objSelectedArray.splice(objSelectedArray.indexOf(obj), 1);  
+    this.sortArray(objArray)      
 
     this.updateParams();
     
+  }
+
+  sortArray(objArray: any[]) : void {
+      objArray.sort((a: any, b: any) => {
+        if (a.Name < b.Name) {
+          return -1;
+        } else if (a.Name > b.Name) {
+          return 1;
+        } else {
+          return 0;
+        }
+      }); 
   }
 
   updateParams(): void {
@@ -124,17 +133,20 @@ export class ProductSearchComponent implements OnInit{
       this.router.navigate(['/search'], navigationExtras); 
   }
 
-  searchByKeyword(): void {
+  searchByKeyword(): void {    
+   
+      this.clearSelections(this.brands,this.selectedBrands);
+      this.clearSelections(this.prices,this.selectedPrices);
+      this.clearSelections(this.categories,this.selectedCategories);
 
-    
-    let navigationExtras: NavigationExtras = {
-                queryParams: {
-                    "Brand": "",
-                    "Price": "", 
-                    "Category": "",
-                    "Keyword": this.keyWordSearchValue
-                }
-            };
+      let navigationExtras: NavigationExtras = {
+                  queryParams: {
+                      "Brand": "",
+                      "Price": "", 
+                      "Category": "",
+                      "Keyword": this.keyWordSearchValue
+                  }
+              };
 
       this.router.navigate(['/search'], navigationExtras); 
   }
@@ -145,4 +157,17 @@ export class ProductSearchComponent implements OnInit{
       $target.closest(".filter-header").find(".filter-list-parent").slideToggle('slow', function(){
       });
   };   
+
+  clearSelections(objArray: any[], objSelectedArray: any[]): void {
+
+      objSelectedArray.forEach(x => 
+        {            
+          objArray.push(x);
+          this.sortArray(objArray)                  
+        }     
+      )
+      objSelectedArray.splice(0, 10);
+      
+      
+  }
 }
